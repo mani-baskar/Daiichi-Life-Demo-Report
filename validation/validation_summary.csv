@@ -1,0 +1,16 @@
+Check,Observed,Expected,Status,Details
+Primary key duplicates,0,0,PASS,Includes PolicyID uniqueness.
+Orphan foreign keys,0,0,PASS,Policy and lead dimension/date keys checked.
+Invalid date sequence,0,0,PASS,"Issue, renewal, conversion and claim sequences checked."
+Invalid age/product eligibility,0,0,PASS,Customer age checked against product entry ages.
+Non-positive premium or sum assured,0,0,PASS,Core monetary values must be positive.
+Invalid claim amount,0,0,PASS,Paid claims cannot be negative or exceed sum assured.
+Geography mapping,0,0 invalid pairs,PASS,Singapore region/planning-area pairs checked.
+Policy status logic,0,0,PASS,"Maturity, lapse, claim and flag logic checked."
+ML target balance,39.93%,15%-65% converted,PASS,"Historical completed leads: 5,322."
+Leakage fields excluded,0,0 leakage features,PASS,Explicit allow-list excludes outcomes and model outputs.
+Every month represented,0,0 missing months,PASS,Policy applications and leads cover the full demo period.
+Product family and channel coverage,0,All required categories,PASS,Missing families: none; missing channels: none.
+Map fields available,0,0 missing/out-of-range,PASS,Planning-area and branch centroids checked.
+Currency fields numeric,0,0 non-numeric columns,PASS,All SGD measure columns checked by dtype.
+Incremental-load timestamps,0,0 missing,PASS,FactPolicy and LeadConversion include LastModifiedDateTime.

@@ -1,0 +1,28 @@
+{
+  "random_seed": 20260925,
+  "start_date": "2023-01-01",
+  "demo_end_date": "2026-09-25",
+  "date_dimension_end_buffer_days": 366,
+  "raw_dirty_rate": 0.01,
+  "output_formats": ["csv", "parquet"],
+  "scales": {
+    "small": {
+      "customers": 750,
+      "agents": 25,
+      "policies": 2500,
+      "leads": 6000
+    },
+    "medium": {
+      "customers": 15000,
+      "agents": 250,
+      "policies": 75000,
+      "leads": 180000
+    },
+    "large": {
+      "customers": 120000,
+      "agents": 1500,
+      "policies": 750000,
+      "leads": 1800000
+    }
+  }
+}

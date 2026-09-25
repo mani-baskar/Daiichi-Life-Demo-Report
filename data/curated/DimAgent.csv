@@ -1,0 +1,26 @@
+AgentKey,AgentID,AgentName,DistributionChannel,BranchName,Region,PlanningArea,BranchLatitude,BranchLongitude,AgentJoinDate,AgentTenureMonths,AgentGrade,MonthlyTargetSGD,ActiveFlag
+1,AGT00001,Digital Team 001,Digital,Virtual Service Hub,North-East,Punggol,1.3984,103.9072,2023-12-29,33,Senior,118819.43,0
+2,AGT00002,Han Lim,Broker / IFA,Woodlands Advisory Centre,North,Woodlands,1.4382,103.789,2011-10-25,179,Premier,140720.41,1
+3,AGT00003,Tara Chen,Broker / IFA,Sengkang Advisory Centre,North-East,Sengkang,1.3868,103.8914,2014-03-15,150,Senior,81192.72,1
+4,AGT00004,Han Koh,Agency,Bedok Advisory Centre,East,Bedok,1.3236,103.9273,2018-06-05,99,Senior,82358.75,1
+5,AGT00005,Cara Wong,Direct,Sengkang Advisory Centre,North-East,Sengkang,1.3868,103.8914,2021-12-05,57,Senior,69084.82,1
+6,AGT00006,Ira Lee,Agency,Bedok Advisory Centre,East,Bedok,1.3236,103.9273,2017-03-13,114,Senior,97086.96,1
+7,AGT00007,Mira Goh,Bancassurance,Punggol Advisory Centre,North-East,Punggol,1.3984,103.9072,2010-01-15,200,Senior,67664.08,1
+8,AGT00008,Ira Nair,Bancassurance,Jurong West Advisory Centre,West,Jurong West,1.3404,103.709,2017-02-05,115,Premier,159274.11,1
+9,AGT00009,Mira Rao,Bancassurance,Clementi Advisory Centre,West,Clementi,1.3151,103.765,2012-04-30,173,Premier,142699.27,1
+10,AGT00010,Kai Yeo,Agency,Sengkang Advisory Centre,North-East,Sengkang,1.3868,103.8914,2025-11-12,10,Associate,46792.34,1
+11,AGT00011,Far Tan,Bancassurance,Jurong East Advisory Centre,West,Jurong East,1.3329,103.7436,2017-07-10,110,Premier,145765.72,1
+12,AGT00012,Priya Wong,Agency,Clementi Advisory Centre,West,Clementi,1.3151,103.765,2020-03-28,78,Senior,80642.94,1
+13,AGT00013,Cara Ng,Broker / IFA,Hougang Advisory Centre,North-East,Hougang,1.3714,103.892,2016-01-02,128,Premier,145264.64,1
+14,AGT00014,Owen Lim,Bancassurance,Punggol Advisory Centre,North-East,Punggol,1.3984,103.9072,2015-11-16,130,Premier,183486.53,1
+15,AGT00015,Priya Wong,Bancassurance,Bukit Merah Advisory Centre,Central,Bukit Merah,1.2819,103.8239,2025-02-19,19,Associate,71647.14,1
+16,AGT00016,Ari Goh,Direct,Bedok Advisory Centre,East,Bedok,1.3236,103.9273,2019-09-15,84,Premier,98738.14,1
+17,AGT00017,Ira Das,Bancassurance,Sengkang Advisory Centre,North-East,Sengkang,1.3868,103.8914,2025-03-14,18,Associate,61137.55,1
+18,AGT00018,Digital Team 018,Digital,Virtual Service Hub,Central,Bukit Merah,1.2819,103.8239,2017-10-21,107,Senior,105109.97,1
+19,AGT00019,Dev Ng,Agency,Downtown Core Advisory Centre,Central,Downtown Core,1.2867,103.8535,2021-09-28,60,Senior,103375.83,1
+20,AGT00020,Mira Das,Agency,Bedok Advisory Centre,East,Bedok,1.3236,103.9273,2021-09-10,60,Senior,102500.11,1
+21,AGT00021,Ari Chen,Agency,Bukit Batok Advisory Centre,West,Bukit Batok,1.3496,103.749,2019-04-02,89,Premier,140554.29,1
+22,AGT00022,Han Wong,Bancassurance,Clementi Advisory Centre,West,Clementi,1.3151,103.765,2014-02-11,151,Premier,114180.38,1
+23,AGT00023,Kai Lim,Bancassurance,Yishun Advisory Centre,North,Yishun,1.4293,103.8355,2010-06-17,195,Senior,82968.99,1
+24,AGT00024,Tara Tan,Agency,Jurong East Advisory Centre,West,Jurong East,1.3329,103.7436,2017-12-29,105,Premier,151505.69,1
+25,AGT00025,Priya Chen,Agency,Punggol Advisory Centre,North-East,Punggol,1.3984,103.9072,2012-11-25,166,Premier,146055.71,1

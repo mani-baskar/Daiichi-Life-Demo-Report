@@ -1,0 +1,679 @@
+LeadID,ProductKey,AgentKey,AgentName,ProductInterest,DistributionChannel,Region,PlanningArea,EstimatedAnnualPremiumSGD,DaysSinceLeadCreated,LeadStage,ConversionProbability,PredictedConvertedFlag,PropensityBand,ModelVersion,ScoredAt
+LEAD000002781,1,12,Priya Wong,Secure Horizon Term,Agency,West,Clementi,545.2,47,Application,0.95647,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002742,4,8,Ira Nair,Legacy Plus,Bancassurance,West,Jurong West,2087.36,71,Application,0.932191,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001941,12,4,Han Koh,Golden Years Annuity,Agency,East,Bedok,6799.85,570,Application,0.929946,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000023,10,8,Ira Nair,Early Stage Guard,Bancassurance,West,Jurong West,1238.75,59,Application,0.928132,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002340,3,9,Mira Rao,Lifetime Heritage,Bancassurance,West,Clementi,3268.7,167,Quote,0.92736,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004341,11,25,Priya Chen,RetireIncome Select,Agency,North-East,Punggol,5178.63,75,Application,0.925978,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003836,2,18,Digital Team 018,Family Shield Term,Digital,Central,Bukit Merah,421.04,42,Application,0.92235,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002767,7,22,Han Wong,Growth Navigator,Bancassurance,West,Clementi,3064.74,30,Quote,0.919986,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003556,9,18,Digital Team 018,Critical Care Protect,Digital,Central,Bukit Merah,1419.64,341,Application,0.914059,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005374,12,24,Tara Tan,Golden Years Annuity,Agency,West,Jurong East,7416.29,35,Quote,0.909838,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004702,12,18,Digital Team 018,Golden Years Annuity,Digital,Central,Bukit Merah,3576.27,0,Quote,0.908057,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000123,9,11,Far Tan,Critical Care Protect,Bancassurance,West,Jurong East,943.66,1090,Quote,0.906576,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004704,8,23,Kai Lim,Balanced Wealth Link,Bancassurance,North,Yishun,4980.25,327,Quote,0.905815,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005901,1,18,Digital Team 018,Secure Horizon Term,Digital,Central,Bukit Merah,777.27,972,Quote,0.904472,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002754,10,19,Dev Ng,Early Stage Guard,Agency,Central,Downtown Core,1790.47,732,Application,0.904373,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001560,8,1,Digital Team 001,Balanced Wealth Link,Digital,North-East,Punggol,3315.72,894,Quote,0.904362,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000106,2,6,Ira Lee,Family Shield Term,Agency,East,Bedok,1796.28,268,Quote,0.903972,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000247,10,4,Han Koh,Early Stage Guard,Agency,East,Bedok,2534.63,31,Application,0.900029,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002331,2,18,Digital Team 018,Family Shield Term,Digital,Central,Bukit Merah,1205.22,28,Application,0.896707,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002428,1,18,Digital Team 018,Secure Horizon Term,Digital,Central,Bukit Merah,593.23,309,Quote,0.896043,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002871,7,7,Mira Goh,Growth Navigator,Bancassurance,North-East,Punggol,2860.51,17,Application,0.892225,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003441,1,8,Ira Nair,Secure Horizon Term,Bancassurance,West,Jurong West,250.07,68,Quote,0.891699,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003992,7,23,Kai Lim,Growth Navigator,Bancassurance,North,Yishun,3893.43,254,Quote,0.888935,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002866,8,3,Tara Chen,Balanced Wealth Link,Broker / IFA,North-East,Sengkang,6170.37,334,Application,0.887446,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005524,4,5,Cara Wong,Legacy Plus,Direct,North-East,Sengkang,4302.73,1083,Application,0.884907,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005893,3,4,Han Koh,Lifetime Heritage,Agency,East,Bedok,2465.42,88,Quote,0.883777,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005288,8,16,Ari Goh,Balanced Wealth Link,Direct,East,Bedok,5039.03,8,Quote,0.883682,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003234,10,12,Priya Wong,Early Stage Guard,Agency,West,Clementi,1011.61,324,Quote,0.881645,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000890,4,18,Digital Team 018,Legacy Plus,Digital,Central,Bukit Merah,2200.58,13,Quote,0.880902,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005123,3,7,Mira Goh,Lifetime Heritage,Bancassurance,North-East,Punggol,2993.97,43,Application,0.879962,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003590,8,3,Tara Chen,Balanced Wealth Link,Broker / IFA,North-East,Sengkang,3132.62,1147,Application,0.876759,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003865,9,13,Cara Ng,Critical Care Protect,Broker / IFA,North-East,Hougang,1165.18,123,Application,0.875256,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004649,12,18,Digital Team 018,Golden Years Annuity,Digital,Central,Bukit Merah,6836.83,6,Quote,0.87451,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002753,12,23,Kai Lim,Golden Years Annuity,Bancassurance,North,Yishun,4748.03,42,Quote,0.870228,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004935,4,6,Ira Lee,Legacy Plus,Agency,East,Bedok,4530.9,973,Quote,0.869034,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002531,1,21,Ari Chen,Secure Horizon Term,Agency,West,Bukit Batok,417.38,736,Application,0.863017,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000680,1,9,Mira Rao,Secure Horizon Term,Bancassurance,West,Clementi,896.75,9,Quote,0.859707,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004121,10,25,Priya Chen,Early Stage Guard,Agency,North-East,Punggol,1782.2,864,Quote,0.859465,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001293,3,6,Ira Lee,Lifetime Heritage,Agency,East,Bedok,1700.91,999,Application,0.85826,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003872,2,7,Mira Goh,Family Shield Term,Bancassurance,North-East,Punggol,977.95,39,Application,0.857919,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004465,3,25,Priya Chen,Lifetime Heritage,Agency,North-East,Punggol,2127.4,19,Quote,0.857734,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005962,12,8,Ira Nair,Golden Years Annuity,Bancassurance,West,Jurong West,8375.27,291,Application,0.850658,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001885,5,16,Ari Goh,Future Builder Savings,Direct,East,Bedok,4560.43,43,Application,0.850421,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005242,6,9,Mira Rao,Education Milestone,Bancassurance,West,Clementi,1896.69,0,Application,0.850083,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000064,9,18,Digital Team 018,Critical Care Protect,Digital,Central,Bukit Merah,1352.39,1206,Quote,0.849613,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000387,1,1,Digital Team 001,Secure Horizon Term,Digital,North-East,Punggol,580.44,949,Application,0.848988,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003425,2,9,Mira Rao,Family Shield Term,Bancassurance,West,Clementi,1056.92,1117,Application,0.848934,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004118,2,16,Ari Goh,Family Shield Term,Direct,East,Bedok,731.07,961,Quote,0.842203,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003247,5,3,Tara Chen,Future Builder Savings,Broker / IFA,North-East,Sengkang,8824.15,2,Application,0.842016,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004002,4,10,Kai Yeo,Legacy Plus,Agency,North-East,Sengkang,4805.13,1303,Quote,0.840678,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001528,1,1,Digital Team 001,Secure Horizon Term,Digital,North-East,Punggol,617.16,180,Application,0.840091,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000841,8,1,Digital Team 001,Balanced Wealth Link,Digital,North-East,Punggol,3862.52,76,Application,0.839478,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004061,6,5,Cara Wong,Education Milestone,Direct,North-East,Sengkang,2786.8,28,Application,0.838577,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000020,6,18,Digital Team 018,Education Milestone,Digital,Central,Bukit Merah,3635.93,372,Application,0.836155,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004790,3,18,Digital Team 018,Lifetime Heritage,Digital,Central,Bukit Merah,2970.1,72,Application,0.835833,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002326,1,16,Ari Goh,Secure Horizon Term,Direct,East,Bedok,421.33,3,Application,0.835722,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004206,10,1,Digital Team 001,Early Stage Guard,Digital,North-East,Punggol,1550.05,59,Application,0.835306,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004954,12,8,Ira Nair,Golden Years Annuity,Bancassurance,West,Jurong West,6286.45,840,Quote,0.834429,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004409,1,20,Mira Das,Secure Horizon Term,Agency,East,Bedok,662.91,53,Application,0.830361,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005755,2,21,Ari Chen,Family Shield Term,Agency,West,Bukit Batok,487.99,913,Quote,0.829862,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004072,1,6,Ira Lee,Secure Horizon Term,Agency,East,Bedok,561.28,57,Quote,0.828837,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003201,2,3,Tara Chen,Family Shield Term,Broker / IFA,North-East,Sengkang,1217.52,1096,Quote,0.827815,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004637,1,18,Digital Team 018,Secure Horizon Term,Digital,Central,Bukit Merah,1059.28,71,Quote,0.827523,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002177,7,5,Cara Wong,Growth Navigator,Direct,North-East,Sengkang,2825.85,56,Application,0.82735,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000843,9,4,Han Koh,Critical Care Protect,Agency,East,Bedok,799.77,887,Quote,0.826841,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002167,9,5,Cara Wong,Critical Care Protect,Direct,North-East,Sengkang,571.2,685,Application,0.826415,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001626,6,25,Priya Chen,Education Milestone,Agency,North-East,Punggol,2764.14,550,Quote,0.824138,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003949,1,4,Han Koh,Secure Horizon Term,Agency,East,Bedok,560.64,55,Quote,0.824029,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002355,1,3,Tara Chen,Secure Horizon Term,Broker / IFA,North-East,Sengkang,491.98,430,Application,0.823698,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002460,1,16,Ari Goh,Secure Horizon Term,Direct,East,Bedok,346.31,1324,Quote,0.823589,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001315,1,9,Mira Rao,Secure Horizon Term,Bancassurance,West,Clementi,737.92,944,Quote,0.822879,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004159,5,6,Ira Lee,Future Builder Savings,Agency,East,Bedok,6293.4,54,Quote,0.821812,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004831,7,2,Han Lim,Growth Navigator,Broker / IFA,North,Woodlands,2658.15,1321,Quote,0.818899,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005603,3,6,Ira Lee,Lifetime Heritage,Agency,East,Bedok,2950.88,35,Quote,0.818875,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000378,5,25,Priya Chen,Future Builder Savings,Agency,North-East,Punggol,1887.35,324,Application,0.816482,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003998,1,15,Priya Wong,Secure Horizon Term,Bancassurance,Central,Bukit Merah,717.63,652,Application,0.815521,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004456,3,24,Tara Tan,Lifetime Heritage,Agency,West,Jurong East,4941.3,960,Quote,0.813713,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001797,7,18,Digital Team 018,Growth Navigator,Digital,Central,Bukit Merah,3578.46,998,Application,0.813643,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002616,10,21,Ari Chen,Early Stage Guard,Agency,West,Bukit Batok,1599.14,1134,Quote,0.812813,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005695,10,18,Digital Team 018,Early Stage Guard,Digital,Central,Bukit Merah,1654.76,24,Quote,0.812724,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001565,1,13,Cara Ng,Secure Horizon Term,Broker / IFA,North-East,Hougang,546.49,1076,Application,0.811378,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002281,5,21,Ari Chen,Future Builder Savings,Agency,West,Bukit Batok,2760.78,45,Application,0.810743,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005846,9,17,Ira Das,Critical Care Protect,Bancassurance,North-East,Sengkang,1104.26,926,Quote,0.810153,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002050,8,20,Mira Das,Balanced Wealth Link,Agency,East,Bedok,4824.62,24,Quote,0.809795,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005838,4,6,Ira Lee,Legacy Plus,Agency,East,Bedok,4247.99,476,Application,0.805322,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001907,9,18,Digital Team 018,Critical Care Protect,Digital,Central,Bukit Merah,1048.72,743,Application,0.803789,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000218,10,18,Digital Team 018,Early Stage Guard,Digital,Central,Bukit Merah,1367.98,107,Application,0.803657,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001800,8,16,Ari Goh,Balanced Wealth Link,Direct,East,Bedok,6677.38,1350,Quote,0.801924,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001402,11,12,Priya Wong,RetireIncome Select,Agency,West,Clementi,6248.17,663,Application,0.801617,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001257,6,7,Mira Goh,Education Milestone,Bancassurance,North-East,Punggol,4877.33,725,Quote,0.800636,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004942,12,16,Ari Goh,Golden Years Annuity,Direct,East,Bedok,9079.38,1238,Quote,0.799083,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004502,7,13,Cara Ng,Growth Navigator,Broker / IFA,North-East,Hougang,3372.55,28,Quote,0.797901,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000512,9,13,Cara Ng,Critical Care Protect,Broker / IFA,North-East,Hougang,393.94,38,Application,0.797056,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002400,8,1,Digital Team 001,Balanced Wealth Link,Digital,North-East,Punggol,2587.8,70,Application,0.794693,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004737,1,20,Mira Das,Secure Horizon Term,Agency,East,Bedok,990.65,50,Appointment,0.794074,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004070,9,7,Mira Goh,Critical Care Protect,Bancassurance,North-East,Punggol,1508.42,62,Quote,0.793367,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000459,6,16,Ari Goh,Education Milestone,Direct,East,Bedok,3114.87,946,Quote,0.792504,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000894,7,24,Tara Tan,Growth Navigator,Agency,West,Jurong East,2349.87,48,Application,0.792231,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003195,11,5,Cara Wong,RetireIncome Select,Direct,North-East,Sengkang,4367.81,572,Application,0.79101,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004091,3,5,Cara Wong,Lifetime Heritage,Direct,North-East,Sengkang,4161.42,454,Application,0.790328,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004967,2,20,Mira Das,Family Shield Term,Agency,East,Bedok,897.39,481,Application,0.789643,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003519,4,25,Priya Chen,Legacy Plus,Agency,North-East,Punggol,4246.25,321,Appointment,0.788946,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000018,3,5,Cara Wong,Lifetime Heritage,Direct,North-East,Sengkang,2110.8,873,Quote,0.78746,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005038,3,1,Digital Team 001,Lifetime Heritage,Digital,North-East,Punggol,2719.42,1258,Quote,0.786989,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003089,1,17,Ira Das,Secure Horizon Term,Bancassurance,North-East,Sengkang,515.43,262,Quote,0.785974,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002818,4,3,Tara Chen,Legacy Plus,Broker / IFA,North-East,Sengkang,4531.69,790,Application,0.785305,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003491,2,21,Ari Chen,Family Shield Term,Agency,West,Bukit Batok,695.12,1359,Application,0.784898,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001160,12,9,Mira Rao,Golden Years Annuity,Bancassurance,West,Clementi,5211.56,9,Application,0.783677,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003226,2,18,Digital Team 018,Family Shield Term,Digital,Central,Bukit Merah,580.2,401,Quote,0.783444,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002141,2,13,Cara Ng,Family Shield Term,Broker / IFA,North-East,Hougang,889.1,19,Quote,0.782541,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002379,4,8,Ira Nair,Legacy Plus,Bancassurance,West,Jurong West,5031.71,206,Quote,0.779674,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000178,9,20,Mira Das,Critical Care Protect,Agency,East,Bedok,1635.13,1228,Quote,0.779672,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005048,5,16,Ari Goh,Future Builder Savings,Direct,East,Bedok,2301.33,788,Application,0.779233,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004348,1,22,Han Wong,Secure Horizon Term,Bancassurance,West,Clementi,573.63,93,Quote,0.779196,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002912,11,21,Ari Chen,RetireIncome Select,Agency,West,Bukit Batok,8724.85,147,Quote,0.77809,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000556,6,1,Digital Team 001,Education Milestone,Digital,North-East,Punggol,6998.3,670,Quote,0.777443,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004309,2,1,Digital Team 001,Family Shield Term,Digital,North-East,Punggol,504.74,954,Application,0.777335,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001421,12,5,Cara Wong,Golden Years Annuity,Direct,North-East,Sengkang,11212.0,1319,Application,0.776539,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005463,8,24,Tara Tan,Balanced Wealth Link,Agency,West,Jurong East,4436.82,19,Quote,0.77387,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004844,2,22,Han Wong,Family Shield Term,Bancassurance,West,Clementi,1135.78,996,Application,0.773477,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003755,10,16,Ari Goh,Early Stage Guard,Direct,East,Bedok,2444.12,856,Application,0.7733,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000521,5,12,Priya Wong,Future Builder Savings,Agency,West,Clementi,2595.56,790,Application,0.772866,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002973,2,5,Cara Wong,Family Shield Term,Direct,North-East,Sengkang,1058.95,688,Quote,0.772724,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002610,11,23,Kai Lim,RetireIncome Select,Bancassurance,North,Yishun,3326.09,37,Appointment,0.771886,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004673,11,11,Far Tan,RetireIncome Select,Bancassurance,West,Jurong East,7486.06,1148,Quote,0.771813,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002849,12,18,Digital Team 018,Golden Years Annuity,Digital,Central,Bukit Merah,5904.81,346,Quote,0.770142,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000386,1,16,Ari Goh,Secure Horizon Term,Direct,East,Bedok,1028.52,690,Quote,0.769311,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001673,2,21,Ari Chen,Family Shield Term,Agency,West,Bukit Batok,1215.85,947,Application,0.768647,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003023,11,14,Owen Lim,RetireIncome Select,Bancassurance,North-East,Punggol,6146.23,1018,Application,0.768585,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002843,9,21,Ari Chen,Critical Care Protect,Agency,West,Bukit Batok,1113.89,16,Application,0.768499,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003986,5,20,Mira Das,Future Builder Savings,Agency,East,Bedok,5876.01,60,Quote,0.767663,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004405,9,8,Ira Nair,Critical Care Protect,Bancassurance,West,Jurong West,1039.55,992,Quote,0.767296,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001237,6,24,Tara Tan,Education Milestone,Agency,West,Jurong East,8916.74,64,Quote,0.76647,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003060,7,11,Far Tan,Growth Navigator,Bancassurance,West,Jurong East,3596.74,4,Quote,0.766179,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002876,6,8,Ira Nair,Education Milestone,Bancassurance,West,Jurong West,3812.1,27,Application,0.764751,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000676,7,22,Han Wong,Growth Navigator,Bancassurance,West,Clementi,1850.02,806,Quote,0.762221,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001622,11,18,Digital Team 018,RetireIncome Select,Digital,Central,Bukit Merah,5304.44,568,Quote,0.761718,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002748,5,22,Han Wong,Future Builder Savings,Bancassurance,West,Clementi,3846.08,822,Quote,0.760603,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004758,1,4,Han Koh,Secure Horizon Term,Agency,East,Bedok,580.74,939,Application,0.75888,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003722,9,20,Mira Das,Critical Care Protect,Agency,East,Bedok,897.63,47,Quote,0.758654,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001229,7,4,Han Koh,Growth Navigator,Agency,East,Bedok,2987.31,59,Application,0.754646,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001889,1,17,Ira Das,Secure Horizon Term,Bancassurance,North-East,Sengkang,673.79,56,Application,0.753303,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005907,9,18,Digital Team 018,Critical Care Protect,Digital,Central,Bukit Merah,1257.8,825,Quote,0.750703,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002221,10,25,Priya Chen,Early Stage Guard,Agency,North-East,Punggol,1237.25,123,Application,0.74657,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001644,6,6,Ira Lee,Education Milestone,Agency,East,Bedok,3323.51,90,Quote,0.745635,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002951,2,19,Dev Ng,Family Shield Term,Agency,Central,Downtown Core,812.63,957,Appointment,0.745597,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005977,2,1,Digital Team 001,Family Shield Term,Digital,North-East,Punggol,1398.16,1,Quote,0.745043,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001888,11,18,Digital Team 018,RetireIncome Select,Digital,Central,Bukit Merah,4271.4,40,Application,0.744412,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003482,1,19,Dev Ng,Secure Horizon Term,Agency,Central,Downtown Core,1473.0,1028,Quote,0.742088,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005481,9,16,Ari Goh,Critical Care Protect,Direct,East,Bedok,2053.76,57,Application,0.740224,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000828,1,16,Ari Goh,Secure Horizon Term,Direct,East,Bedok,789.41,22,Quote,0.739752,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000838,6,10,Kai Yeo,Education Milestone,Agency,North-East,Sengkang,3669.79,211,Application,0.738371,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001403,5,11,Far Tan,Future Builder Savings,Bancassurance,West,Jurong East,2480.5,497,Application,0.73802,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004096,1,25,Priya Chen,Secure Horizon Term,Agency,North-East,Punggol,488.18,510,Application,0.735825,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004453,11,14,Owen Lim,RetireIncome Select,Bancassurance,North-East,Punggol,6969.93,233,Application,0.733828,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001015,4,5,Cara Wong,Legacy Plus,Direct,North-East,Sengkang,3826.88,206,Quote,0.733577,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003940,8,13,Cara Ng,Balanced Wealth Link,Broker / IFA,North-East,Hougang,8027.2,101,Application,0.733522,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004152,12,18,Digital Team 018,Golden Years Annuity,Digital,Central,Bukit Merah,15524.82,1,Application,0.732834,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003723,3,6,Ira Lee,Lifetime Heritage,Agency,East,Bedok,1905.41,34,Quote,0.728999,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004471,7,2,Han Lim,Growth Navigator,Broker / IFA,North,Woodlands,3203.09,32,Quote,0.72897,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005786,1,16,Ari Goh,Secure Horizon Term,Direct,East,Bedok,1320.64,956,Quote,0.728351,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005789,7,7,Mira Goh,Growth Navigator,Bancassurance,North-East,Punggol,1670.24,239,Quote,0.727995,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002562,8,5,Cara Wong,Balanced Wealth Link,Direct,North-East,Sengkang,5206.86,1075,Quote,0.727015,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002044,8,25,Priya Chen,Balanced Wealth Link,Agency,North-East,Punggol,3835.36,638,Quote,0.726371,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003611,5,20,Mira Das,Future Builder Savings,Agency,East,Bedok,2503.98,790,Quote,0.724805,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000424,10,2,Han Lim,Early Stage Guard,Broker / IFA,North,Woodlands,1856.23,671,Application,0.724749,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003945,5,1,Digital Team 001,Future Builder Savings,Digital,North-East,Punggol,2465.71,1,Quote,0.721565,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003905,7,4,Han Koh,Growth Navigator,Agency,East,Bedok,2266.6,974,Application,0.71962,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002348,2,14,Owen Lim,Family Shield Term,Bancassurance,North-East,Punggol,1158.83,24,Quote,0.718233,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003135,12,22,Han Wong,Golden Years Annuity,Bancassurance,West,Clementi,5942.61,368,Application,0.718024,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003137,12,6,Ira Lee,Golden Years Annuity,Agency,East,Bedok,9297.55,16,Application,0.717921,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004326,2,5,Cara Wong,Family Shield Term,Direct,North-East,Sengkang,931.06,1101,Quote,0.717837,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000059,10,22,Han Wong,Early Stage Guard,Bancassurance,West,Clementi,1190.27,31,Application,0.717756,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001762,7,22,Han Wong,Growth Navigator,Bancassurance,West,Clementi,4450.0,12,Application,0.717167,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005337,7,5,Cara Wong,Growth Navigator,Direct,North-East,Sengkang,2380.03,7,Quote,0.716942,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000813,8,4,Han Koh,Balanced Wealth Link,Agency,East,Bedok,3191.86,19,Application,0.715834,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000405,8,7,Mira Goh,Balanced Wealth Link,Bancassurance,North-East,Punggol,3454.2,70,Quote,0.714183,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000758,1,24,Tara Tan,Secure Horizon Term,Agency,West,Jurong East,523.13,27,Application,0.714147,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002710,2,1,Digital Team 001,Family Shield Term,Digital,North-East,Punggol,983.44,911,Quote,0.71303,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004529,1,12,Priya Wong,Secure Horizon Term,Agency,West,Clementi,944.26,1289,Application,0.711762,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003757,1,13,Cara Ng,Secure Horizon Term,Broker / IFA,North-East,Hougang,1130.85,9,Quote,0.711151,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001236,2,10,Kai Yeo,Family Shield Term,Agency,North-East,Sengkang,784.95,370,Quote,0.71045,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002338,11,25,Priya Chen,RetireIncome Select,Agency,North-East,Punggol,3166.21,115,Application,0.709622,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001697,6,24,Tara Tan,Education Milestone,Agency,West,Jurong East,1873.72,295,Application,0.709366,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004480,2,3,Tara Chen,Family Shield Term,Broker / IFA,North-East,Sengkang,1000.57,1133,Appointment,0.708314,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002037,10,5,Cara Wong,Early Stage Guard,Direct,North-East,Sengkang,1593.76,738,Application,0.707254,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002821,8,10,Kai Yeo,Balanced Wealth Link,Agency,North-East,Sengkang,3561.62,45,Application,0.705315,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005886,7,4,Han Koh,Growth Navigator,Agency,East,Bedok,1994.02,898,Application,0.704284,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002107,9,19,Dev Ng,Critical Care Protect,Agency,Central,Downtown Core,809.29,87,Quote,0.703533,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004857,10,24,Tara Tan,Early Stage Guard,Agency,West,Jurong East,1565.23,1036,Quote,0.703295,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002110,5,25,Priya Chen,Future Builder Savings,Agency,North-East,Punggol,3939.48,37,Application,0.702516,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002925,12,18,Digital Team 018,Golden Years Annuity,Digital,Central,Bukit Merah,5879.5,785,Quote,0.700821,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002287,11,14,Owen Lim,RetireIncome Select,Bancassurance,North-East,Punggol,7872.32,313,Quote,0.699256,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001906,4,20,Mira Das,Legacy Plus,Agency,East,Bedok,3073.19,12,Quote,0.699123,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003067,2,18,Digital Team 018,Family Shield Term,Digital,Central,Bukit Merah,1151.31,24,Appointment,0.698766,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003340,5,5,Cara Wong,Future Builder Savings,Direct,North-East,Sengkang,3815.28,368,Appointment,0.697718,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003967,3,9,Mira Rao,Lifetime Heritage,Bancassurance,West,Clementi,5629.5,624,Quote,0.69769,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003600,8,21,Ari Chen,Balanced Wealth Link,Agency,West,Bukit Batok,8663.64,1064,Appointment,0.694203,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000865,8,22,Han Wong,Balanced Wealth Link,Bancassurance,West,Clementi,4568.87,905,Application,0.690462,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001743,1,18,Digital Team 018,Secure Horizon Term,Digital,Central,Bukit Merah,325.78,225,Quote,0.689268,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002714,2,2,Han Lim,Family Shield Term,Broker / IFA,North,Woodlands,761.49,282,Quote,0.689033,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004608,6,23,Kai Lim,Education Milestone,Bancassurance,North,Yishun,2153.93,1105,Quote,0.687751,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002928,5,19,Dev Ng,Future Builder Savings,Agency,Central,Downtown Core,5668.48,17,Application,0.685936,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003357,12,21,Ari Chen,Golden Years Annuity,Agency,West,Bukit Batok,6489.89,29,Quote,0.68512,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004761,6,17,Ira Das,Education Milestone,Bancassurance,North-East,Sengkang,4790.56,28,Quote,0.682595,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002279,4,18,Digital Team 018,Legacy Plus,Digital,Central,Bukit Merah,6523.2,883,Quote,0.682481,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001216,10,17,Ira Das,Early Stage Guard,Bancassurance,North-East,Sengkang,1710.5,1256,Quote,0.681624,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003467,10,19,Dev Ng,Early Stage Guard,Agency,Central,Downtown Core,1881.41,683,Quote,0.679413,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003661,9,23,Kai Lim,Critical Care Protect,Bancassurance,North,Yishun,1386.78,721,Quote,0.679038,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002900,2,13,Cara Ng,Family Shield Term,Broker / IFA,North-East,Hougang,1679.63,6,Appointment,0.676327,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004951,2,9,Mira Rao,Family Shield Term,Bancassurance,West,Clementi,1627.18,10,Application,0.675224,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003073,5,3,Tara Chen,Future Builder Savings,Broker / IFA,North-East,Sengkang,3033.8,180,Appointment,0.673944,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004905,3,11,Far Tan,Lifetime Heritage,Bancassurance,West,Jurong East,4175.22,452,Quote,0.672913,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003913,4,5,Cara Wong,Legacy Plus,Direct,North-East,Sengkang,5076.24,1304,Quote,0.670096,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003856,9,21,Ari Chen,Critical Care Protect,Agency,West,Bukit Batok,783.53,715,Application,0.669344,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005087,8,18,Digital Team 018,Balanced Wealth Link,Digital,Central,Bukit Merah,9346.67,1196,Quote,0.6691,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000927,2,23,Kai Lim,Family Shield Term,Bancassurance,North,Yishun,542.11,42,Quote,0.667525,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003784,2,13,Cara Ng,Family Shield Term,Broker / IFA,North-East,Hougang,1040.3,578,Appointment,0.665084,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002333,8,20,Mira Das,Balanced Wealth Link,Agency,East,Bedok,5597.33,870,Quote,0.664431,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003055,11,21,Ari Chen,RetireIncome Select,Agency,West,Bukit Batok,5087.94,996,Application,0.661776,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005425,11,23,Kai Lim,RetireIncome Select,Bancassurance,North,Yishun,4503.82,254,Quote,0.661548,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003001,1,16,Ari Goh,Secure Horizon Term,Direct,East,Bedok,625.01,688,Quote,0.657257,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001029,8,12,Priya Wong,Balanced Wealth Link,Agency,West,Clementi,4211.55,803,Application,0.656981,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002986,4,1,Digital Team 001,Legacy Plus,Digital,North-East,Punggol,1847.12,30,Quote,0.656185,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004813,7,6,Ira Lee,Growth Navigator,Agency,East,Bedok,2084.46,27,Quote,0.655606,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004171,6,16,Ari Goh,Education Milestone,Direct,East,Bedok,4449.26,90,Quote,0.654762,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003831,9,1,Digital Team 001,Critical Care Protect,Digital,North-East,Punggol,1235.37,554,Application,0.654206,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004900,7,19,Dev Ng,Growth Navigator,Agency,Central,Downtown Core,1984.02,1093,Application,0.652138,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004363,6,1,Digital Team 001,Education Milestone,Digital,North-East,Punggol,5333.28,44,Appointment,0.651102,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005999,4,1,Digital Team 001,Legacy Plus,Digital,North-East,Punggol,4851.62,343,Application,0.650758,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004849,7,18,Digital Team 018,Growth Navigator,Digital,Central,Bukit Merah,1432.26,3,Quote,0.650702,1,High,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004784,5,16,Ari Goh,Future Builder Savings,Direct,East,Bedok,3425.9,22,Application,0.649742,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001751,8,10,Kai Yeo,Balanced Wealth Link,Agency,North-East,Sengkang,4612.1,667,Quote,0.649663,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005661,2,21,Ari Chen,Family Shield Term,Agency,West,Bukit Batok,764.27,517,Quote,0.647649,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000559,5,23,Kai Lim,Future Builder Savings,Bancassurance,North,Yishun,3312.45,846,Quote,0.647242,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002222,4,1,Digital Team 001,Legacy Plus,Digital,North-East,Punggol,2799.63,177,Quote,0.645706,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004293,5,19,Dev Ng,Future Builder Savings,Agency,Central,Downtown Core,5111.44,30,Application,0.644505,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004890,9,9,Mira Rao,Critical Care Protect,Bancassurance,West,Clementi,775.91,37,Application,0.643592,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002665,9,12,Priya Wong,Critical Care Protect,Agency,West,Clementi,1858.56,1103,Quote,0.643131,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003245,10,14,Owen Lim,Early Stage Guard,Bancassurance,North-East,Punggol,898.92,371,Application,0.642894,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004364,11,5,Cara Wong,RetireIncome Select,Direct,North-East,Sengkang,6333.42,479,Application,0.642874,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003834,11,8,Ira Nair,RetireIncome Select,Bancassurance,West,Jurong West,3953.84,1220,Application,0.642805,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005277,12,9,Mira Rao,Golden Years Annuity,Bancassurance,West,Clementi,8934.13,49,Application,0.642027,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000821,6,25,Priya Chen,Education Milestone,Agency,North-East,Punggol,4779.83,693,Quote,0.640513,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002636,2,6,Ira Lee,Family Shield Term,Agency,East,Bedok,638.73,86,Quote,0.638916,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003980,5,11,Far Tan,Future Builder Savings,Bancassurance,West,Jurong East,2199.09,757,Appointment,0.638394,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002696,11,11,Far Tan,RetireIncome Select,Bancassurance,West,Jurong East,5587.42,1025,Quote,0.637892,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005655,9,18,Digital Team 018,Critical Care Protect,Digital,Central,Bukit Merah,2283.61,56,Quote,0.636925,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000341,8,3,Tara Chen,Balanced Wealth Link,Broker / IFA,North-East,Sengkang,2123.36,35,Quote,0.635869,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005979,5,11,Far Tan,Future Builder Savings,Bancassurance,West,Jurong East,2102.61,14,Application,0.635433,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002695,2,3,Tara Chen,Family Shield Term,Broker / IFA,North-East,Sengkang,1071.44,298,Application,0.634755,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005464,1,4,Han Koh,Secure Horizon Term,Agency,East,Bedok,649.87,1172,Appointment,0.633025,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004925,9,12,Priya Wong,Critical Care Protect,Agency,West,Clementi,322.63,679,Quote,0.632707,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001419,1,19,Dev Ng,Secure Horizon Term,Agency,Central,Downtown Core,597.09,65,Application,0.632213,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004395,9,20,Mira Das,Critical Care Protect,Agency,East,Bedok,831.45,1313,Quote,0.626052,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002991,1,5,Cara Wong,Secure Horizon Term,Direct,North-East,Sengkang,371.61,641,Application,0.623293,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004811,6,16,Ari Goh,Education Milestone,Direct,East,Bedok,4995.75,743,Application,0.623142,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001433,2,16,Ari Goh,Family Shield Term,Direct,East,Bedok,966.63,603,Quote,0.622787,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001801,4,24,Tara Tan,Legacy Plus,Agency,West,Jurong East,5290.89,0,Quote,0.622334,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000503,6,19,Dev Ng,Education Milestone,Agency,Central,Downtown Core,3069.27,75,Quote,0.621817,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005422,10,9,Mira Rao,Early Stage Guard,Bancassurance,West,Clementi,2029.56,898,Application,0.620972,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001410,7,19,Dev Ng,Growth Navigator,Agency,Central,Downtown Core,2822.62,1175,Quote,0.619708,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002349,7,10,Kai Yeo,Growth Navigator,Agency,North-East,Sengkang,1591.3,644,Quote,0.618061,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002965,5,12,Priya Wong,Future Builder Savings,Agency,West,Clementi,3559.39,279,Application,0.617433,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002482,1,3,Tara Chen,Secure Horizon Term,Broker / IFA,North-East,Sengkang,471.03,1350,Application,0.613247,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004875,7,12,Priya Wong,Growth Navigator,Agency,West,Clementi,3548.98,282,Appointment,0.612027,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003367,1,9,Mira Rao,Secure Horizon Term,Bancassurance,West,Clementi,351.83,493,Quote,0.607882,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003551,4,24,Tara Tan,Legacy Plus,Agency,West,Jurong East,6444.38,531,Quote,0.599725,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003175,2,1,Digital Team 001,Family Shield Term,Digital,North-East,Punggol,937.65,983,Quote,0.599416,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005504,7,11,Far Tan,Growth Navigator,Bancassurance,West,Jurong East,5519.72,983,Qualified,0.598451,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005624,7,13,Cara Ng,Growth Navigator,Broker / IFA,North-East,Hougang,3278.11,33,Application,0.598333,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001736,3,21,Ari Chen,Lifetime Heritage,Agency,West,Bukit Batok,2863.36,70,Quote,0.597331,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003915,7,8,Ira Nair,Growth Navigator,Bancassurance,West,Jurong West,4091.63,917,Application,0.596227,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002759,1,16,Ari Goh,Secure Horizon Term,Direct,East,Bedok,1167.97,34,Quote,0.595942,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001956,3,19,Dev Ng,Lifetime Heritage,Agency,Central,Downtown Core,3952.89,1010,Application,0.595793,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004379,9,18,Digital Team 018,Critical Care Protect,Digital,Central,Bukit Merah,821.49,94,Quote,0.59512,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002572,9,1,Digital Team 001,Critical Care Protect,Digital,North-East,Punggol,1214.49,1291,Application,0.594646,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000058,5,7,Mira Goh,Future Builder Savings,Bancassurance,North-East,Punggol,1236.14,27,Quote,0.594554,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003902,9,25,Priya Chen,Critical Care Protect,Agency,North-East,Punggol,2032.93,608,Quote,0.593187,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005644,7,18,Digital Team 018,Growth Navigator,Digital,Central,Bukit Merah,2383.8,897,Appointment,0.59313,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003057,11,16,Ari Goh,RetireIncome Select,Direct,East,Bedok,9593.85,1238,Quote,0.592146,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001394,7,1,Digital Team 001,Growth Navigator,Digital,North-East,Punggol,1451.85,108,Application,0.59152,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003819,10,9,Mira Rao,Early Stage Guard,Bancassurance,West,Clementi,1275.9,43,Application,0.591193,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003659,4,1,Digital Team 001,Legacy Plus,Digital,North-East,Punggol,2920.25,82,Appointment,0.588495,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001527,4,3,Tara Chen,Legacy Plus,Broker / IFA,North-East,Sengkang,2313.95,192,Appointment,0.584711,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005062,12,5,Cara Wong,Golden Years Annuity,Direct,North-East,Sengkang,12046.01,849,Application,0.583606,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004883,3,23,Kai Lim,Lifetime Heritage,Bancassurance,North,Yishun,1604.34,1,Appointment,0.581571,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001925,2,13,Cara Ng,Family Shield Term,Broker / IFA,North-East,Hougang,906.58,1057,Quote,0.581153,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002204,9,22,Han Wong,Critical Care Protect,Bancassurance,West,Clementi,1196.77,1060,Quote,0.581116,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001765,5,16,Ari Goh,Future Builder Savings,Direct,East,Bedok,4384.38,14,Application,0.579249,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001212,3,18,Digital Team 018,Lifetime Heritage,Digital,Central,Bukit Merah,1212.81,57,Application,0.578945,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003948,5,5,Cara Wong,Future Builder Savings,Direct,North-East,Sengkang,3016.77,80,Quote,0.577925,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001013,12,12,Priya Wong,Golden Years Annuity,Agency,West,Clementi,8904.24,484,Appointment,0.577051,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001520,11,9,Mira Rao,RetireIncome Select,Bancassurance,West,Clementi,7213.24,62,Application,0.576971,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004425,6,6,Ira Lee,Education Milestone,Agency,East,Bedok,3941.56,147,Qualified,0.574421,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005758,2,7,Mira Goh,Family Shield Term,Bancassurance,North-East,Punggol,1509.99,1086,Quote,0.570926,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000941,5,25,Priya Chen,Future Builder Savings,Agency,North-East,Punggol,2948.54,366,Quote,0.569963,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002496,12,10,Kai Yeo,Golden Years Annuity,Agency,North-East,Sengkang,8545.43,31,Application,0.569835,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002552,1,21,Ari Chen,Secure Horizon Term,Agency,West,Bukit Batok,784.04,721,Quote,0.568046,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002258,5,10,Kai Yeo,Future Builder Savings,Agency,North-East,Sengkang,3098.48,32,Quote,0.566353,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000443,5,22,Han Wong,Future Builder Savings,Bancassurance,West,Clementi,3554.48,711,Application,0.565392,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005881,9,22,Han Wong,Critical Care Protect,Bancassurance,West,Clementi,1104.2,359,Quote,0.56305,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000481,12,6,Ira Lee,Golden Years Annuity,Agency,East,Bedok,5759.02,49,Application,0.559114,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004296,7,21,Ari Chen,Growth Navigator,Agency,West,Bukit Batok,3750.59,54,Quote,0.558703,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001952,4,7,Mira Goh,Legacy Plus,Bancassurance,North-East,Punggol,2249.69,402,Appointment,0.557808,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004684,11,24,Tara Tan,RetireIncome Select,Agency,West,Jurong East,5667.63,1159,Quote,0.557426,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005496,5,23,Kai Lim,Future Builder Savings,Bancassurance,North,Yishun,3723.76,1096,Application,0.55585,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000580,4,18,Digital Team 018,Legacy Plus,Digital,Central,Bukit Merah,7515.72,632,Application,0.554025,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000201,11,1,Digital Team 001,RetireIncome Select,Digital,North-East,Punggol,6110.68,9,Quote,0.553472,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002946,6,14,Owen Lim,Education Milestone,Bancassurance,North-East,Punggol,2422.36,22,Application,0.551846,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002113,5,1,Digital Team 001,Future Builder Savings,Digital,North-East,Punggol,3375.45,743,Application,0.547975,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003593,5,16,Ari Goh,Future Builder Savings,Direct,East,Bedok,3201.25,646,Appointment,0.546221,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005929,5,1,Digital Team 001,Future Builder Savings,Digital,North-East,Punggol,1763.28,41,Quote,0.545918,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002178,8,18,Digital Team 018,Balanced Wealth Link,Digital,Central,Bukit Merah,3197.59,45,Appointment,0.544193,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005278,7,21,Ari Chen,Growth Navigator,Agency,West,Bukit Batok,3279.0,609,Application,0.542962,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000323,6,18,Digital Team 018,Education Milestone,Digital,Central,Bukit Merah,1553.28,22,Application,0.541307,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001080,6,18,Digital Team 018,Education Milestone,Digital,Central,Bukit Merah,3536.03,8,Application,0.540395,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001604,6,13,Cara Ng,Education Milestone,Broker / IFA,North-East,Hougang,3783.02,85,Appointment,0.537246,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005635,5,10,Kai Yeo,Future Builder Savings,Agency,North-East,Sengkang,3161.41,560,Quote,0.536012,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004282,1,18,Digital Team 018,Secure Horizon Term,Digital,Central,Bukit Merah,674.76,1189,Application,0.534364,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002149,11,16,Ari Goh,RetireIncome Select,Direct,East,Bedok,7824.43,1,Application,0.53376,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005782,3,9,Mira Rao,Lifetime Heritage,Bancassurance,West,Clementi,4762.93,839,Appointment,0.53344,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000760,11,14,Owen Lim,RetireIncome Select,Bancassurance,North-East,Punggol,5931.94,1090,Application,0.533438,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005457,11,11,Far Tan,RetireIncome Select,Bancassurance,West,Jurong East,10548.46,39,Appointment,0.532773,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003935,5,5,Cara Wong,Future Builder Savings,Direct,North-East,Sengkang,3743.66,47,Quote,0.531942,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004397,1,5,Cara Wong,Secure Horizon Term,Direct,North-East,Sengkang,1840.04,56,Appointment,0.529437,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003671,6,20,Mira Das,Education Milestone,Agency,East,Bedok,4565.41,38,Quote,0.52839,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003274,10,21,Ari Chen,Early Stage Guard,Agency,West,Bukit Batok,1869.1,228,Quote,0.528223,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005323,10,21,Ari Chen,Early Stage Guard,Agency,West,Bukit Batok,1539.51,25,Application,0.527447,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002970,12,11,Far Tan,Golden Years Annuity,Bancassurance,West,Jurong East,10134.67,178,Application,0.52714,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002914,6,22,Han Wong,Education Milestone,Bancassurance,West,Clementi,3533.15,22,Appointment,0.525841,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001981,3,24,Tara Tan,Lifetime Heritage,Agency,West,Jurong East,1173.57,6,Qualified,0.525411,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000054,1,1,Digital Team 001,Secure Horizon Term,Digital,North-East,Punggol,930.29,633,Application,0.524256,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002673,6,9,Mira Rao,Education Milestone,Bancassurance,West,Clementi,2773.8,225,Appointment,0.521769,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000114,7,19,Dev Ng,Growth Navigator,Agency,Central,Downtown Core,1637.45,633,Application,0.5206,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000017,10,19,Dev Ng,Early Stage Guard,Agency,Central,Downtown Core,1124.44,987,Application,0.519633,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003775,9,18,Digital Team 018,Critical Care Protect,Digital,Central,Bukit Merah,1078.61,43,Quote,0.51867,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003189,5,18,Digital Team 018,Future Builder Savings,Digital,Central,Bukit Merah,4959.21,483,Application,0.518016,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002997,2,4,Han Koh,Family Shield Term,Agency,East,Bedok,770.92,11,Qualified,0.517759,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005861,5,5,Cara Wong,Future Builder Savings,Direct,North-East,Sengkang,3630.2,1092,Quote,0.513722,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000574,4,17,Ira Das,Legacy Plus,Bancassurance,North-East,Sengkang,5860.56,25,Application,0.509278,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004870,11,16,Ari Goh,RetireIncome Select,Direct,East,Bedok,5822.91,797,Application,0.509184,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005810,7,16,Ari Goh,Growth Navigator,Direct,East,Bedok,3753.2,357,Appointment,0.508649,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004130,12,5,Cara Wong,Golden Years Annuity,Direct,North-East,Sengkang,7264.87,87,Qualified,0.508066,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004496,3,9,Mira Rao,Lifetime Heritage,Bancassurance,West,Clementi,3541.2,422,Quote,0.506769,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003835,7,8,Ira Nair,Growth Navigator,Bancassurance,West,Jurong West,2366.9,245,Application,0.50639,1,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004113,11,3,Tara Chen,RetireIncome Select,Broker / IFA,North-East,Sengkang,2344.72,38,Application,0.499666,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000136,3,5,Cara Wong,Lifetime Heritage,Direct,North-East,Sengkang,3472.05,73,Qualified,0.498348,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005166,3,16,Ari Goh,Lifetime Heritage,Direct,East,Bedok,3659.75,1031,Application,0.495513,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004930,11,5,Cara Wong,RetireIncome Select,Direct,North-East,Sengkang,7623.23,885,Application,0.493746,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001830,3,13,Cara Ng,Lifetime Heritage,Broker / IFA,North-East,Hougang,2578.42,909,Quote,0.493573,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005022,1,7,Mira Goh,Secure Horizon Term,Bancassurance,North-East,Punggol,770.97,334,Application,0.491376,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001931,4,1,Digital Team 001,Legacy Plus,Digital,North-East,Punggol,4282.95,108,Appointment,0.490271,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004396,8,16,Ari Goh,Balanced Wealth Link,Direct,East,Bedok,4124.59,168,Appointment,0.487751,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001253,10,2,Han Lim,Early Stage Guard,Broker / IFA,North,Woodlands,1255.75,14,Quote,0.487021,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001319,5,16,Ari Goh,Future Builder Savings,Direct,East,Bedok,1739.8,684,Application,0.485646,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002510,1,25,Priya Chen,Secure Horizon Term,Agency,North-East,Punggol,511.77,716,Application,0.485155,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002527,12,22,Han Wong,Golden Years Annuity,Bancassurance,West,Clementi,4870.83,1268,Qualified,0.484916,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003761,10,18,Digital Team 018,Early Stage Guard,Digital,Central,Bukit Merah,2221.23,73,Appointment,0.484253,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000241,1,12,Priya Wong,Secure Horizon Term,Agency,West,Clementi,592.39,110,Application,0.484031,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005801,5,9,Mira Rao,Future Builder Savings,Bancassurance,West,Clementi,4154.94,1139,Appointment,0.482487,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004916,6,13,Cara Ng,Education Milestone,Broker / IFA,North-East,Hougang,3750.7,1227,Quote,0.479569,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004003,11,23,Kai Lim,RetireIncome Select,Bancassurance,North,Yishun,7292.25,6,Quote,0.477777,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005051,5,21,Ari Chen,Future Builder Savings,Agency,West,Bukit Batok,2027.41,2,Qualified,0.476334,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001428,3,1,Digital Team 001,Lifetime Heritage,Digital,North-East,Punggol,2383.13,341,Appointment,0.476064,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000689,1,18,Digital Team 018,Secure Horizon Term,Digital,Central,Bukit Merah,382.53,45,Appointment,0.473863,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001350,6,3,Tara Chen,Education Milestone,Broker / IFA,North-East,Sengkang,4772.57,16,Qualified,0.473035,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002193,1,13,Cara Ng,Secure Horizon Term,Broker / IFA,North-East,Hougang,484.44,77,Appointment,0.470567,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001034,3,14,Owen Lim,Lifetime Heritage,Bancassurance,North-East,Punggol,5806.24,404,Application,0.46986,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002097,1,25,Priya Chen,Secure Horizon Term,Agency,North-East,Punggol,786.49,32,Application,0.469127,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003853,11,11,Far Tan,RetireIncome Select,Bancassurance,West,Jurong East,4270.74,1015,Qualified,0.467815,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001097,5,18,Digital Team 018,Future Builder Savings,Digital,Central,Bukit Merah,2653.62,1131,Application,0.467379,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002551,5,9,Mira Rao,Future Builder Savings,Bancassurance,West,Clementi,1963.48,22,Appointment,0.465971,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002967,5,1,Digital Team 001,Future Builder Savings,Digital,North-East,Punggol,2968.68,949,Quote,0.465651,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000315,2,10,Kai Yeo,Family Shield Term,Agency,North-East,Sengkang,435.86,100,Appointment,0.465643,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001165,1,1,Digital Team 001,Secure Horizon Term,Digital,North-East,Punggol,843.99,331,Quote,0.465191,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002209,11,14,Owen Lim,RetireIncome Select,Bancassurance,North-East,Punggol,5653.03,1330,Application,0.465079,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004688,1,25,Priya Chen,Secure Horizon Term,Agency,North-East,Punggol,1157.98,1004,Appointment,0.463526,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003619,11,10,Kai Yeo,RetireIncome Select,Agency,North-East,Sengkang,5634.43,618,Quote,0.462961,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001580,6,18,Digital Team 018,Education Milestone,Digital,Central,Bukit Merah,5624.31,598,Qualified,0.461976,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004433,3,10,Kai Yeo,Lifetime Heritage,Agency,North-East,Sengkang,3087.41,60,Application,0.459215,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005705,11,10,Kai Yeo,RetireIncome Select,Agency,North-East,Sengkang,3828.96,1360,Quote,0.459026,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000344,1,13,Cara Ng,Secure Horizon Term,Broker / IFA,North-East,Hougang,544.8,473,Quote,0.458306,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002700,2,18,Digital Team 018,Family Shield Term,Digital,Central,Bukit Merah,893.7,999,Quote,0.455348,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001656,7,17,Ira Das,Growth Navigator,Bancassurance,North-East,Sengkang,2938.56,1301,Application,0.454711,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002758,3,12,Priya Wong,Lifetime Heritage,Agency,West,Clementi,2343.01,50,Quote,0.454609,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002479,2,1,Digital Team 001,Family Shield Term,Digital,North-East,Punggol,1038.02,111,Appointment,0.451023,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000124,12,24,Tara Tan,Golden Years Annuity,Agency,West,Jurong East,7856.08,274,Appointment,0.448727,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004458,5,18,Digital Team 018,Future Builder Savings,Digital,Central,Bukit Merah,2194.92,1209,Quote,0.447703,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004902,2,16,Ari Goh,Family Shield Term,Direct,East,Bedok,782.0,531,Qualified,0.446556,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004542,9,18,Digital Team 018,Critical Care Protect,Digital,Central,Bukit Merah,701.16,589,Qualified,0.446188,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005515,1,19,Dev Ng,Secure Horizon Term,Agency,Central,Downtown Core,383.97,313,Application,0.444854,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004185,10,24,Tara Tan,Early Stage Guard,Agency,West,Jurong East,1472.49,35,Application,0.444108,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003811,8,19,Dev Ng,Balanced Wealth Link,Agency,Central,Downtown Core,3759.83,84,Quote,0.442172,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004882,12,12,Priya Wong,Golden Years Annuity,Agency,West,Clementi,6505.76,801,Appointment,0.44184,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000185,9,7,Mira Goh,Critical Care Protect,Bancassurance,North-East,Punggol,743.06,17,Application,0.440967,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000331,3,12,Priya Wong,Lifetime Heritage,Agency,West,Clementi,1804.01,11,Appointment,0.439846,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000396,5,12,Priya Wong,Future Builder Savings,Agency,West,Clementi,2567.54,603,Quote,0.439344,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000379,1,7,Mira Goh,Secure Horizon Term,Bancassurance,North-East,Punggol,648.99,262,Quote,0.43775,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005818,3,5,Cara Wong,Lifetime Heritage,Direct,North-East,Sengkang,2397.05,363,Quote,0.436814,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003712,4,4,Han Koh,Legacy Plus,Agency,East,Bedok,3613.58,2,Application,0.436039,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000883,6,2,Han Lim,Education Milestone,Broker / IFA,North,Woodlands,5526.41,93,Application,0.4359,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002640,5,11,Far Tan,Future Builder Savings,Bancassurance,West,Jurong East,4870.17,785,Application,0.435145,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004444,3,18,Digital Team 018,Lifetime Heritage,Digital,Central,Bukit Merah,1618.96,634,Appointment,0.433618,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000966,6,20,Mira Das,Education Milestone,Agency,East,Bedok,3649.36,975,Qualified,0.433346,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001220,4,12,Priya Wong,Legacy Plus,Agency,West,Clementi,4937.64,1059,Quote,0.433094,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000992,11,16,Ari Goh,RetireIncome Select,Direct,East,Bedok,6311.43,75,Application,0.432253,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003760,11,25,Priya Chen,RetireIncome Select,Agency,North-East,Punggol,6651.63,48,Qualified,0.432225,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000001,12,12,Priya Wong,Golden Years Annuity,Agency,West,Clementi,8342.8,502,Qualified,0.43214,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001010,2,25,Priya Chen,Family Shield Term,Agency,North-East,Punggol,784.45,293,Appointment,0.4304,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004048,1,1,Digital Team 001,Secure Horizon Term,Digital,North-East,Punggol,743.55,823,Application,0.428964,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005018,8,12,Priya Wong,Balanced Wealth Link,Agency,West,Clementi,2697.89,792,Quote,0.428163,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002021,1,22,Han Wong,Secure Horizon Term,Bancassurance,West,Clementi,288.55,728,Application,0.427013,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002454,10,19,Dev Ng,Early Stage Guard,Agency,Central,Downtown Core,2217.04,1231,Quote,0.427013,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002307,2,1,Digital Team 001,Family Shield Term,Digital,North-East,Punggol,1064.8,680,Qualified,0.426843,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002505,6,1,Digital Team 001,Education Milestone,Digital,North-East,Punggol,5093.43,71,Application,0.424127,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002068,1,18,Digital Team 018,Secure Horizon Term,Digital,Central,Bukit Merah,445.52,68,Qualified,0.418898,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002080,3,1,Digital Team 001,Lifetime Heritage,Digital,North-East,Punggol,2835.85,424,Application,0.417873,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001498,9,14,Owen Lim,Critical Care Protect,Bancassurance,North-East,Punggol,638.61,394,Application,0.417341,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000611,4,18,Digital Team 018,Legacy Plus,Digital,Central,Bukit Merah,7292.96,646,Qualified,0.416372,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001470,5,2,Han Lim,Future Builder Savings,Broker / IFA,North,Woodlands,2019.0,76,Appointment,0.41359,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001570,4,18,Digital Team 018,Legacy Plus,Digital,Central,Bukit Merah,4823.87,431,Appointment,0.412615,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004520,7,7,Mira Goh,Growth Navigator,Bancassurance,North-East,Punggol,2615.09,560,Quote,0.412116,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003654,6,25,Priya Chen,Education Milestone,Agency,North-East,Punggol,3099.07,34,Qualified,0.410662,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004049,4,1,Digital Team 001,Legacy Plus,Digital,North-East,Punggol,4289.33,868,Quote,0.40954,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004854,2,16,Ari Goh,Family Shield Term,Direct,East,Bedok,1085.17,569,Application,0.408592,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002270,5,16,Ari Goh,Future Builder Savings,Direct,East,Bedok,3872.02,748,Quote,0.40687,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000094,2,18,Digital Team 018,Family Shield Term,Digital,Central,Bukit Merah,1082.34,598,Application,0.405291,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003960,1,5,Cara Wong,Secure Horizon Term,Direct,North-East,Sengkang,644.56,0,Application,0.397288,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004600,3,20,Mira Das,Lifetime Heritage,Agency,East,Bedok,2628.57,58,Quote,0.395256,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000189,9,4,Han Koh,Critical Care Protect,Agency,East,Bedok,1149.33,1228,Qualified,0.393736,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000772,9,10,Kai Yeo,Critical Care Protect,Agency,North-East,Sengkang,1142.85,148,Application,0.392807,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000925,5,2,Han Lim,Future Builder Savings,Broker / IFA,North,Woodlands,2201.21,50,Quote,0.392428,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002827,3,13,Cara Ng,Lifetime Heritage,Broker / IFA,North-East,Hougang,1426.8,1140,Application,0.392399,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003008,1,23,Kai Lim,Secure Horizon Term,Bancassurance,North,Yishun,1336.83,767,Appointment,0.392365,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005582,1,3,Tara Chen,Secure Horizon Term,Broker / IFA,North-East,Sengkang,1020.42,36,Qualified,0.390651,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005814,5,6,Ira Lee,Future Builder Savings,Agency,East,Bedok,2162.3,93,Quote,0.388197,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005594,11,7,Mira Goh,RetireIncome Select,Bancassurance,North-East,Punggol,6340.4,625,Quote,0.387483,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001228,4,1,Digital Team 001,Legacy Plus,Digital,North-East,Punggol,3521.79,48,Application,0.386846,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001466,1,10,Kai Yeo,Secure Horizon Term,Agency,North-East,Sengkang,599.76,931,Qualified,0.384953,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004254,9,5,Cara Wong,Critical Care Protect,Direct,North-East,Sengkang,1326.16,144,Application,0.384488,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001409,1,12,Priya Wong,Secure Horizon Term,Agency,West,Clementi,908.16,4,Qualified,0.384252,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004769,1,16,Ari Goh,Secure Horizon Term,Direct,East,Bedok,1082.25,402,Application,0.383539,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003791,7,2,Han Lim,Growth Navigator,Broker / IFA,North,Woodlands,2989.67,21,Quote,0.382618,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003205,4,1,Digital Team 001,Legacy Plus,Digital,North-East,Punggol,4777.77,929,Quote,0.38255,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001683,4,16,Ari Goh,Legacy Plus,Direct,East,Bedok,2326.1,32,Appointment,0.380737,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001397,1,15,Priya Wong,Secure Horizon Term,Bancassurance,Central,Bukit Merah,631.81,57,Quote,0.376871,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005458,6,7,Mira Goh,Education Milestone,Bancassurance,North-East,Punggol,4438.72,214,Quote,0.3743,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003456,9,8,Ira Nair,Critical Care Protect,Bancassurance,West,Jurong West,1658.38,392,Appointment,0.373451,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000979,8,7,Mira Goh,Balanced Wealth Link,Bancassurance,North-East,Punggol,6356.22,1135,Appointment,0.371698,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005948,7,22,Han Wong,Growth Navigator,Bancassurance,West,Clementi,3127.89,10,Qualified,0.371274,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004975,8,15,Priya Wong,Balanced Wealth Link,Bancassurance,Central,Bukit Merah,5107.5,382,Quote,0.368883,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000024,4,16,Ari Goh,Legacy Plus,Direct,East,Bedok,4863.58,1029,Appointment,0.367772,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004330,1,15,Priya Wong,Secure Horizon Term,Bancassurance,Central,Bukit Merah,570.83,971,Application,0.366043,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002577,9,24,Tara Tan,Critical Care Protect,Agency,West,Jurong East,1580.4,53,Qualified,0.360681,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002815,3,9,Mira Rao,Lifetime Heritage,Bancassurance,West,Clementi,2864.38,552,Qualified,0.360666,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004023,6,5,Cara Wong,Education Milestone,Direct,North-East,Sengkang,4074.61,736,Qualified,0.360424,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002075,9,2,Han Lim,Critical Care Protect,Broker / IFA,North,Woodlands,1263.73,29,Appointment,0.352822,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005160,3,18,Digital Team 018,Lifetime Heritage,Digital,Central,Bukit Merah,3028.66,449,New,0.351415,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005883,9,5,Cara Wong,Critical Care Protect,Direct,North-East,Sengkang,982.82,20,Quote,0.351119,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001405,2,18,Digital Team 018,Family Shield Term,Digital,Central,Bukit Merah,734.1,70,Quote,0.351107,0,Medium,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002463,9,13,Cara Ng,Critical Care Protect,Broker / IFA,North-East,Hougang,619.79,6,Qualified,0.349237,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000707,1,19,Dev Ng,Secure Horizon Term,Agency,Central,Downtown Core,1070.73,442,Qualified,0.349011,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005678,5,13,Cara Ng,Future Builder Savings,Broker / IFA,North-East,Hougang,4054.01,79,Qualified,0.348822,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002165,3,13,Cara Ng,Lifetime Heritage,Broker / IFA,North-East,Hougang,3803.23,532,Qualified,0.348688,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002576,2,1,Digital Team 001,Family Shield Term,Digital,North-East,Punggol,931.83,1153,Qualified,0.346514,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001438,6,23,Kai Lim,Education Milestone,Bancassurance,North,Yishun,3699.64,18,Application,0.345801,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000517,5,4,Han Koh,Future Builder Savings,Agency,East,Bedok,3109.13,30,Quote,0.34167,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002214,3,5,Cara Wong,Lifetime Heritage,Direct,North-East,Sengkang,3448.18,279,Qualified,0.339177,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003163,8,5,Cara Wong,Balanced Wealth Link,Direct,North-East,Sengkang,4374.17,11,Qualified,0.338093,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005486,4,1,Digital Team 001,Legacy Plus,Digital,North-East,Punggol,10421.17,138,Quote,0.33718,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004651,1,18,Digital Team 018,Secure Horizon Term,Digital,Central,Bukit Merah,916.48,769,Quote,0.336511,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003429,1,8,Ira Nair,Secure Horizon Term,Bancassurance,West,Jurong West,548.07,110,Qualified,0.334721,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002132,5,19,Dev Ng,Future Builder Savings,Agency,Central,Downtown Core,5021.28,62,Appointment,0.332807,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003584,9,6,Ira Lee,Critical Care Protect,Agency,East,Bedok,644.58,10,New,0.331409,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001505,11,5,Cara Wong,RetireIncome Select,Direct,North-East,Sengkang,3935.49,23,Qualified,0.330698,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003384,8,2,Han Lim,Balanced Wealth Link,Broker / IFA,North,Woodlands,3459.61,11,Qualified,0.330687,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001933,7,21,Ari Chen,Growth Navigator,Agency,West,Bukit Batok,3437.98,1161,Appointment,0.329729,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004770,10,10,Kai Yeo,Early Stage Guard,Agency,North-East,Sengkang,791.31,668,Quote,0.327024,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001379,3,15,Priya Wong,Lifetime Heritage,Bancassurance,Central,Bukit Merah,4250.6,5,Appointment,0.324971,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000186,2,23,Kai Lim,Family Shield Term,Bancassurance,North,Yishun,1640.6,35,Qualified,0.322271,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003641,5,16,Ari Goh,Future Builder Savings,Direct,East,Bedok,2729.65,811,Qualified,0.321548,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003227,4,5,Cara Wong,Legacy Plus,Direct,North-East,Sengkang,5366.56,682,Application,0.321086,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003473,11,1,Digital Team 001,RetireIncome Select,Digital,North-East,Punggol,2838.27,768,Application,0.316602,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003878,1,13,Cara Ng,Secure Horizon Term,Broker / IFA,North-East,Hougang,569.47,21,Contacted,0.315121,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000819,1,10,Kai Yeo,Secure Horizon Term,Agency,North-East,Sengkang,1027.5,624,Application,0.314457,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000811,4,4,Han Koh,Legacy Plus,Agency,East,Bedok,5409.48,88,Application,0.314221,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005375,3,13,Cara Ng,Lifetime Heritage,Broker / IFA,North-East,Hougang,3771.97,1210,Application,0.311875,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001060,10,22,Han Wong,Early Stage Guard,Bancassurance,West,Clementi,1556.64,1120,Application,0.308295,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005207,1,16,Ari Goh,Secure Horizon Term,Direct,East,Bedok,265.62,40,Contacted,0.305539,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002801,6,21,Ari Chen,Education Milestone,Agency,West,Bukit Batok,4688.66,98,Contacted,0.302318,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000766,3,13,Cara Ng,Lifetime Heritage,Broker / IFA,North-East,Hougang,4136.91,416,Quote,0.302245,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001698,4,18,Digital Team 018,Legacy Plus,Digital,Central,Bukit Merah,4030.91,420,Contacted,0.301592,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002655,2,2,Han Lim,Family Shield Term,Broker / IFA,North,Woodlands,878.7,3,New,0.300321,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001248,5,22,Han Wong,Future Builder Savings,Bancassurance,West,Clementi,1243.17,143,Quote,0.298305,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000776,3,12,Priya Wong,Lifetime Heritage,Agency,West,Clementi,1958.65,1150,Contacted,0.29636,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005877,11,6,Ira Lee,RetireIncome Select,Agency,East,Bedok,5388.3,959,Quote,0.295332,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001189,1,6,Ira Lee,Secure Horizon Term,Agency,East,Bedok,957.79,91,Appointment,0.295153,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000809,5,20,Mira Das,Future Builder Savings,Agency,East,Bedok,4644.74,1085,Quote,0.294926,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004342,1,25,Priya Chen,Secure Horizon Term,Agency,North-East,Punggol,582.09,1042,Quote,0.294698,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002670,8,23,Kai Lim,Balanced Wealth Link,Bancassurance,North,Yishun,5139.96,27,Qualified,0.294662,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002595,8,16,Ari Goh,Balanced Wealth Link,Direct,East,Bedok,6610.08,132,Application,0.294056,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001167,12,9,Mira Rao,Golden Years Annuity,Bancassurance,West,Clementi,3822.78,17,Qualified,0.29361,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003446,9,14,Owen Lim,Critical Care Protect,Bancassurance,North-East,Punggol,741.67,104,Qualified,0.29099,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005752,10,17,Ira Das,Early Stage Guard,Bancassurance,North-East,Sengkang,1838.09,904,Qualified,0.290982,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005002,11,10,Kai Yeo,RetireIncome Select,Agency,North-East,Sengkang,7257.1,18,Quote,0.290072,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003117,7,16,Ari Goh,Growth Navigator,Direct,East,Bedok,2694.01,159,Qualified,0.286751,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003530,5,14,Owen Lim,Future Builder Savings,Bancassurance,North-East,Punggol,3682.62,2,Contacted,0.286701,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003330,2,4,Han Koh,Family Shield Term,Agency,East,Bedok,876.19,800,Appointment,0.286365,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002599,4,18,Digital Team 018,Legacy Plus,Digital,Central,Bukit Merah,2570.66,511,Qualified,0.285624,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004767,1,18,Digital Team 018,Secure Horizon Term,Digital,Central,Bukit Merah,827.58,48,Contacted,0.284247,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002144,2,7,Mira Goh,Family Shield Term,Bancassurance,North-East,Punggol,791.28,47,Quote,0.283967,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003282,1,18,Digital Team 018,Secure Horizon Term,Digital,Central,Bukit Merah,618.16,3,Qualified,0.283756,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000414,4,16,Ari Goh,Legacy Plus,Direct,East,Bedok,2075.79,1167,Qualified,0.281987,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004558,5,20,Mira Das,Future Builder Savings,Agency,East,Bedok,3534.44,5,Qualified,0.281066,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005713,6,1,Digital Team 001,Education Milestone,Digital,North-East,Punggol,2830.8,36,Application,0.278383,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005212,7,7,Mira Goh,Growth Navigator,Bancassurance,North-East,Punggol,2923.04,1313,Qualified,0.276559,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005604,8,5,Cara Wong,Balanced Wealth Link,Direct,North-East,Sengkang,3836.35,25,Qualified,0.271866,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002908,10,5,Cara Wong,Early Stage Guard,Direct,North-East,Sengkang,1181.88,98,Appointment,0.270679,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003305,12,3,Tara Chen,Golden Years Annuity,Broker / IFA,North-East,Sengkang,6031.59,40,Contacted,0.2699,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004618,7,16,Ari Goh,Growth Navigator,Direct,East,Bedok,3441.69,14,Contacted,0.264409,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004700,2,5,Cara Wong,Family Shield Term,Direct,North-East,Sengkang,703.77,1098,Application,0.264409,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003917,7,18,Digital Team 018,Growth Navigator,Digital,Central,Bukit Merah,1880.66,83,Contacted,0.263617,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004524,12,1,Digital Team 001,Golden Years Annuity,Digital,North-East,Punggol,5447.15,1292,Qualified,0.261253,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004040,10,14,Owen Lim,Early Stage Guard,Bancassurance,North-East,Punggol,1629.42,529,Quote,0.261117,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000592,10,4,Han Koh,Early Stage Guard,Agency,East,Bedok,1855.89,42,Appointment,0.25722,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004981,6,16,Ari Goh,Education Milestone,Direct,East,Bedok,3990.24,807,Qualified,0.253895,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000700,11,16,Ari Goh,RetireIncome Select,Direct,East,Bedok,5202.96,661,Application,0.253434,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003324,11,6,Ira Lee,RetireIncome Select,Agency,East,Bedok,6007.89,560,Qualified,0.25032,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001704,7,6,Ira Lee,Growth Navigator,Agency,East,Bedok,2936.11,258,Contacted,0.24949,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002407,5,18,Digital Team 018,Future Builder Savings,Digital,Central,Bukit Merah,3564.24,687,Qualified,0.248115,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002115,2,18,Digital Team 018,Family Shield Term,Digital,Central,Bukit Merah,1410.36,295,Contacted,0.248037,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004678,11,18,Digital Team 018,RetireIncome Select,Digital,Central,Bukit Merah,5765.25,55,Appointment,0.247224,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000229,7,16,Ari Goh,Growth Navigator,Direct,East,Bedok,3942.35,1115,Qualified,0.246552,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005046,12,25,Priya Chen,Golden Years Annuity,Agency,North-East,Punggol,5865.38,273,Contacted,0.246148,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005309,8,20,Mira Das,Balanced Wealth Link,Agency,East,Bedok,3864.51,191,Application,0.245374,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000084,1,21,Ari Chen,Secure Horizon Term,Agency,West,Bukit Batok,626.54,61,Contacted,0.245342,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000420,2,15,Priya Wong,Family Shield Term,Bancassurance,Central,Bukit Merah,1798.04,540,Quote,0.245303,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005291,1,6,Ira Lee,Secure Horizon Term,Agency,East,Bedok,658.23,663,Contacted,0.244156,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002363,3,5,Cara Wong,Lifetime Heritage,Direct,North-East,Sengkang,5010.75,1065,Contacted,0.244139,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002101,12,18,Digital Team 018,Golden Years Annuity,Digital,Central,Bukit Merah,10602.23,274,Quote,0.243506,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002128,7,11,Far Tan,Growth Navigator,Bancassurance,West,Jurong East,5081.94,1227,Contacted,0.243206,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002051,3,1,Digital Team 001,Lifetime Heritage,Digital,North-East,Punggol,2103.35,674,New,0.240209,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004469,10,14,Owen Lim,Early Stage Guard,Bancassurance,North-East,Punggol,1227.8,39,Contacted,0.239997,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005410,3,16,Ari Goh,Lifetime Heritage,Direct,East,Bedok,3556.6,17,Application,0.239081,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003987,1,1,Digital Team 001,Secure Horizon Term,Digital,North-East,Punggol,639.59,11,Qualified,0.234675,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005875,1,5,Cara Wong,Secure Horizon Term,Direct,North-East,Sengkang,619.87,53,Qualified,0.23467,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002451,5,12,Priya Wong,Future Builder Savings,Agency,West,Clementi,4004.91,341,Contacted,0.231047,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001289,7,7,Mira Goh,Growth Navigator,Bancassurance,North-East,Punggol,1751.14,88,Contacted,0.229534,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004128,9,22,Han Wong,Critical Care Protect,Bancassurance,West,Clementi,492.59,32,Qualified,0.229362,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005601,6,5,Cara Wong,Education Milestone,Direct,North-East,Sengkang,3168.03,982,Quote,0.229233,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000840,1,19,Dev Ng,Secure Horizon Term,Agency,Central,Downtown Core,321.79,1324,Contacted,0.224441,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003515,9,14,Owen Lim,Critical Care Protect,Bancassurance,North-East,Punggol,1701.44,80,Application,0.222354,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002476,5,4,Han Koh,Future Builder Savings,Agency,East,Bedok,5210.07,198,Qualified,0.222028,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005271,1,16,Ari Goh,Secure Horizon Term,Direct,East,Bedok,404.93,8,Qualified,0.220721,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002995,11,22,Han Wong,RetireIncome Select,Bancassurance,West,Clementi,3724.59,1249,Quote,0.218802,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002310,1,9,Mira Rao,Secure Horizon Term,Bancassurance,West,Clementi,380.81,36,Contacted,0.218698,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002297,8,18,Digital Team 018,Balanced Wealth Link,Digital,Central,Bukit Merah,4877.45,124,Contacted,0.215866,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003078,6,9,Mira Rao,Education Milestone,Bancassurance,West,Clementi,2447.36,1326,Contacted,0.214618,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003125,12,6,Ira Lee,Golden Years Annuity,Agency,East,Bedok,5475.66,642,Qualified,0.214154,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000075,7,16,Ari Goh,Growth Navigator,Direct,East,Bedok,1863.27,24,Application,0.214077,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005710,7,18,Digital Team 018,Growth Navigator,Digital,Central,Bukit Merah,2869.43,13,Contacted,0.213732,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003983,10,22,Han Wong,Early Stage Guard,Bancassurance,West,Clementi,1864.49,305,Contacted,0.213233,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001131,5,1,Digital Team 001,Future Builder Savings,Digital,North-East,Punggol,1801.17,722,Qualified,0.212749,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005750,3,18,Digital Team 018,Lifetime Heritage,Digital,Central,Bukit Merah,4000.35,572,Contacted,0.212415,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000684,2,13,Cara Ng,Family Shield Term,Broker / IFA,North-East,Hougang,1197.86,72,Qualified,0.211793,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002401,9,5,Cara Wong,Critical Care Protect,Direct,North-East,Sengkang,1441.23,833,Qualified,0.208488,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005725,6,11,Far Tan,Education Milestone,Bancassurance,West,Jurong East,2507.92,51,Appointment,0.20829,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003268,12,19,Dev Ng,Golden Years Annuity,Agency,Central,Downtown Core,7505.35,1299,Quote,0.206784,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003463,2,11,Far Tan,Family Shield Term,Bancassurance,West,Jurong East,1082.38,8,Contacted,0.205646,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003363,6,17,Ira Das,Education Milestone,Bancassurance,North-East,Sengkang,2316.11,687,Qualified,0.205396,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003893,6,6,Ira Lee,Education Milestone,Agency,East,Bedok,4261.68,24,Contacted,0.203717,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003212,1,11,Far Tan,Secure Horizon Term,Bancassurance,West,Jurong East,921.61,828,Contacted,0.203297,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002191,2,1,Digital Team 001,Family Shield Term,Digital,North-East,Punggol,879.71,126,Qualified,0.202372,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004805,6,2,Han Lim,Education Milestone,Broker / IFA,North,Woodlands,3845.42,655,Qualified,0.201575,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001221,7,17,Ira Das,Growth Navigator,Bancassurance,North-East,Sengkang,3166.91,1153,Quote,0.19989,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005268,12,18,Digital Team 018,Golden Years Annuity,Digital,Central,Bukit Merah,7926.52,504,Contacted,0.19963,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004707,3,24,Tara Tan,Lifetime Heritage,Agency,West,Jurong East,2323.81,5,Contacted,0.197973,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004826,11,16,Ari Goh,RetireIncome Select,Direct,East,Bedok,8239.42,840,Qualified,0.196522,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005246,2,18,Digital Team 018,Family Shield Term,Digital,Central,Bukit Merah,531.4,80,Qualified,0.192024,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000667,6,15,Priya Wong,Education Milestone,Bancassurance,Central,Bukit Merah,3572.57,1137,Quote,0.191944,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000369,3,16,Ari Goh,Lifetime Heritage,Direct,East,Bedok,3706.85,753,Contacted,0.191796,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002290,2,24,Tara Tan,Family Shield Term,Agency,West,Jurong East,1124.47,351,Contacted,0.190861,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000489,6,8,Ira Nair,Education Milestone,Bancassurance,West,Jurong West,3977.16,319,Quote,0.190523,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001239,12,10,Kai Yeo,Golden Years Annuity,Agency,North-East,Sengkang,5651.54,386,Contacted,0.188147,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000868,9,1,Digital Team 001,Critical Care Protect,Digital,North-East,Punggol,1766.12,654,Contacted,0.186385,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000176,4,10,Kai Yeo,Legacy Plus,Agency,North-East,Sengkang,3712.1,16,Contacted,0.185908,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003610,4,10,Kai Yeo,Legacy Plus,Agency,North-East,Sengkang,4259.13,23,Qualified,0.184376,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002020,8,21,Ari Chen,Balanced Wealth Link,Agency,West,Bukit Batok,3775.23,210,Contacted,0.183636,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004611,11,18,Digital Team 018,RetireIncome Select,Digital,Central,Bukit Merah,3201.3,650,Contacted,0.180125,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000955,7,14,Owen Lim,Growth Navigator,Bancassurance,North-East,Punggol,3325.29,495,Contacted,0.179435,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002085,12,20,Mira Das,Golden Years Annuity,Agency,East,Bedok,5884.66,17,Contacted,0.174103,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000545,3,5,Cara Wong,Lifetime Heritage,Direct,North-East,Sengkang,4155.86,1260,Application,0.173855,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001950,10,14,Owen Lim,Early Stage Guard,Bancassurance,North-East,Punggol,1115.32,955,Contacted,0.172503,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001579,11,6,Ira Lee,RetireIncome Select,Agency,East,Bedok,5737.94,17,Contacted,0.171833,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003343,4,5,Cara Wong,Legacy Plus,Direct,North-East,Sengkang,4716.77,32,Appointment,0.171689,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005117,11,21,Ari Chen,RetireIncome Select,Agency,West,Bukit Batok,12876.08,1104,Qualified,0.168896,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005294,9,12,Priya Wong,Critical Care Protect,Agency,West,Clementi,616.09,975,Quote,0.167545,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003365,1,15,Priya Wong,Secure Horizon Term,Bancassurance,Central,Bukit Merah,570.72,375,Qualified,0.167272,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000829,8,18,Digital Team 018,Balanced Wealth Link,Digital,Central,Bukit Merah,4402.21,697,Contacted,0.16621,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005216,8,13,Cara Ng,Balanced Wealth Link,Broker / IFA,North-East,Hougang,3884.97,631,Contacted,0.164268,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002074,6,5,Cara Wong,Education Milestone,Direct,North-East,Sengkang,4143.04,3,Contacted,0.16381,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000215,5,5,Cara Wong,Future Builder Savings,Direct,North-East,Sengkang,3839.09,81,Qualified,0.163245,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003882,5,12,Priya Wong,Future Builder Savings,Agency,West,Clementi,2813.35,8,Contacted,0.160719,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003414,7,14,Owen Lim,Growth Navigator,Bancassurance,North-East,Punggol,2163.94,541,Contacted,0.157344,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000892,9,25,Priya Chen,Critical Care Protect,Agency,North-East,Punggol,853.28,1114,Contacted,0.156801,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004410,2,24,Tara Tan,Family Shield Term,Agency,West,Jurong East,975.44,1266,Contacted,0.156599,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005932,11,12,Priya Wong,RetireIncome Select,Agency,West,Clementi,4281.01,470,Qualified,0.156405,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004418,2,1,Digital Team 001,Family Shield Term,Digital,North-East,Punggol,936.11,805,Contacted,0.151838,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003122,11,15,Priya Wong,RetireIncome Select,Bancassurance,Central,Bukit Merah,2717.81,409,Appointment,0.151632,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000742,2,23,Kai Lim,Family Shield Term,Bancassurance,North,Yishun,1147.43,1019,Contacted,0.151219,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005360,10,5,Cara Wong,Early Stage Guard,Direct,North-East,Sengkang,1999.13,3,Contacted,0.150222,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003014,5,16,Ari Goh,Future Builder Savings,Direct,East,Bedok,3176.39,584,Qualified,0.149622,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005776,1,18,Digital Team 018,Secure Horizon Term,Digital,Central,Bukit Merah,576.8,38,Contacted,0.149493,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003711,2,18,Digital Team 018,Family Shield Term,Digital,Central,Bukit Merah,1086.77,40,Contacted,0.143227,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004226,10,20,Mira Das,Early Stage Guard,Agency,East,Bedok,1717.78,1110,Contacted,0.142324,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000659,2,19,Dev Ng,Family Shield Term,Agency,Central,Downtown Core,770.46,655,Contacted,0.141338,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001009,10,1,Digital Team 001,Early Stage Guard,Digital,North-East,Punggol,1550.07,38,Contacted,0.139145,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000970,10,5,Cara Wong,Early Stage Guard,Direct,North-East,Sengkang,2233.73,22,Contacted,0.137931,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004419,1,5,Cara Wong,Secure Horizon Term,Direct,North-East,Sengkang,510.77,830,Qualified,0.137453,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002280,10,6,Ira Lee,Early Stage Guard,Agency,East,Bedok,1078.18,37,New,0.136446,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003185,5,1,Digital Team 001,Future Builder Savings,Digital,North-East,Punggol,2833.92,4,Qualified,0.133812,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003726,3,21,Ari Chen,Lifetime Heritage,Agency,West,Bukit Batok,4009.79,330,Contacted,0.132268,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004696,10,16,Ari Goh,Early Stage Guard,Direct,East,Bedok,2544.33,23,Contacted,0.131431,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000263,5,1,Digital Team 001,Future Builder Savings,Digital,North-East,Punggol,2099.7,220,Qualified,0.131075,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002351,11,21,Ari Chen,RetireIncome Select,Agency,West,Bukit Batok,5285.76,258,Contacted,0.130682,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000798,6,5,Cara Wong,Education Milestone,Direct,North-East,Sengkang,2893.23,1052,Qualified,0.129796,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003255,12,5,Cara Wong,Golden Years Annuity,Direct,North-East,Sengkang,7555.1,205,Qualified,0.129078,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004726,1,4,Han Koh,Secure Horizon Term,Agency,East,Bedok,1358.73,20,Contacted,0.12618,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001476,3,17,Ira Das,Lifetime Heritage,Bancassurance,North-East,Sengkang,2994.59,617,Contacted,0.125916,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004512,9,18,Digital Team 018,Critical Care Protect,Digital,Central,Bukit Merah,790.28,57,Contacted,0.124384,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002213,10,1,Digital Team 001,Early Stage Guard,Digital,North-East,Punggol,1291.62,647,New,0.122111,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003181,7,22,Han Wong,Growth Navigator,Bancassurance,West,Clementi,2021.4,94,Contacted,0.121536,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001910,8,7,Mira Goh,Balanced Wealth Link,Bancassurance,North-East,Punggol,3170.46,113,Qualified,0.121416,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003354,8,2,Han Lim,Balanced Wealth Link,Broker / IFA,North,Woodlands,3536.41,886,New,0.119055,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001603,8,5,Cara Wong,Balanced Wealth Link,Direct,North-East,Sengkang,4425.75,32,Contacted,0.118948,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002981,10,7,Mira Goh,Early Stage Guard,Bancassurance,North-East,Punggol,1243.04,81,Contacted,0.116107,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002266,5,7,Mira Goh,Future Builder Savings,Bancassurance,North-East,Punggol,3265.01,778,Contacted,0.113693,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004993,1,1,Digital Team 001,Secure Horizon Term,Digital,North-East,Punggol,617.16,1360,Contacted,0.112527,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001260,7,10,Kai Yeo,Growth Navigator,Agency,North-East,Sengkang,1378.72,1235,Qualified,0.111959,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002777,7,12,Priya Wong,Growth Navigator,Agency,West,Clementi,2459.88,419,Contacted,0.111499,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001035,11,3,Tara Chen,RetireIncome Select,Broker / IFA,North-East,Sengkang,4417.04,243,Contacted,0.110985,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002920,1,24,Tara Tan,Secure Horizon Term,Agency,West,Jurong East,691.4,174,Contacted,0.108235,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005072,9,2,Han Lim,Critical Care Protect,Broker / IFA,North,Woodlands,866.58,258,Qualified,0.102412,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000487,8,13,Cara Ng,Balanced Wealth Link,Broker / IFA,North-East,Hougang,4412.17,1212,Contacted,0.10179,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005059,5,8,Ira Nair,Future Builder Savings,Bancassurance,West,Jurong West,1904.44,535,Contacted,0.09565,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000001245,5,14,Owen Lim,Future Builder Savings,Bancassurance,North-East,Punggol,6918.19,671,Contacted,0.095585,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003868,9,14,Owen Lim,Critical Care Protect,Bancassurance,North-East,Punggol,2387.31,60,Contacted,0.095331,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005685,11,20,Mira Das,RetireIncome Select,Agency,East,Bedok,3466.37,8,Contacted,0.092097,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004219,1,15,Priya Wong,Secure Horizon Term,Bancassurance,Central,Bukit Merah,757.08,563,Qualified,0.091579,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002439,1,21,Ari Chen,Secure Horizon Term,Agency,West,Bukit Batok,613.48,36,Contacted,0.090101,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004071,2,11,Far Tan,Family Shield Term,Bancassurance,West,Jurong East,901.48,275,Contacted,0.089802,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000470,5,19,Dev Ng,Future Builder Savings,Agency,Central,Downtown Core,2701.08,1110,Contacted,0.08854,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003421,11,18,Digital Team 018,RetireIncome Select,Digital,Central,Bukit Merah,10700.27,735,Contacted,0.087611,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002756,7,7,Mira Goh,Growth Navigator,Bancassurance,North-East,Punggol,1892.76,165,Contacted,0.087212,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003177,1,10,Kai Yeo,Secure Horizon Term,Agency,North-East,Sengkang,597.71,936,Contacted,0.085432,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000367,11,9,Mira Rao,RetireIncome Select,Bancassurance,West,Clementi,4938.9,1206,Contacted,0.08491,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005502,11,16,Ari Goh,RetireIncome Select,Direct,East,Bedok,3625.96,939,Contacted,0.084218,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002358,9,3,Tara Chen,Critical Care Protect,Broker / IFA,North-East,Sengkang,859.94,1318,New,0.081987,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003644,8,18,Digital Team 018,Balanced Wealth Link,Digital,Central,Bukit Merah,3954.71,479,Contacted,0.081489,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003956,11,9,Mira Rao,RetireIncome Select,Bancassurance,West,Clementi,5036.42,6,Contacted,0.080891,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003952,1,15,Priya Wong,Secure Horizon Term,Bancassurance,Central,Bukit Merah,796.1,11,Contacted,0.077374,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004021,3,2,Han Lim,Lifetime Heritage,Broker / IFA,North,Woodlands,2348.31,741,Contacted,0.07486,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004983,2,15,Priya Wong,Family Shield Term,Bancassurance,Central,Bukit Merah,1282.83,12,Contacted,0.073897,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004231,1,16,Ari Goh,Secure Horizon Term,Direct,East,Bedok,578.15,100,New,0.073386,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002079,2,15,Priya Wong,Family Shield Term,Bancassurance,Central,Bukit Merah,541.85,1308,New,0.070693,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005263,5,18,Digital Team 018,Future Builder Savings,Digital,Central,Bukit Merah,2679.16,525,Contacted,0.069482,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005628,5,2,Han Lim,Future Builder Savings,Broker / IFA,North,Woodlands,4384.44,696,Contacted,0.068379,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004721,11,1,Digital Team 001,RetireIncome Select,Digital,North-East,Punggol,2584.63,32,Contacted,0.066175,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000000214,9,17,Ira Das,Critical Care Protect,Bancassurance,North-East,Sengkang,1761.29,944,Contacted,0.065434,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002544,9,8,Ira Nair,Critical Care Protect,Bancassurance,West,Jurong West,2334.15,900,Contacted,0.064726,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000003962,9,16,Ari Goh,Critical Care Protect,Direct,East,Bedok,1154.48,676,Contacted,0.062662,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005719,9,5,Cara Wong,Critical Care Protect,Direct,North-East,Sengkang,1291.44,1149,Contacted,0.06146,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000002250,4,12,Priya Wong,Legacy Plus,Agency,West,Clementi,2931.93,592,Contacted,0.060998,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000005206,11,5,Cara Wong,RetireIncome Select,Direct,North-East,Sengkang,6146.31,1213,Contacted,0.059023,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004995,6,10,Kai Yeo,Education Milestone,Agency,North-East,Sengkang,2904.0,644,Contacted,0.054552,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004939,3,10,Kai Yeo,Lifetime Heritage,Agency,North-East,Sengkang,2925.82,104,Contacted,0.052458,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00
+LEAD000004864,5,1,Digital Team 001,Future Builder Savings,Digital,North-East,Punggol,5513.27,254,Contacted,0.045618,0,Low,logistic_regression-synthetic-v1,2026-09-25 23:59:00

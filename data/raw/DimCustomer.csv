@@ -1,0 +1,751 @@
+CustomerKey,CustomerID,Age,AgeBand,Gender,OccupationCategory,IncomeBandSGD,MaritalStatus,ExistingCustomerFlag,CustomerSegment,Region,PlanningArea,PostalSector,PlanningAreaLatitude,PlanningAreaLongitude,ConsentForMarketingFlag,CustomerSinceDate
+1,CUS0000001,47,40-49,Female,Manager,40k-79k,Married,1,Mass,North-East,Hougang,53,1.3714,103.892,1,2017-05-11
+2,CUS0000002,48,40-49,Male,Manager,40k-79k,Married,0,Mass,East,Tampines,53,1.352,103.9446,1,2022-10-31
+3,CUS0000003,61,60+,Female,Self-employed,Below 40k,Married,1,Emerging,East,Bedok,46,1.3236,103.9273,0,2017-08-23
+4,CUS0000004,47,40-49,Male,Manager,200k+,Single,0,High Value,East,Bedok,46,1.3236,103.9273,1,2016-01-16
+5,CUS0000005,39,30-39,Male,Service,80k-119k,Married,1,Mass,Central,Toa Payoh,32,1.3343,103.8563,1,2015-05-16
+6,CUS0000006,62,60+,Female,Professional,200k+,Married,1,High Value,West,Clementi,12,1.3151,103.765,0,2022-03-30
+7,CUS0000007,34,30-39,Female,Professional,40k-79k,Single,1,Affluent,West,Jurong East,60,1.3329,103.7436,0,2021-06-12
+8,CUS0000008,51,50-59,Female,Technical,Below 40k,Married,0,Emerging,East,Bedok,47,1.3236,103.9273,1,2025-02-27
+9,CUS0000009,29,18-29,Female,Professional,200k+,Single,1,High Value,West,Clementi,12,1.3151,103.765,1,2015-10-20
+10,CUS0000010,40,40-49,Male,Professional,40k-79k,Single,1,Mass,Central,Toa Payoh,31,1.3343,103.8563,1,2018-03-31
+11,CUS0000011,29,18-29,Male,Manager,40k-79k,Single,0,Mass,West,Clementi,12,1.3151,103.765,1,2025-07-05
+12,CUS0000012,43,40-49,Female,Manager,40k-79k,Single,0,Mass,North-East,Punggol,82,1.3984,103.9072,1,2019-07-31
+13,CUS0000013,37,30-39,Male,Self-employed,80k-119k,Married,1,Mass,Central,Bukit Merah,10,1.2819,103.8239,0,2019-07-29
+14,CUS0000014,54,50-59,Female,Professional,40k-79k,Divorced,1,Mass,East,Tampines,52,1.352,103.9446,0,2013-10-05
+15,CUS0000015,30,30-39,Male,Professional,40k-79k,Single,1,Mass,Central,Bukit Merah,09,1.2819,103.8239,1,2014-02-09
+16,CUS0000016,31,30-39,Male,Homemaker,200k+,Married,0,High Value,North-East,Punggol,82,1.3984,103.9072,1,2025-06-19
+17,CUS0000017,25,18-29,Prefer not to say,Service,40k-79k,Single,1,Mass,Central,Toa Payoh,32,1.3343,103.8563,1,2012-04-02
+18,CUS0000018,43,40-49,Prefer not to say,Homemaker,40k-79k,Widowed,0,Mass,Central,Toa Payoh,32,1.3343,103.8563,0,2026-09-20
+19,CUS0000019,22,18-29,Female,Student,Below 40k,Single,0,Emerging,West,Jurong West,64,1.3404,103.709,1,2024-04-10
+20,CUS0000020,66,60+,Female,Technical,40k-79k,Married,1,Mass,North,Sembawang,75,1.4491,103.8185,1,2016-02-08
+21,CUS0000021,25,18-29,Male,Technical,200k+,Single,1,High Value,Central,Novena,31,1.3201,103.8439,1,2018-06-22
+22,CUS0000022,24,18-29,Non-binary,Self-employed,40k-79k,Single,0,Mass,Central,Queenstown,15,1.2942,103.7861,1,2023-03-23
+23,CUS0000023,38,30-39,Male,Student,Below 40k,Divorced,0,Emerging,Central,Queenstown,15,1.2942,103.7861,1,2023-09-02
+24,CUS0000024,31,30-39,Male,Manager,40k-79k,Married,0,Mass,East,Tampines,53,1.352,103.9446,1,2022-03-18
+25,CUS0000025,26,18-29,Male,Self-employed,40k-79k,Single,0,Mass,Central,Bukit Merah,09,1.2819,103.8239,1,2024-10-23
+26,CUS0000026,59,50-59,Male,Professional,80k-119k,Married,1,Mass,North,Yishun,77,1.4293,103.8355,1,2012-05-04
+27,CUS0000027,50,50-59,Male,Manager,40k-79k,Married,0,Mass,Central,Downtown Core,01,1.2867,103.8535,1,2022-09-16
+28,CUS0000028,46,40-49,Male,Manager,200k+,Single,1,High Value,North,Sembawang,75,1.4491,103.8185,1,2019-02-23
+29,CUS0000029,53,50-59,Male,Professional,200k+,Single,1,High Value,North-East,Hougang,53,1.3714,103.892,1,2013-12-11
+30,CUS0000030,42,40-49,Female,Professional,120k-199k,Single,1,Affluent,East,Pasir Ris,51,1.373,103.9493,0,2016-03-06
+31,CUS0000031,27,18-29,Male,Manager,40k-79k,Single,0,Mass,Central,Queenstown,15,1.2942,103.7861,1,2026-03-22
+32,CUS0000032,45,40-49,Female,Technical,Below 40k,Divorced,1,Emerging,North-East,Sengkang,54,1.3868,103.8914,1,2024-10-16
+33,CUS0000033,27,18-29,Prefer not to say,Manager,120k-199k,Single,0,Affluent,Central,Toa Payoh,32,1.3343,103.8563,0,2021-06-28
+34,CUS0000034,28,18-29,Female,Manager,40k-79k,Married,0,Mass,East,Tampines,53,1.352,103.9446,1,2023-05-08
+35,CUS0000035,27,18-29,Female,Professional,80k-119k,Single,0,Mass,North-East,Hougang,53,1.3714,103.892,1,2026-08-29
+36,CUS0000036,33,30-39,Male,Service,80k-119k,Single,0,Mass,North-East,Punggol,82,1.3984,103.9072,0,2022-12-09
+37,CUS0000037,46,40-49,Female,Professional,40k-79k,Divorced,0,Mass,Central,Novena,31,1.3201,103.8439,1,2023-08-15
+38,CUS0000038,29,18-29,Male,Professional,Below 40k,Married,1,Emerging,Central,Toa Payoh,32,1.3343,103.8563,0,2021-08-28
+39,CUS0000039,40,40-49,Female,Retired,40k-79k,Single,0,Mass,North-East,Sengkang,55,1.3868,103.8914,0,2021-11-15
+40,CUS0000040,45,40-49,Male,Retired,120k-199k,Married,1,Affluent,North-East,Sengkang,54,1.3868,103.8914,1,2013-07-17
+41,CUS0000041,53,50-59,Female,Technical,80k-119k,Married,1,Mass,Central,Toa Payoh,32,1.3343,103.8563,1,2023-03-27
+42,CUS0000042,39,30-39,Female,Technical,80k-119k,Single,1,Mass,East,Pasir Ris,51,1.373,103.9493,0,2024-10-24
+43,CUS0000043,50,50-59,Male,Manager,120k-199k,Single,0,Affluent,West,Clementi,12,1.3151,103.765,0,2025-01-14
+44,CUS0000044,23,18-29,Female,Professional,Below 40k,Single,1,Emerging,West,Bukit Batok,65,1.3496,103.749,0,2026-01-21
+45,CUS0000045,44,40-49,Female,Professional,40k-79k,Widowed,1,Mass,East,Tampines,53,1.352,103.9446,1,2025-06-14
+46,CUS0000046,60,60+,Male,Service,40k-79k,Married,1,Mass,West,Bukit Batok,65,1.3496,103.749,0,2012-10-18
+47,CUS0000047,24,18-29,Female,Manager,120k-199k,Single,1,Affluent,North-East,Sengkang,55,1.3868,103.8914,1,2020-06-04
+48,CUS0000048,37,30-39,Female,Manager,40k-79k,Divorced,1,Mass,Central,Queenstown,14,1.2942,103.7861,0,2020-12-26
+49,CUS0000049,47,40-49,Male,Self-employed,40k-79k,Married,0,Mass,West,Clementi,12,1.3151,103.765,0,2026-06-21
+50,CUS0000050,70,60+,Female,Manager,120k-199k,Married,0,Affluent,West,Jurong East,60,1.3329,103.7436,0,2018-02-13
+51,CUS0000051,36,30-39,Male,Homemaker,120k-199k,Married,0,Affluent,North,Sembawang,75,1.4491,103.8185,0,2018-09-03
+52,CUS0000052,27,18-29,Female,Manager,40k-79k,Single,0,Mass,West,Jurong West,64,1.3404,103.709,0,2021-11-07
+53,CUS0000053,39,30-39,Prefer not to say,Professional,120k-199k,Single,0,Affluent,Central,Queenstown,15,1.2942,103.7861,1,2012-07-07
+54,CUS0000054,31,30-39,Male,Retired,40k-79k,Married,1,Mass,Central,Downtown Core,02,1.2867,103.8535,1,2018-01-23
+55,CUS0000055,41,40-49,Female,Professional,40k-79k,Single,0,Mass,West,Clementi,12,1.3151,103.765,0,2018-01-05
+56,CUS0000056,20,18-29,Male,Professional,40k-79k,Single,0,Mass,Central,Downtown Core,01,1.2867,103.8535,0,2020-05-14
+57,CUS0000057,38,30-39,Female,Self-employed,40k-79k,Single,1,Mass,West,Clementi,12,1.3151,103.765,1,2014-02-10
+58,CUS0000058,48,40-49,Male,Professional,80k-119k,Single,0,Mass,West,Clementi,12,1.3151,103.765,1,2013-08-13
+59,CUS0000059,43,40-49,Male,Self-employed,40k-79k,Married,1,Mass,North,Woodlands,73,1.4382,103.789,0,2016-10-04
+60,CUS0000060,59,50-59,Male,Self-employed,40k-79k,Divorced,0,Mass,North,Yishun,77,1.4293,103.8355,0,2021-10-21
+61,CUS0000061,58,50-59,Female,Technical,Below 40k,Divorced,0,Emerging,North-East,Hougang,53,1.3714,103.892,1,2015-07-11
+62,CUS0000062,38,30-39,Male,Homemaker,Below 40k,Divorced,1,Emerging,Central,Novena,30,1.3201,103.8439,0,2025-08-07
+63,CUS0000063,45,40-49,Female,Manager,Below 40k,Widowed,0,Emerging,Central,Queenstown,15,1.2942,103.7861,0,2021-02-23
+64,CUS0000064,62,60+,Female,Professional,40k-79k,Married,1,Mass,Central,Toa Payoh,31,1.3343,103.8563,0,2015-07-06
+65,CUS0000065,43,40-49,Male,Manager,40k-79k,Single,0,Mass,West,Clementi,12,1.3151,103.765,1,2026-02-13
+66,CUS0000066,41,40-49,Male,Professional,Below 40k,Single,0,Emerging,Central,Novena,30,1.3201,103.8439,0,2015-01-11
+67,CUS0000067,75,60+,Male,Professional,40k-79k,Married,0,Mass,Central,Toa Payoh,32,1.3343,103.8563,1,2025-12-21
+68,CUS0000068,57,50-59,Female,Service,120k-199k,Married,1,Affluent,North-East,Punggol,82,1.3984,103.9072,0,2014-11-22
+69,CUS0000069,24,18-29,Female,Manager,200k+,Single,0,High Value,North,Sembawang,75,1.4491,103.8185,1,2016-08-14
+70,CUS0000070,50,50-59,Male,Technical,Below 40k,Married,0,Emerging,Central,Queenstown,14,1.2942,103.7861,1,2021-07-04
+71,CUS0000071,63,60+,Male,Manager,40k-79k,Divorced,1,Mass,North-East,Hougang,53,1.3714,103.892,1,2014-06-18
+72,CUS0000072,37,30-39,Male,Self-employed,80k-119k,Divorced,1,Mass,West,Bukit Batok,65,1.3496,103.749,0,2013-05-12
+73,CUS0000073,32,30-39,Male,Professional,200k+,Single,0,High Value,North,Woodlands,73,1.4382,103.789,0,2025-12-25
+74,CUS0000074,47,40-49,Male,Technical,40k-79k,Single,1,Mass,North-East,Sengkang,54,1.3868,103.8914,1,2013-01-03
+75,CUS0000075,21,18-29,Female,Self-employed,Below 40k,Single,0,Emerging,Central,Downtown Core,02,1.2867,103.8535,0,2020-08-03
+76,CUS0000076,29,18-29,Female,Manager,40k-79k,Single,0,Mass,North,Sembawang,75,1.4491,103.8185,1,2021-02-07
+77,CUS0000077,33,30-39,Male,Self-employed,Below 40k,Widowed,0,Emerging,North-East,Sengkang,55,1.3868,103.8914,1,2022-09-29
+78,CUS0000078,38,30-39,Male,Self-employed,40k-79k,Married,1,Mass,North,Woodlands,73,1.4382,103.789,1,2013-02-01
+79,CUS0000079,31,30-39,Male,Technical,40k-79k,Single,0,Mass,Central,Toa Payoh,31,1.3343,103.8563,1,2013-07-17
+80,CUS0000080,39,30-39,Female,Manager,Below 40k,Single,1,Emerging,North,Sembawang,75,1.4491,103.8185,1,2019-11-22
+81,CUS0000081,55,50-59,Female,Technical,80k-119k,Married,1,Mass,Central,Novena,30,1.3201,103.8439,0,2013-10-31
+82,CUS0000082,39,30-39,Female,Service,200k+,Single,1,High Value,East,Tampines,53,1.352,103.9446,1,2020-07-09
+83,CUS0000083,33,30-39,Female,Professional,40k-79k,Married,0,Mass,Central,Novena ,30,1.3201,103.8439,0,2013-04-26
+84,CUS0000084,26,18-29,Female,Service,40k-79k,Single,1,Mass,North-East,Sengkang,55,1.3868,103.8914,1,2018-09-22
+85,CUS0000085,50,50-59,Male,Professional,40k-79k,Single,0,Affluent,Central,Toa Payoh,31,1.3343,103.8563,1,2016-11-30
+86,CUS0000086,35,30-39,Male,Student,200k+,Married,1,High Value,West,Jurong West,64,1.3404,103.709,1,2021-06-11
+87,CUS0000087,53,50-59,Male,Service,40k-79k,Single,0,High Value,Central,Bukit Merah,09,1.2819,103.8239,1,2014-01-01
+88,CUS0000088,53,50-59,Female,Professional,80k-119k,Married,0,Mass,North-East,Punggol,82,1.3984,103.9072,1,2020-08-31
+89,CUS0000089,47,40-49,Male,Student,80k-119k,Married,0,Mass,North-East,Punggol,82,1.3984,103.9072,1,2012-01-18
+90,CUS0000090,55,50-59,Female,Student,Below 40k,Single,1,Emerging,Central,Toa Payoh,31,1.3343,103.8563,1,2012-07-09
+91,CUS0000091,49,40-49,Male,Technical,40k-79k,Married,1,Mass,North,Woodlands,73,1.4382,103.789,1,2014-01-07
+92,CUS0000092,21,18-29,Female,Professional,120k-199k,Married,0,Affluent,Central,Novena,30,1.3201,103.8439,0,2024-06-12
+93,CUS0000093,60,60+,Male,Manager,40k-79k,Married,1,Mass,West,Clementi,12,1.3151,103.765,1,2024-09-15
+94,CUS0000094,41,40-49,Male,Retired,40k-79k,Married,0,Mass,West,Clementi,12,1.3151,103.765,1,2012-12-20
+95,CUS0000095,44,40-49,Male,Service,200k+,Married,1,Mass,Central,Downtown Core,02,1.2867,103.8535,1,2016-07-11
+96,CUS0000096,26,18-29,Female,Professional,80k-119k,Married,0,Mass,Central,Queenstown,14,1.2942,103.7861,1,2026-05-31
+97,CUS0000097,51,50-59,Female,Service,40k-79k,Married,1,Mass,North,Woodlands,73,1.4382,103.789,1,2020-02-17
+98,CUS0000098,45,40-49,Male,Professional,120k-199k,Married,0,Affluent,North,Sembawang,75,1.4491,103.8185,1,2015-11-18
+99,CUS0000099,51,50-59,Male,Homemaker,40k-79k,Married,1,Mass,East,Tampines,52,1.352,103.9446,0,2013-01-09
+100,CUS0000100,52,50-59,Female,Professional,40k-79k,Married,0,Mass,North-East,Hougang,53,1.3714,103.892,1,2013-12-30
+101,CUS0000101,37,30-39,Female,Technical,Below 40k,Single,1,Emerging,North-East,Sengkang,55,1.3868,103.8914,1,2019-02-13
+102,CUS0000102,47,40-49,Male,Retired,40k-79k,Married,0,Mass,East,Bedok,47,1.3236,103.9273,0,2026-03-28
+103,CUS0000103,37,30-39,Male,Service,80k-119k,Married,0,Mass,West,Jurong East,60,1.3329,103.7436,0,2021-10-11
+104,CUS0000104,60,60+,Female,Retired,120k-199k,Married,0,Affluent,North-East,Sengkang,55,1.3868,103.8914,1,2026-04-12
+105,CUS0000105,46,40-49,Female,Professional,40k-79k,Single,1,Emerging,North-East,Hougang,53,1.3714,103.892,1,2020-08-21
+106,CUS0000106,30,30-39,Female,Retired,120k-199k,Single,1,Affluent,West,Jurong East,60,1.3329,103.7436,0,2014-02-12
+107,CUS0000107,54,50-59,Male,Professional,40k-79k,Married,0,Mass,North-East,Hougang,53,1.3714,103.892,1,2017-02-14
+108,CUS0000108,23,18-29,Male,Professional,40k-79k,Single,1,Mass,West,Jurong West,64,1.3404,103.709,1,2019-06-06
+109,CUS0000109,36,30-39,Female,Service,200k+,Single,1,High Value,North-East,Punggol,82,1.3984,103.9072,1,2015-11-07
+110,CUS0000110,35,30-39,Male,Self-employed,Below 40k,Single,0,Emerging,Central,Bukit Merah,09,1.2819,103.8239,0,2015-09-11
+111,CUS0000111,44,40-49,Female,Self-employed,40k-79k,Married,0,Mass,Central,Queenstown,14,1.2942,103.7861,0,2022-01-06
+112,CUS0000112,45,40-49,Male,Manager,120k-199k,Single,1,Affluent,North,Yishun,76,1.4293,103.8355,1,2014-09-09
+113,CUS0000113,43,40-49,Female,Professional,40k-79k,Married,0,Mass,Central,Bukit Merah,10,1.2819,103.8239,1,2021-06-14
+114,CUS0000114,43,40-49,Male,Self-employed,40k-79k,Married,0,Mass,West,Clementi,12,1.3151,103.765,0,2019-01-24
+115,CUS0000115,49,40-49,Female,Manager,40k-79k,Married,0,Mass,West,Jurong East,60,1.3329,103.7436,1,2014-01-13
+116,CUS0000116,57,50-59,Male,Professional,40k-79k,Divorced,1,Mass,West,Jurong West,64,1.3404,103.709,1,2023-02-04
+117,CUS0000117,35,30-39,Female,Self-employed,120k-199k,Single,0,Affluent,Central,Downtown Core,02,1.2867,103.8535,1,2013-09-04
+118,CUS0000118,49,40-49,Male,Manager,Below 40k,Married,0,Emerging,West,Jurong East,60,1.3329,103.7436,1,2014-11-27
+119,CUS0000119,22,18-29,Female,Self-employed,Below 40k,Single,0,Emerging,Central,Queenstown,14,1.2942,103.7861,1,2022-11-02
+120,CUS0000120,44,40-49,Female,Professional,40k-79k,Single,1,Mass,East,Pasir Ris,51,1.373,103.9493,1,2015-05-28
+121,CUS0000121,39,30-39,Female,Manager,120k-199k,Married,0,Affluent,Central,Bukit Merah,10,1.2819,103.8239,0,2015-08-16
+122,CUS0000122,58,50-59,Male,Student,80k-119k,Married,0,Mass,Central,Bukit Merah,10,1.2819,103.8239,1,2023-07-08
+123,CUS0000123,39,30-39,Male,Retired,40k-79k,Single,0,Mass,North,Sembawang,75,1.4491,103.8185,1,2014-10-21
+124,CUS0000124,68,60+,Female,Service,200k+,Divorced,1,High Value,Central,Downtown Core,01,1.2867,103.8535,1,2021-08-12
+125,CUS0000125,40,40-49,Male,Service,40k-79k,Married,0,Mass,North,Sembawang,75,1.4491,103.8185,1,2018-08-29
+126,CUS0000126,28,18-29,Female,Manager,120k-199k,Single,0,Affluent,East,Pasir Ris,51,1.373,103.9493,1,2016-12-25
+127,CUS0000127,31,30-39,Female,Manager,Below 40k,Single,1,Emerging,North,Woodlands,74,1.4382,103.789,1,2022-07-30
+128,CUS0000128,28,18-29,Male,Service,80k-119k,Single,0,Mass,North-East,Sengkang,54,1.3868,103.8914,0,2012-10-06
+129,CUS0000129,38,30-39,Male,Manager,120k-199k,Married,1,Affluent,Central,Downtown Core,04,1.2867,103.8535,0,2019-01-21
+130,CUS0000130,43,40-49,Male,Manager,120k-199k,Single,0,Affluent,West,Jurong East,60,1.3329,103.7436,0,2014-11-19
+131,CUS0000131,37,30-39,Female,Homemaker,40k-79k,Single,0,Mass,West,Jurong East,60,1.3329,103.7436,1,2016-05-29
+132,CUS0000132,30,30-39,Male,Professional,120k-199k,Married,0,Affluent,East,Bedok,46,1.3236,103.9273,1,2017-03-03
+133,CUS0000133,34,30-39,Female,Manager,40k-79k,Single,0,Mass,East,Tampines,53,1.352,103.9446,0,2022-10-31
+134,CUS0000134,43,40-49,Male,Self-employed,80k-119k,Single,0,Mass,West,Jurong West,64,1.3404,103.709,1,2013-12-23
+135,CUS0000135,24,18-29,Female,Retired,80k-119k,Single,0,Mass,West,Clementi,12,1.3151,103.765,0,2024-07-23
+136,CUS0000136,37,30-39,Female,Student,40k-79k,Married,0,Mass,North-East,Hougang,53,1.3714,103.892,1,2020-03-03
+137,CUS0000137,51,50-59,Female,Self-employed,40k-79k,Married,1,Mass,Central,Bukit Merah,10,1.2819,103.8239,1,2025-10-03
+138,CUS0000138,39,30-39,Male,Self-employed,Below 40k,Married,0,Emerging,Central,Toa Payoh,31,1.3343,103.8563,1,2016-10-27
+139,CUS0000139,34,30-39,Male,Manager,40k-79k,Single,0,Affluent,Central,Downtown Core,02,1.2867,103.8535,0,2014-11-26
+140,CUS0000140,37,30-39,Male,Self-employed,120k-199k,Married,1,Affluent,North-East,Hougang,53,1.3714,103.892,0,2017-12-08
+141,CUS0000141,54,50-59,Male,Service,200k+,Married,0,High Value,Central,Toa Payoh,32,1.3343,103.8563,1,2026-01-08
+142,CUS0000142,45,40-49,Male,Manager,40k-79k,Married,0,Mass,Central,Downtown Core,01,1.2867,103.8535,1,2019-03-02
+143,CUS0000143,52,50-59,Female,Service,120k-199k,Married,0,Affluent,Central,Novena,30,1.3201,103.8439,1,2025-01-11
+144,CUS0000144,34,30-39,Female,Self-employed,40k-79k,Single,0,Emerging,East,Bedok,46,1.3236,103.9273,0,2016-05-07
+145,CUS0000145,41,40-49,Male,Homemaker,200k+,Married,1,High Value,West,Bukit Batok,65,1.3496,103.749,0,2025-09-28
+146,CUS0000146,40,40-49,Male,Retired,40k-79k,Single,0,Mass,North-East,Punggol,82,1.3984,103.9072,1,2022-12-03
+147,CUS0000147,23,18-29,Female,Service,80k-119k,Single,0,Mass,Central,Bukit Merah,10,1.2819,103.8239,0,2022-03-13
+148,CUS0000148,39,30-39,Male,Student,80k-119k,Single,1,High Value,Central,Toa Payoh ,32,1.3343,103.8563,0,2024-09-21
+149,CUS0000149,49,40-49,Female,Manager,200k+,Married,0,High Value,North-East,Punggol,82,1.3984,103.9072,1,2021-08-19
+150,CUS0000150,18,18-29,Male,Professional,Below 40k,Single,1,Emerging,North,Sembawang,75,1.4491,103.8185,0,2025-05-19
+151,CUS0000151,45,40-49,Female,Professional,80k-119k,Married,0,Mass,West,Jurong West,64,1.3404,103.709,1,2019-03-31
+152,CUS0000152,50,50-59,Female,Professional,120k-199k,Single,0,Affluent,North,Sembawang,75,1.4491,103.8185,0,2022-06-03
+153,CUS0000153,25,18-29,Male,Professional,Below 40k,Single,0,Emerging,West,Bukit Batok,65,1.3496,103.749,1,2024-12-16
+154,CUS0000154,49,40-49,Female,Professional,40k-79k,Single,0,Mass,North,Woodlands,74,1.4382,103.789,1,2024-09-09
+155,CUS0000155,53,50-59,Male,Professional,120k-199k,Married,0,Affluent,East,Bedok,46,1.3236,103.9273,0,2021-01-23
+156,CUS0000156,57,50-59,Male,Professional,40k-79k,Married,1,Mass,North-East,Hougang,53,1.3714,103.892,1,2025-02-06
+157,CUS0000157,46,40-49,Male,Student,40k-79k,Single,0,Mass,Central,Toa Payoh,32,1.3343,103.8563,1,2017-01-30
+158,CUS0000158,53,50-59,Male,Technical,40k-79k,Married,1,Mass,West,Clementi,12,1.3151,103.765,0,2025-01-01
+159,CUS0000159,45,40-49,Male,Student,80k-119k,Married,0,Mass,North-East,Hougang,53,1.3714,103.892,1,2015-09-02
+160,CUS0000160,38,30-39,Male,Service,120k-199k,Single,0,Affluent,Central,Novena,30,1.3201,103.8439,1,2024-12-27
+161,CUS0000161,49,40-49,Female,Professional,Below 40k,Single,0,High Value,Central,Toa Payoh,31,1.3343,103.8563,1,2013-03-06
+162,CUS0000162,38,30-39,Female,Professional,80k-119k,Single,0,Emerging,Central,Bukit Merah,09,1.2819,103.8239,1,2024-10-26
+163,CUS0000163,57,50-59,Male,Manager,120k-199k,Married,0,Affluent,Central,Novena,30,1.3201,103.8439,1,2012-08-25
+164,CUS0000164,33,30-39,Male,Manager,40k-79k,Single,0,Mass,Central,Bukit Merah,10,1.2819,103.8239,0,2014-06-29
+165,CUS0000165,58,50-59,Male,Self-employed,200k+,Married,1,High Value,Central,Novena,30,1.3201,103.8439,1,2026-05-10
+166,CUS0000166,22,18-29,Male,Manager,80k-119k,Single,0,Mass,North,Sembawang,75,1.4491,103.8185,1,2018-02-02
+167,CUS0000167,42,40-49,Female,Professional,40k-79k,Married,1,Mass,Central,Bukit Merah,10,1.2819,103.8239,1,2021-05-23
+168,CUS0000168,31,30-39,Female,Manager,120k-199k,Single,0,Affluent,North-East,Hougang,53,1.3714,103.892,0,2024-07-26
+169,CUS0000169,47,40-49,Male,Student,Below 40k,Divorced,0,Emerging,East,Bedok,47,1.3236,103.9273,0,2017-08-19
+170,CUS0000170,29,18-29,Female,Retired,120k-199k,Single,0,Affluent,Central,Downtown Core ,02,1.2867,103.8535,1,2025-11-16
+171,CUS0000171,41,40-49,Male,Professional,40k-79k,Married,1,Mass,North,Sembawang,75,1.4491,103.8185,0,2014-01-21
+172,CUS0000172,52,50-59,Male,Professional,40k-79k,Married,1,Mass,Central,Bukit Merah,09,1.2819,103.8239,0,2026-04-27
+173,CUS0000173,48,40-49,Female,Self-employed,Below 40k,Single,1,Emerging,West,Clementi,12,1.3151,103.765,1,2022-01-29
+174,CUS0000174,55,50-59,Male,Student,40k-79k,Married,0,Mass,North,Yishun,76,1.4293,103.8355,1,2019-09-29
+175,CUS0000175,45,40-49,Male,Student,80k-119k,Married,0,Mass,West,Bukit Batok,65,1.3496,103.749,0,2019-06-04
+176,CUS0000176,39,30-39,Female,Student,40k-79k,Married,1,Mass,East,Bedok,46,1.3236,103.9273,0,2022-04-23
+177,CUS0000177,56,50-59,Male,Homemaker,Below 40k,Married,1,Emerging,North-East,Hougang,53,1.3714,103.892,0,2021-10-03
+178,CUS0000178,31,30-39,Female,Technical,120k-199k,Single,1,Affluent,Central,Bukit Merah,09,1.2819,103.8239,1,2021-09-12
+179,CUS0000179,18,18-29,Female,Professional,40k-79k,Single,0,Mass,North-East,Hougang,53,1.3714,103.892,0,2013-07-13
+180,CUS0000180,34,30-39,Female,Professional,40k-79k,Single,1,Mass,Central,Novena,30,1.3201,103.8439,1,2021-07-08
+181,CUS0000181,58,50-59,Male,Student,40k-79k,Married,1,Mass,Central,Novena,31,1.3201,103.8439,1,2018-11-17
+182,CUS0000182,41,40-49,Male,Service,80k-119k,Divorced,1,Mass,East,Tampines,53,1.352,103.9446,1,2017-05-18
+183,CUS0000183,33,30-39,Female,Manager,200k+,Single,0,High Value,North,Yishun,76,1.4293,103.8355,1,2021-10-10
+184,CUS0000184,62,60+,Male,Self-employed,120k-199k,Divorced,0,Affluent,West,Jurong East,60,1.3329,103.7436,1,2025-07-16
+185,CUS0000185,45,40-49,Male,Technical,Below 40k,Married,0,Emerging,North-East,Hougang,53,1.3714,103.892,0,2024-03-11
+186,CUS0000186,64,60+,Female,Technical,Below 40k,Married,1,High Value,Central,Novena,30,1.3201,103.8439,1,2015-08-10
+187,CUS0000187,20,18-29,Female,Professional,Below 40k,Single,1,Emerging,Central,Bukit Merah,10,1.2819,103.8239,1,2021-09-05
+188,CUS0000188,53,50-59,Male,Manager,80k-119k,Married,0,High Value,North-East,Sengkang,55,1.3868,103.8914,0,2023-09-25
+189,CUS0000189,47,40-49,Male,Professional,40k-79k,Divorced,0,Mass,Central,Downtown Core,02,1.2867,103.8535,1,2014-07-07
+190,CUS0000190,52,50-59,Male,Self-employed,120k-199k,Married,0,Affluent,North-East,Sengkang,54,1.3868,103.8914,0,2025-04-09
+191,CUS0000191,53,50-59,Female,Professional,80k-119k,Married,0,Mass,East,Tampines,52,1.352,103.9446,1,2024-10-13
+192,CUS0000192,33,30-39,Male,Manager,40k-79k,Married,0,Mass,Central,Bukit Merah,10,1.2819,103.8239,1,2020-05-26
+193,CUS0000193,51,50-59,Female,Self-employed,Below 40k,Single,0,Emerging,North-East,Sengkang,54,1.3868,103.8914,1,2023-10-08
+194,CUS0000194,59,50-59,Male,Manager,120k-199k,Married,0,Affluent,Central,Bukit Merah,10,1.2819,103.8239,1,2014-07-19
+195,CUS0000195,58,50-59,Male,Service,200k+,Married,1,High Value,North-East,Hougang,53,1.3714,103.892,1,2018-01-18
+196,CUS0000196,68,60+,Male,Self-employed,40k-79k,Married,1,Affluent,North-East,Sengkang,55,1.3868,103.8914,1,2025-06-15
+197,CUS0000197,26,18-29,Female,Technical,40k-79k,Single,0,Mass,West,Clementi,12,1.3151,103.765,0,2023-03-16
+198,CUS0000198,18,18-29,Male,Homemaker,Below 40k,Single,0,Affluent,Central,Bukit Merah,10,1.2819,103.8239,0,2018-04-25
+199,CUS0000199,71,60+,Female,Service,40k-79k,Married,1,High Value,West,Jurong East,60,1.3329,103.7436,1,2022-03-27
+200,CUS0000200,37,30-39,Female,Service,40k-79k,Married,0,High Value,North,Sembawang,75,1.4491,103.8185,0,2023-05-30
+201,CUS0000201,30,30-39,Male,Service,40k-79k,Single,0,Mass,East,Bedok,46,1.3236,103.9273,0,2026-05-11
+202,CUS0000202,41,40-49,Female,Technical,40k-79k,Single,0,Mass,Central,Novena,30,1.3201,103.8439,0,2013-12-25
+203,CUS0000203,55,50-59,Male,Professional,Below 40k,Widowed,0,Emerging,Central,Queenstown,14,1.2942,103.7861,1,2013-05-08
+204,CUS0000204,52,50-59,Female,Technical,80k-119k,Single,0,Mass,Central,Toa Payoh,31,1.3343,103.8563,0,2026-02-21
+205,CUS0000205,46,40-49,Female,Self-employed,80k-119k,Married,1,Mass,Central,Toa Payoh,32,1.3343,103.8563,1,2019-04-16
+206,CUS0000206,58,50-59,Female,Manager,40k-79k,Married,1,Mass,Central,Toa Payoh,32,1.3343,103.8563,1,2017-08-25
+207,CUS0000207,40,40-49,Male,Self-employed,40k-79k,Single,0,Mass,Central,Queenstown,15,1.2942,103.7861,0,2013-11-22
+208,CUS0000208,44,40-49,Female,Service,120k-199k,Married,1,Affluent,North,Woodlands,73,1.4382,103.789,0,2012-05-24
+209,CUS0000209,51,50-59,Male,Service,80k-119k,Single,1,Mass,East,Bedok,46,1.3236,103.9273,1,2019-07-13
+210,CUS0000210,35,30-39,Female,Retired,Below 40k,Single,1,Emerging,East,Pasir Ris,51,1.373,103.9493,1,2014-01-18
+211,CUS0000211,19,18-29,Female,Professional,40k-79k,Single,0,Mass,East,Pasir Ris,51,1.373,103.9493,1,2022-06-09
+212,CUS0000212,51,50-59,Male,Professional,40k-79k,Married,1,Mass,Central,Bukit Merah,09,1.2819,103.8239,0,2015-12-08
+213,CUS0000213,58,50-59,Female,Service,80k-119k,Single,1,Mass,North,Sembawang,75,1.4491,103.8185,1,2021-08-11
+214,CUS0000214,73,60+,Female,Self-employed,80k-119k,Single,1,High Value,North,Sembawang,75,1.4491,103.8185,1,2016-03-17
+215,CUS0000215,23,18-29,Female,Student,Below 40k,Single,1,Emerging,North,Sembawang,75,1.4491,103.8185,0,2026-06-16
+216,CUS0000216,40,40-49,Male,Technical,120k-199k,Single,0,Affluent,West,Bukit Batok,65,1.3496,103.749,1,2012-06-01
+217,CUS0000217,39,30-39,Female,Manager,80k-119k,Single,1,Mass,Central,Bukit Merah,09,1.2819,103.8239,1,2014-01-13
+218,CUS0000218,62,60+,Male,Technical,80k-119k,Married,1,Mass,North-East,Sengkang,54,1.3868,103.8914,0,2025-11-16
+219,CUS0000219,45,40-49,Male,Service,80k-119k,Married,1,Mass,East,Pasir Ris,51,1.373,103.9493,0,2020-12-12
+220,CUS0000220,35,30-39,Female,Manager,Below 40k,Married,1,Emerging,North,Yishun,77,1.4293,103.8355,1,2026-05-01
+221,CUS0000221,22,18-29,Male,Service,40k-79k,Single,0,Mass,East,Bedok,47,1.3236,103.9273,0,2023-08-07
+222,CUS0000222,47,40-49,Female,Professional,40k-79k,Single,1,Mass,North,Sembawang,75,1.4491,103.8185,1,2021-06-12
+223,CUS0000223,49,40-49,Female,Homemaker,40k-79k,Single,1,Mass,Central,Bukit Merah,10,1.2819,103.8239,1,2025-11-01
+224,CUS0000224,18,18-29,Male,Self-employed,40k-79k,Single,0,Mass,West,Bukit Batok,65,1.3496,103.749,0,2017-05-13
+225,CUS0000225,38,30-39,Female,Professional,80k-119k,Single,0,Emerging,Central,Downtown Core,02,1.2867,103.8535,0,2019-07-06
+226,CUS0000226,33,30-39,Female,,40k-79k,Single,0,Emerging,East,Pasir Ris,51,1.373,103.9493,1,2023-10-18
+227,CUS0000227,40,40-49,Male,Service,40k-79k,Married,0,Mass,Central,Bukit Merah,10,1.2819,103.8239,1,2023-04-22
+228,CUS0000228,40,40-49,Female,Professional,120k-199k,Single,1,Emerging,Central,Downtown Core,02,1.2867,103.8535,1,2014-05-12
+229,CUS0000229,65,60+,Prefer not to say,Manager,80k-119k,Married,0,Mass,East,Tampines,53,1.352,103.9446,0,2023-08-10
+230,CUS0000230,53,50-59,Male,Technical,80k-119k,Single,0,Mass,North,Sembawang,75,1.4491,103.8185,0,2023-08-02
+231,CUS0000231,44,40-49,Male,Service,80k-119k,Married,0,Mass,North,Yishun,76,1.4293,103.8355,0,2019-12-29
+232,CUS0000232,32,30-39,Female,Technical,80k-119k,Single,0,Emerging,East,Pasir Ris,51,1.373,103.9493,0,2014-01-01
+233,CUS0000233,33,30-39,Female,Retired,40k-79k,Single,0,Mass,East,Pasir Ris,51,1.373,103.9493,0,2021-02-10
+234,CUS0000234,46,40-49,Female,Homemaker,40k-79k,Married,0,Mass,East,Pasir Ris,51,1.373,103.9493,1,2021-01-06
+235,CUS0000235,34,30-39,Male,Manager,Below 40k,Single,0,Emerging,East,Pasir Ris,51,1.373,103.9493,1,2018-02-23
+236,CUS0000236,39,30-39,Female,Self-employed,80k-119k,Married,1,Mass,North,Woodlands,73,1.4382,103.789,0,2012-12-13
+237,CUS0000237,45,40-49,Prefer not to say,Self-employed,120k-199k,Single,0,Affluent,North,Sembawang,75,1.4491,103.8185,0,2012-03-25
+238,CUS0000238,37,30-39,Male,Retired,80k-119k,Single,0,Mass,North-East,Punggol,82,1.3984,103.9072,1,2025-12-14
+239,CUS0000239,59,50-59,Female,Professional,40k-79k,Married,0,Mass,North-East,Sengkang,55,1.3868,103.8914,1,2012-12-12
+240,CUS0000240,40,40-49,Male,Self-employed,40k-79k,Married,0,Mass,Central,Toa Payoh,31,1.3343,103.8563,1,2015-03-04
+241,CUS0000241,45,40-49,Female,Manager,Below 40k,Single,0,High Value,East,Bedok,46,1.3236,103.9273,0,2013-06-02
+242,CUS0000242,33,30-39,Male,Manager,80k-119k,Single,1,Mass,North-East,Hougang,53,1.3714,103.892,0,2026-08-11
+243,CUS0000243,59,50-59,Male,Professional,80k-119k,Married,0,Mass,North-East,Hougang,53,1.3714,103.892,0,2023-05-08
+244,CUS0000244,50,50-59,Male,Student,120k-199k,Married,1,Affluent,Central,Queenstown,14,1.2942,103.7861,1,2022-11-02
+245,CUS0000245,54,50-59,Male,Manager,40k-79k,Married,1,Mass,Central,Novena,31,1.3201,103.8439,0,2017-11-08
+246,CUS0000246,52,50-59,Male,Self-employed,Below 40k,Married,0,Emerging,East,Pasir Ris,51,1.373,103.9493,0,2014-03-06
+247,CUS0000247,51,50-59,Female,Technical,40k-79k,Married,0,Mass,North-East,Sengkang,55,1.3868,103.8914,0,2025-09-14
+248,CUS0000248,57,50-59,Female,Service,40k-79k,Married,1,Mass,West,Jurong East,60,1.3329,103.7436,0,2022-04-11
+249,CUS0000249,18,18-29,Female,Manager,40k-79k,Single,0,Mass,West,Jurong East,60,1.3329,103.7436,0,2018-06-06
+250,CUS0000250,32,30-39,Female,Student,120k-199k,Married,1,Affluent,West,Bukit Batok,65,1.3496,103.749,0,2024-10-18
+251,CUS0000251,36,30-39,Female,Service,40k-79k,Single,0,Mass,North,Woodlands,74,1.4382,103.789,1,2017-05-29
+252,CUS0000252,58,50-59,Female,Technical,80k-119k,Single,1,High Value,East,Tampines,52,1.352,103.9446,1,2022-09-07
+253,CUS0000253,49,40-49,Male,Self-employed,40k-79k,Married,0,Mass,North,Woodlands,73,1.4382,103.789,0,2014-09-04
+254,CUS0000254,37,30-39,Male,,120k-199k,Married,0,Affluent,Central,Queenstown,15,1.2942,103.7861,1,2016-04-01
+255,CUS0000255,35,30-39,Female,Service,80k-119k,Single,1,Mass,North-East,Hougang,53,1.3714,103.892,1,2026-03-10
+256,CUS0000256,60,60+,Female,Service,80k-119k,Divorced,1,Mass,North,Yishun,77,1.4293,103.8355,1,2012-02-07
+257,CUS0000257,29,18-29,Male,Professional,80k-119k,Single,0,Mass,North-East,Hougang,53,1.3714,103.892,0,2014-04-06
+258,CUS0000258,50,50-59,Female,Service,40k-79k,Married,0,Mass,North-East,Punggol,82,1.3984,103.9072,1,2018-08-24
+259,CUS0000259,38,30-39,Female,Retired,80k-119k,Single,0,Mass,North-East,Sengkang,55,1.3868,103.8914,1,2020-02-06
+260,CUS0000260,57,50-59,Female,Retired,200k+,Married,1,High Value,East,Pasir Ris,51,1.373,103.9493,1,2015-10-21
+261,CUS0000261,45,40-49,Male,,40k-79k,Married,1,Mass,North-East,Hougang,53,1.3714,103.892,1,2021-09-12
+262,CUS0000262,31,30-39,Female,Professional,Below 40k,Single,0,Emerging,West,Jurong East,60,1.3329,103.7436,1,2015-08-09
+263,CUS0000263,19,18-29,Female,Manager,80k-119k,Single,1,Mass,North,Sembawang,75,1.4491,103.8185,0,2013-08-22
+264,CUS0000264,39,30-39,Female,Self-employed,40k-79k,Married,1,Mass,West,Clementi,12,1.3151,103.765,0,2017-09-15
+265,CUS0000265,37,30-39,Male,Manager,40k-79k,Single,0,Mass,East,Bedok,46,1.3236,103.9273,1,2014-04-02
+266,CUS0000266,42,40-49,Female,Manager,40k-79k,Divorced,1,Mass,West,Bukit Batok,65,1.3496,103.749,1,2017-06-24
+267,CUS0000267,57,50-59,Male,Service,Below 40k,Married,1,Emerging,East,Bedok,47,1.3236,103.9273,1,2017-01-26
+268,CUS0000268,44,40-49,Male,Professional,40k-79k,Single,0,Mass,North-East,Sengkang,54,1.3868,103.8914,0,2022-02-21
+269,CUS0000269,39,30-39,Female,Professional,Below 40k,Single,0,Emerging,Central,Novena,30,1.3201,103.8439,1,2023-10-21
+270,CUS0000270,75,60+,Male,Technical,Below 40k,Single,1,High Value,East,Pasir Ris,51,1.373,103.9493,1,2023-01-25
+271,CUS0000271,31,30-39,Male,Manager,40k-79k,Single,0,Mass,North,Yishun,76,1.4293,103.8355,1,2020-08-06
+272,CUS0000272,52,50-59,Male,Student,200k+,Married,1,High Value,East,Tampines,53,1.352,103.9446,1,2017-06-19
+273,CUS0000273,32,30-39,Female,Professional,200k+,Married,0,High Value,Central,Downtown Core,04,1.2867,103.8535,0,2024-03-09
+274,CUS0000274,62,60+,Male,Self-employed,200k+,Married,0,High Value,Central,Bukit Merah,09,1.2819,103.8239,0,2015-06-13
+275,CUS0000275,54,50-59,Female,Retired,80k-119k,Widowed,1,Mass,Central,Novena,30,1.3201,103.8439,1,2024-01-03
+276,CUS0000276,51,50-59,Female,Service,80k-119k,Widowed,1,Mass,Central,Bukit Merah,10,1.2819,103.8239,1,2015-04-03
+277,CUS0000277,34,30-39,Female,Technical,40k-79k,Single,0,Mass,Central,Toa Payoh,32,1.3343,103.8563,1,2017-08-29
+278,CUS0000278,50,50-59,Male,Professional,200k+,Widowed,0,High Value,West,Bukit Batok,65,1.3496,103.749,0,2025-06-02
+279,CUS0000279,41,40-49,Female,Retired,80k-119k,Single,0,Mass,Central,Toa Payoh,31,1.3343,103.8563,1,2017-02-25
+280,CUS0000280,43,40-49,Female,Self-employed,Below 40k,Married,1,Emerging,Central,Downtown Core,01,1.2867,103.8535,1,2016-10-08
+281,CUS0000281,25,18-29,Male,Technical,80k-119k,Single,0,Mass,West,Bukit Batok,65,1.3496,103.749,0,2025-02-03
+282,CUS0000282,33,30-39,Female,Service,40k-79k,Married,0,Mass,North-East,Punggol,82,1.3984,103.9072,1,2020-09-09
+283,CUS0000283,60,60+,Female,Professional,80k-119k,Married,1,Mass,North-East,Punggol,82,1.3984,103.9072,1,2023-06-14
+284,CUS0000284,41,40-49,Female,Technical,120k-199k,Single,0,Affluent,West,Clementi,12,1.3151,103.765,0,2014-05-02
+285,CUS0000285,75,60+,Female,Professional,40k-79k,Married,0,Mass,East,Pasir Ris,51,1.373,103.9493,1,2018-02-24
+286,CUS0000286,44,40-49,Male,Technical,40k-79k,Married,0,Mass,North,Woodlands,74,1.4382,103.789,1,2023-05-11
+287,CUS0000287,40,40-49,Male,Retired,Below 40k,Single,0,Emerging,West,Bukit Batok,65,1.3496,103.749,1,2015-11-25
+288,CUS0000288,46,40-49,Male,Professional,Below 40k,Single,0,Emerging,West,Bukit Batok,65,1.3496,103.749,1,2018-03-05
+289,CUS0000289,56,50-59,Female,Technical,Below 40k,Married,1,Emerging,Central,Downtown Core,04,1.2867,103.8535,1,2023-08-20
+290,CUS0000290,28,18-29,Male,Technical,40k-79k,Single,1,Mass,East,Pasir Ris,51,1.373,103.9493,1,2020-02-12
+291,CUS0000291,58,50-59,Male,Service,Below 40k,Married,0,Emerging,Central,Bukit Merah,09,1.2819,103.8239,0,2019-10-23
+292,CUS0000292,34,30-39,Male,Service,Below 40k,Single,0,Emerging,East,Tampines,53,1.352,103.9446,0,2022-07-24
+293,CUS0000293,30,30-39,Female,Service,Below 40k,Single,0,Emerging,Central,Novena,31,1.3201,103.8439,0,2014-06-10
+294,CUS0000294,34,30-39,Female,Self-employed,80k-119k,Single,0,Mass,North,Sembawang,75,1.4491,103.8185,1,2026-02-02
+295,CUS0000295,48,40-49,Female,Service,80k-119k,Married,1,Mass,West,Jurong West,64,1.3404,103.709,1,2013-04-13
+296,CUS0000296,42,40-49,Female,Professional,80k-119k,Single,1,Mass,West,Clementi,12,1.3151,103.765,0,2025-01-06
+297,CUS0000297,58,50-59,Female,Professional,40k-79k,Married,1,Mass,North-East,Sengkang,54,1.3868,103.8914,1,2020-11-09
+298,CUS0000298,42,40-49,Female,Homemaker,40k-79k,Single,0,Mass,Central,Bukit Merah,10,1.2819,103.8239,1,2026-09-11
+299,CUS0000299,47,40-49,Male,Professional,40k-79k,Married,1,Mass,East,Bedok,47,1.3236,103.9273,1,2012-10-08
+300,CUS0000300,34,30-39,Male,Professional,200k+,Single,0,High Value,North-East,Punggol,82,1.3984,103.9072,1,2025-04-30
+301,CUS0000301,31,30-39,Female,Manager,80k-119k,Single,0,Mass,East,Bedok,46,1.3236,103.9273,1,2014-10-28
+302,CUS0000302,62,60+,Female,Technical,40k-79k,Divorced,1,Mass,Central,Novena,30,1.3201,103.8439,1,2016-06-24
+303,CUS0000303,40,40-49,Non-binary,Service,40k-79k,Divorced,0,Mass,West,Jurong West,64,1.3404,103.709,0,2024-12-26
+304,CUS0000304,75,60+,Female,Service,80k-119k,Divorced,0,Mass,West,Jurong West,64,1.3404,103.709,1,2018-01-17
+305,CUS0000305,41,40-49,Female,Technical,Below 40k,Single,0,Emerging,Central,Bukit Merah,10,1.2819,103.8239,1,2019-12-31
+306,CUS0000306,46,40-49,Male,Student,80k-119k,Single,1,Mass,North-East,Punggol,82,1.3984,103.9072,0,2016-02-19
+307,CUS0000307,48,40-49,Female,Student,Below 40k,Married,0,Emerging,North-East,Sengkang,55,1.3868,103.8914,0,2017-03-20
+308,CUS0000308,52,50-59,Male,Professional,40k-79k,Divorced,0,Mass,West,Clementi,12,1.3151,103.765,1,2014-12-18
+309,CUS0000309,58,50-59,Female,Service,40k-79k,Single,0,Mass,Central,Bukit Merah,10,1.2819,103.8239,1,2018-07-12
+310,CUS0000310,32,30-39,Female,Professional,40k-79k,Single,0,Mass,Central,Novena,31,1.3201,103.8439,0,2022-05-17
+311,CUS0000311,61,60+,Female,Retired,Below 40k,Married,0,Emerging,North-East,Hougang,53,1.3714,103.892,1,2013-09-20
+312,CUS0000312,51,50-59,Male,,Below 40k,Divorced,0,High Value,North,Yishun,77,1.4293,103.8355,1,2017-12-17
+313,CUS0000313,23,18-29,Female,Retired,Below 40k,Single,1,Emerging,North,Yishun,76,1.4293,103.8355,0,2017-07-10
+314,CUS0000314,18,18-29,Male,Manager,40k-79k,Single,0,Emerging,North,Yishun,76,1.4293,103.8355,1,2012-11-28
+315,CUS0000315,30,30-39,Female,Manager,40k-79k,Single,0,Mass,Central,Toa Payoh,32,1.3343,103.8563,1,2013-02-13
+316,CUS0000316,35,30-39,Female,Professional,120k-199k,Single,0,Affluent,North,Yishun,76,1.4293,103.8355,1,2019-07-22
+317,CUS0000317,18,18-29,Male,Manager,120k-199k,Single,0,Affluent,East,Bedok,47,1.3236,103.9273,1,2019-03-17
+318,CUS0000318,45,40-49,Male,Self-employed,80k-119k,Divorced,1,Mass,Central,Novena ,30,1.3201,103.8439,1,2026-04-05
+319,CUS0000319,48,40-49,Female,Manager,40k-79k,Divorced,1,Mass,Central,Queenstown,15,1.2942,103.7861,1,2013-09-03
+320,CUS0000320,42,40-49,Male,Manager,120k-199k,Married,1,Affluent,North,Woodlands,74,1.4382,103.789,1,2019-03-28
+321,CUS0000321,39,30-39,Male,Manager,40k-79k,Single,0,Mass,West,Jurong East,60,1.3329,103.7436,0,2022-03-14
+322,CUS0000322,41,40-49,Male,Manager,80k-119k,Single,0,Mass,North,Sembawang,75,1.4491,103.8185,1,2018-12-24
+323,CUS0000323,46,40-49,Male,Retired,Below 40k,Single,1,High Value,Central,Novena,31,1.3201,103.8439,1,2026-03-23
+324,CUS0000324,42,40-49,Female,Manager,Below 40k,Single,0,Emerging,West,Bukit Batok,65,1.3496,103.749,0,2014-02-18
+325,CUS0000325,47,40-49,Female,Technical,40k-79k,Married,0,Mass,West,Jurong East,60,1.3329,103.7436,1,2019-07-22
+326,CUS0000326,51,50-59,Female,Technical,120k-199k,Divorced,0,Affluent,Central,Novena,30,1.3201,103.8439,1,2024-08-19
+327,CUS0000327,44,40-49,Male,Manager,80k-119k,Single,1,Mass,North,Sembawang,75,1.4491,103.8185,0,2020-10-13
+328,CUS0000328,30,30-39,Male,Service,40k-79k,Married,0,Mass,Central,Bukit Merah,10,1.2819,103.8239,1,2021-08-05
+329,CUS0000329,45,40-49,Male,Manager,80k-119k,Married,1,Mass,Central,Bukit Merah,09,1.2819,103.8239,1,2018-07-24
+330,CUS0000330,41,40-49,Female,Technical,80k-119k,Widowed,0,Mass,North,Yishun,77,1.4293,103.8355,1,2024-01-09
+331,CUS0000331,36,30-39,Non-binary,Self-employed,80k-119k,Divorced,0,Mass,North-East,Hougang,53,1.3714,103.892,0,2025-01-16
+332,CUS0000332,52,50-59,Male,Manager,120k-199k,Married,1,Mass,North-East,Punggol,82,1.3984,103.9072,1,2015-06-04
+333,CUS0000333,45,40-49,Male,Manager,Below 40k,Single,0,Affluent,Central,Queenstown,14,1.2942,103.7861,1,2021-07-30
+334,CUS0000334,26,18-29,Female,Manager,Below 40k,Single,0,Emerging,East,Bedok,47,1.3236,103.9273,1,2022-11-17
+335,CUS0000335,51,50-59,Female,Technical,40k-79k,Married,1,Mass,Central,Novena,30,1.3201,103.8439,0,2023-07-07
+336,CUS0000336,55,50-59,Male,Professional,80k-119k,Married,0,Mass,East,Tampines,52,1.352,103.9446,0,2023-01-03
+337,CUS0000337,39,30-39,Female,Self-employed,120k-199k,Married,0,Affluent,North-East,Punggol,82,1.3984,103.9072,1,2023-06-28
+338,CUS0000338,42,40-49,Female,Technical,Below 40k,Married,1,Emerging,North-East,Sengkang,55,1.3868,103.8914,1,2023-05-21
+339,CUS0000339,43,40-49,Prefer not to say,Retired,40k-79k,Single,1,Mass,North-East,Sengkang,55,1.3868,103.8914,0,2019-10-28
+340,CUS0000340,51,50-59,Male,Technical,80k-119k,Married,0,Mass,North,Yishun,76,1.4293,103.8355,1,2026-03-28
+341,CUS0000341,33,30-39,Male,Service,Below 40k,Single,1,Emerging,North-East,Punggol,82,1.3984,103.9072,0,2012-12-29
+342,CUS0000342,45,40-49,Female,Service,Below 40k,Married,1,Emerging,East,Tampines,53,1.352,103.9446,1,2023-03-20
+343,CUS0000343,24,18-29,Male,Retired,Below 40k,Single,1,Emerging,North-East,Hougang ,53,1.3714,103.892,1,2022-12-30
+344,CUS0000344,53,50-59,Male,Manager,Below 40k,Married,1,Emerging,Central,Toa Payoh,32,1.3343,103.8563,1,2021-10-04
+345,CUS0000345,29,18-29,Male,Professional,Below 40k,Single,0,Emerging,Central,Queenstown,15,1.2942,103.7861,1,2024-12-07
+346,CUS0000346,50,50-59,Female,Retired,Below 40k,Married,0,Emerging,Central,Downtown Core,01,1.2867,103.8535,0,2025-08-15
+347,CUS0000347,54,50-59,Prefer not to say,Homemaker,120k-199k,Single,1,Affluent,West,Clementi,12,1.3151,103.765,1,2021-11-01
+348,CUS0000348,33,30-39,Male,Retired,120k-199k,Single,0,Affluent,North-East,Hougang,53,1.3714,103.892,0,2019-05-29
+349,CUS0000349,34,30-39,Female,Technical,40k-79k,Single,1,Mass,West,Bukit Batok,65,1.3496,103.749,1,2018-01-22
+350,CUS0000350,19,18-29,Female,Service,80k-119k,Single,0,Mass,North,Sembawang,75,1.4491,103.8185,1,2024-11-14
+351,CUS0000351,29,18-29,Male,Self-employed,Below 40k,Single,0,Emerging,East,Tampines,52,1.352,103.9446,1,2018-01-06
+352,CUS0000352,39,30-39,Female,Professional,Below 40k,Single,0,Emerging,East,Tampines,53,1.352,103.9446,1,2015-10-10
+353,CUS0000353,32,30-39,Male,Technical,80k-119k,Single,0,Mass,North,Woodlands,73,1.4382,103.789,1,2013-03-29
+354,CUS0000354,31,30-39,Female,Student,120k-199k,Married,1,Affluent,East,Pasir Ris,51,1.373,103.9493,1,2023-11-22
+355,CUS0000355,39,30-39,Female,Retired,Below 40k,Single,1,Emerging,West,Clementi,12,1.3151,103.765,1,2021-10-09
+356,CUS0000356,62,60+,Male,Technical,120k-199k,Married,0,Affluent,West,Clementi,12,1.3151,103.765,1,2013-09-25
+357,CUS0000357,42,40-49,Female,Self-employed,Below 40k,Single,0,Emerging,West,Jurong East,60,1.3329,103.7436,0,2018-06-19
+358,CUS0000358,60,60+,Female,Technical,40k-79k,Married,1,Mass,Central,Bukit Merah,10,1.2819,103.8239,0,2016-11-12
+359,CUS0000359,49,40-49,Male,Technical,80k-119k,Single,0,Mass,West,Jurong West,64,1.3404,103.709,1,2023-12-25
+360,CUS0000360,35,30-39,Male,Service,Below 40k,Single,1,Emerging,West,Clementi,12,1.3151,103.765,0,2025-02-24
+361,CUS0000361,58,50-59,Male,Professional,80k-119k,Married,1,High Value,West,Bukit Batok,65,1.3496,103.749,1,2015-09-25
+362,CUS0000362,27,18-29,Female,Service,80k-119k,Married,0,Mass,North,Sembawang,75,1.4491,103.8185,1,2012-03-20
+363,CUS0000363,29,18-29,Female,Service,80k-119k,Single,1,Mass,Central,Downtown Core,04,1.2867,103.8535,1,2020-07-04
+364,CUS0000364,18,18-29,Female,Manager,120k-199k,Single,0,Mass,West,Jurong West,64,1.3404,103.709,1,2021-05-31
+365,CUS0000365,24,18-29,Female,Self-employed,40k-79k,Widowed,0,Mass,Central,Novena ,31,1.3201,103.8439,0,2017-11-02
+366,CUS0000366,37,30-39,Male,Professional,80k-119k,Single,0,Mass,West,Jurong West,64,1.3404,103.709,0,2020-02-09
+367,CUS0000367,42,40-49,Female,Homemaker,40k-79k,Single,1,Mass,East,Bedok,46,1.3236,103.9273,1,2020-03-28
+368,CUS0000368,28,18-29,Female,Technical,40k-79k,Single,0,Mass,North-East,Punggol,82,1.3984,103.9072,0,2017-01-20
+369,CUS0000369,21,18-29,Male,Manager,Below 40k,Single,0,Emerging,North-East,Hougang,53,1.3714,103.892,1,2024-07-03
+370,CUS0000370,43,40-49,Female,Professional,40k-79k,Married,1,Mass,North,Sembawang,75,1.4491,103.8185,1,2021-09-01
+371,CUS0000371,32,30-39,Male,Professional,120k-199k,Single,0,Affluent,North,Sembawang,75,1.4491,103.8185,1,2014-05-02
+372,CUS0000372,65,60+,Female,Student,80k-119k,Single,1,Mass,Central,Bukit Merah,09,1.2819,103.8239,0,2023-09-14
+373,CUS0000373,44,40-49,Female,Manager,80k-119k,Single,0,Mass,West,Bukit Batok,65,1.3496,103.749,1,2012-02-29
+374,CUS0000374,44,40-49,Male,Professional,40k-79k,Married,1,Mass,North-East,Sengkang,54,1.3868,103.8914,0,2024-08-27
+375,CUS0000375,54,50-59,Male,,80k-119k,Married,1,Mass,North-East,Hougang,53,1.3714,103.892,0,2019-01-01
+376,CUS0000376,56,50-59,Male,Manager,40k-79k,Married,1,Mass,East,Bedok,46,1.3236,103.9273,0,2017-09-04
+377,CUS0000377,30,30-39,Male,Service,200k+,Single,0,High Value,Central,Queenstown,14,1.2942,103.7861,1,2018-08-28
+378,CUS0000378,38,30-39,Female,Service,120k-199k,Divorced,0,Affluent,North-East,Punggol,82,1.3984,103.9072,1,2021-12-04
+379,CUS0000379,50,50-59,Male,Student,120k-199k,Single,0,Affluent,East,Bedok,47,1.3236,103.9273,1,2023-09-23
+380,CUS0000380,35,30-39,Female,Self-employed,120k-199k,Single,1,Affluent,Central,Bukit Merah,10,1.2819,103.8239,0,2012-10-27
+381,CUS0000381,19,18-29,Female,Homemaker,Below 40k,Single,0,Emerging,North-East,Hougang,53,1.3714,103.892,0,2020-05-10
+382,CUS0000382,56,50-59,Female,Homemaker,40k-79k,Divorced,0,Mass,North,Sembawang,75,1.4491,103.8185,1,2015-03-21
+383,CUS0000383,60,60+,Male,Homemaker,40k-79k,Married,0,Mass,Central,Downtown Core,02,1.2867,103.8535,0,2015-02-06
+384,CUS0000384,22,18-29,Male,Technical,Below 40k,Single,0,Emerging,West,Clementi,12,1.3151,103.765,0,2017-03-25
+385,CUS0000385,41,40-49,Prefer not to say,Service,40k-79k,Single,1,Emerging,North-East,Hougang,53,1.3714,103.892,1,2020-02-23
+386,CUS0000386,48,40-49,Male,Professional,80k-119k,Divorced,0,Mass,North-East,Punggol,82,1.3984,103.9072,0,2013-10-09
+387,CUS0000387,23,18-29,Male,Manager,80k-119k,Single,0,Mass,Central,Downtown Core,02,1.2867,103.8535,1,2019-06-12
+388,CUS0000388,47,40-49,Female,Self-employed,80k-119k,Married,0,Mass,East,Pasir Ris,51,1.373,103.9493,1,2025-12-16
+389,CUS0000389,28,18-29,Male,Self-employed,Below 40k,Single,0,Emerging,East,Tampines,52,1.352,103.9446,0,2016-01-22
+390,CUS0000390,35,30-39,Male,Technical,120k-199k,Married,0,Affluent,Central,Queenstown,15,1.2942,103.7861,0,2025-12-14
+391,CUS0000391,39,30-39,Female,Retired,80k-119k,Single,1,Mass,Central,Toa Payoh,31,1.3343,103.8563,1,2017-12-07
+392,CUS0000392,52,50-59,Male,Professional,80k-119k,Married,1,Mass,West,Bukit Batok,65,1.3496,103.749,0,2017-07-21
+393,CUS0000393,18,18-29,Male,Manager,200k+,Single,1,High Value,West,Clementi,12,1.3151,103.765,1,2018-01-30
+394,CUS0000394,45,40-49,Male,Retired,80k-119k,Single,0,Mass,North-East,Hougang,53,1.3714,103.892,0,2023-02-12
+395,CUS0000395,46,40-49,Female,Technical,40k-79k,Single,0,Mass,Central,Toa Payoh,32,1.3343,103.8563,1,2018-03-02
+396,CUS0000396,44,40-49,Male,Manager,80k-119k,Married,1,Mass,North-East,Sengkang,55,1.3868,103.8914,1,2016-12-05
+397,CUS0000397,51,50-59,Female,Manager,Below 40k,Single,1,Mass,Central,Queenstown,14,1.2942,103.7861,1,2015-08-20
+398,CUS0000398,31,30-39,Male,Professional,Below 40k,Married,0,Emerging,North,Woodlands,73,1.4382,103.789,1,2012-04-21
+399,CUS0000399,51,50-59,Female,Service,80k-119k,Married,1,Mass,Central,Toa Payoh,32,1.3343,103.8563,1,2014-06-11
+400,CUS0000400,56,50-59,Male,Technical,Below 40k,Divorced,1,Emerging,East,Bedok,47,1.3236,103.9273,1,2012-03-23
+401,CUS0000401,35,30-39,Female,Self-employed,120k-199k,Single,1,Affluent,East,Pasir Ris,51,1.373,103.9493,1,2016-12-25
+402,CUS0000402,70,60+,Male,Retired,80k-119k,Married,1,Mass,West,Jurong West,64,1.3404,103.709,1,2021-11-21
+403,CUS0000403,38,30-39,Male,Homemaker,Below 40k,Single,1,Emerging,Central,Downtown Core,01,1.2867,103.8535,0,2020-06-09
+404,CUS0000404,46,40-49,Male,Manager,40k-79k,Single,0,Mass,North,Sembawang,75,1.4491,103.8185,1,2023-02-26
+405,CUS0000405,51,50-59,Female,Manager,80k-119k,Married,0,Mass,North,Woodlands ,73,1.4382,103.789,0,2019-04-27
+406,CUS0000406,50,50-59,Female,Manager,40k-79k,Single,1,Mass,West,Bukit Batok,65,1.3496,103.749,1,2024-02-25
+407,CUS0000407,46,40-49,Female,Professional,80k-119k,Married,1,Mass,West,Jurong East,60,1.3329,103.7436,0,2020-11-26
+408,CUS0000408,27,18-29,Male,Professional,80k-119k,Married,1,Mass,North,Sembawang,75,1.4491,103.8185,1,2018-09-14
+409,CUS0000409,59,50-59,Male,Professional,80k-119k,Widowed,1,Mass,West,Clementi,12,1.3151,103.765,1,2018-10-28
+410,CUS0000410,38,30-39,Male,Professional,200k+,Married,1,High Value,West,Jurong East,60,1.3329,103.7436,1,2017-11-07
+411,CUS0000411,34,30-39,Male,Manager,40k-79k,Married,1,Mass,West,Jurong West,64,1.3404,103.709,0,2023-11-18
+412,CUS0000412,49,40-49,Male,Professional,40k-79k,Widowed,0,Mass,Central,Toa Payoh,31,1.3343,103.8563,0,2023-09-30
+413,CUS0000413,28,18-29,Male,Service,120k-199k,Married,0,Affluent,Central,Queenstown,15,1.2942,103.7861,0,2022-12-04
+414,CUS0000414,37,30-39,Male,Self-employed,Below 40k,Single,0,Emerging,West,Jurong East,60,1.3329,103.7436,1,2023-11-14
+415,CUS0000415,33,30-39,Male,Technical,Below 40k,Single,0,Emerging,North-East,Sengkang,54,1.3868,103.8914,0,2015-12-09
+416,CUS0000416,51,50-59,Prefer not to say,Homemaker,40k-79k,Single,1,Mass,North,Yishun,76,1.4293,103.8355,1,2020-08-04
+417,CUS0000417,52,50-59,Female,Self-employed,40k-79k,Married,1,Mass,North,Yishun,76,1.4293,103.8355,1,2015-12-22
+418,CUS0000418,50,50-59,Male,Technical,Below 40k,Single,0,Emerging,North-East,Hougang,53,1.3714,103.892,1,2018-10-27
+419,CUS0000419,27,18-29,Female,Student,120k-199k,Single,1,Affluent,West,Jurong West,64,1.3404,103.709,1,2022-07-05
+420,CUS0000420,47,40-49,Male,Manager,80k-119k,Married,1,Mass,West,Jurong East,60,1.3329,103.7436,1,2015-08-28
+421,CUS0000421,50,50-59,Female,Retired,40k-79k,Divorced,0,Mass,Central,Queenstown,14,1.2942,103.7861,0,2021-04-10
+422,CUS0000422,18,18-29,Female,Technical,80k-119k,Single,0,Mass,East,Bedok,47,1.3236,103.9273,1,2026-08-28
+423,CUS0000423,18,18-29,Male,Professional,Below 40k,Single,1,Emerging,East,Bedok,47,1.3236,103.9273,1,2024-03-07
+424,CUS0000424,28,18-29,Male,Manager,80k-119k,Single,1,Mass,West,Clementi,12,1.3151,103.765,1,2025-07-17
+425,CUS0000425,50,50-59,Male,Manager,40k-79k,Married,1,Mass,Central,Downtown Core,01,1.2867,103.8535,1,2025-07-15
+426,CUS0000426,39,30-39,Male,Technical,120k-199k,Married,0,Affluent,West,Bukit Batok,65,1.3496,103.749,0,2015-02-24
+427,CUS0000427,40,40-49,Female,Technical,40k-79k,Single,0,Mass,West,Clementi,12,1.3151,103.765,1,2016-12-28
+428,CUS0000428,45,40-49,Female,Manager,80k-119k,Married,1,Mass,Central,Queenstown,15,1.2942,103.7861,1,2025-11-01
+429,CUS0000429,36,30-39,Female,Service,40k-79k,Single,1,Mass,Central,Toa Payoh,31,1.3343,103.8563,1,2023-03-31
+430,CUS0000430,36,30-39,Female,Homemaker,40k-79k,Single,0,Mass,North,Sembawang,75,1.4491,103.8185,1,2019-08-12
+431,CUS0000431,18,18-29,Female,Self-employed,120k-199k,Married,0,High Value,Central,Bukit Merah,10,1.2819,103.8239,1,2015-08-26
+432,CUS0000432,39,30-39,Male,Professional,40k-79k,Single,0,Mass,Central,Novena,30,1.3201,103.8439,1,2014-05-15
+433,CUS0000433,45,40-49,Male,Professional,120k-199k,Single,0,Affluent,West,Clementi,12,1.3151,103.765,1,2021-01-16
+434,CUS0000434,52,50-59,Female,Manager,80k-119k,Single,0,High Value,West,Clementi,12,1.3151,103.765,0,2022-12-01
+435,CUS0000435,18,18-29,Female,Service,Below 40k,Single,0,Emerging,North,Yishun,77,1.4293,103.8355,0,2015-09-22
+436,CUS0000436,25,18-29,Female,Self-employed,40k-79k,Single,0,Mass,East,Tampines,53,1.352,103.9446,1,2015-11-03
+437,CUS0000437,24,18-29,Female,Homemaker,40k-79k,Divorced,0,Mass,Central,Novena,31,1.3201,103.8439,0,2015-08-16
+438,CUS0000438,28,18-29,Male,Service,40k-79k,Single,0,Mass,North,Sembawang,75,1.4491,103.8185,0,2019-12-15
+439,CUS0000439,51,50-59,Female,Technical,40k-79k,Single,0,Mass,Central,Novena,31,1.3201,103.8439,0,2021-09-23
+440,CUS0000440,43,40-49,Female,Manager,40k-79k,Single,0,Mass,West,Bukit Batok,65,1.3496,103.749,0,2013-04-13
+441,CUS0000441,39,30-39,Male,Homemaker,40k-79k,Single,0,Mass,West,Clementi,12,1.3151,103.765,0,2018-03-27
+442,CUS0000442,30,30-39,Female,Professional,40k-79k,Single,0,Mass,Central,Queenstown,15,1.2942,103.7861,1,2015-12-25
+443,CUS0000443,37,30-39,Female,Service,Below 40k,Married,0,Affluent,Central,Novena,31,1.3201,103.8439,1,2016-02-26
+444,CUS0000444,18,18-29,Male,Self-employed,120k-199k,Single,1,Affluent,Central,Toa Payoh,31,1.3343,103.8563,0,2025-02-14
+445,CUS0000445,38,30-39,Female,Homemaker,40k-79k,Single,1,Mass,Central,Novena,30,1.3201,103.8439,1,2024-04-13
+446,CUS0000446,38,30-39,Male,Professional,80k-119k,Single,1,Emerging,West,Jurong East,60,1.3329,103.7436,1,2017-05-15
+447,CUS0000447,30,30-39,Female,Professional,80k-119k,Married,0,Mass,West,Jurong West,64,1.3404,103.709,0,2016-01-12
+448,CUS0000448,57,50-59,Male,Self-employed,Below 40k,Married,0,Emerging,East,Bedok,46,1.3236,103.9273,1,2019-11-16
+449,CUS0000449,18,18-29,Female,Manager,40k-79k,Single,0,Mass,East,Bedok,46,1.3236,103.9273,1,2025-02-27
+450,CUS0000450,45,40-49,Female,Manager,40k-79k,Single,1,Mass,Central,Queenstown,15,1.2942,103.7861,1,2024-11-12
+451,CUS0000451,18,18-29,Male,Professional,80k-119k,Single,0,Mass,North,Woodlands,73,1.4382,103.789,0,2019-03-26
+452,CUS0000452,37,30-39,Male,Retired,80k-119k,Married,0,Mass,Central,Downtown Core,04,1.2867,103.8535,1,2013-11-03
+453,CUS0000453,29,18-29,Male,Service,40k-79k,Married,0,Mass,East,Tampines,53,1.352,103.9446,0,2013-04-23
+454,CUS0000454,35,30-39,Female,Student,40k-79k,Married,0,Mass,Central,Downtown Core,01,1.2867,103.8535,1,2020-07-18
+455,CUS0000455,31,30-39,Female,Service,40k-79k,Married,0,Mass,East,Pasir Ris,51,1.373,103.9493,1,2020-04-01
+456,CUS0000456,58,50-59,Female,Retired,40k-79k,Married,1,Mass,East,Tampines,53,1.352,103.9446,0,2016-12-17
+457,CUS0000457,41,40-49,Male,Technical,80k-119k,Married,0,Mass,East,Tampines,52,1.352,103.9446,0,2012-07-07
+458,CUS0000458,47,40-49,Female,Retired,120k-199k,Single,1,Affluent,East,Bedok,46,1.3236,103.9273,0,2012-03-14
+459,CUS0000459,33,30-39,Female,Manager,80k-119k,Single,1,Mass,North-East,Hougang,53,1.3714,103.892,1,2018-07-09
+460,CUS0000460,25,18-29,Female,Manager,80k-119k,Single,0,Mass,North-East,Hougang,53,1.3714,103.892,1,2023-10-30
+461,CUS0000461,43,40-49,Female,Service,80k-119k,Single,0,Mass,West,Jurong East,60,1.3329,103.7436,0,2024-04-24
+462,CUS0000462,52,50-59,Male,Professional,80k-119k,Married,1,Mass,West,Bukit Batok,65,1.3496,103.749,0,2023-03-10
+463,CUS0000463,65,60+,Female,Professional,80k-119k,Married,1,Mass,North-East,Sengkang,54,1.3868,103.8914,1,2019-08-23
+464,CUS0000464,38,30-39,Female,Manager,80k-119k,Single,1,Mass,East,Tampines,53,1.352,103.9446,1,2024-03-13
+465,CUS0000465,45,40-49,Female,Technical,40k-79k,Married,1,Mass,Central,Downtown Core,01,1.2867,103.8535,1,2022-08-03
+466,CUS0000466,39,30-39,Female,Professional,80k-119k,Married,0,Mass,West,Bukit Batok,65,1.3496,103.749,0,2013-11-05
+467,CUS0000467,32,30-39,Female,Self-employed,80k-119k,Divorced,0,Mass,East,Pasir Ris,51,1.373,103.9493,1,2026-09-23
+468,CUS0000468,37,30-39,Male,Service,40k-79k,Single,1,Mass,East,Tampines,53,1.352,103.9446,1,2014-09-30
+469,CUS0000469,55,50-59,Female,Self-employed,Below 40k,Widowed,0,Emerging,North-East,Sengkang,54,1.3868,103.8914,0,2023-12-05
+470,CUS0000470,18,18-29,Female,Retired,120k-199k,Single,0,Affluent,North-East,Sengkang,55,1.3868,103.8914,0,2015-03-05
+471,CUS0000471,54,50-59,Male,Professional,40k-79k,Married,0,Mass,North-East,Sengkang,54,1.3868,103.8914,1,2018-09-08
+472,CUS0000472,20,18-29,Male,Service,40k-79k,Single,0,Mass,West,Jurong East,60,1.3329,103.7436,1,2026-02-06
+473,CUS0000473,47,40-49,Male,Professional,40k-79k,Married,0,Mass,Central,Novena,30,1.3201,103.8439,1,2018-06-19
+474,CUS0000474,35,30-39,Male,Student,Below 40k,Widowed,0,Emerging,North,Woodlands,74,1.4382,103.789,1,2018-06-09
+475,CUS0000475,45,40-49,Female,Professional,Below 40k,Single,0,Mass,East,Pasir Ris,51,1.373,103.9493,0,2022-08-08
+476,CUS0000476,30,30-39,Female,Student,40k-79k,Widowed,0,Mass,Central,Bukit Merah,09,1.2819,103.8239,0,2025-10-03
+477,CUS0000477,42,40-49,Male,Technical,80k-119k,Married,0,Mass,North,Woodlands,74,1.4382,103.789,0,2025-10-17
+478,CUS0000478,32,30-39,Female,Manager,40k-79k,Single,1,Mass,West,Jurong East,60,1.3329,103.7436,1,2024-11-26
+479,CUS0000479,65,60+,Male,Self-employed,80k-119k,Widowed,0,Mass,East,Bedok,47,1.3236,103.9273,1,2019-12-30
+480,CUS0000480,37,30-39,Female,Manager,120k-199k,Single,1,Affluent,East,Pasir Ris,51,1.373,103.9493,1,2017-12-17
+481,CUS0000481,40,40-49,Male,Professional,80k-119k,Married,0,Mass,West,Clementi,12,1.3151,103.765,1,2014-08-14
+482,CUS0000482,32,30-39,Male,Professional,120k-199k,Single,0,Affluent,North,Sembawang,75,1.4491,103.8185,0,2018-01-16
+483,CUS0000483,30,30-39,Female,Professional,120k-199k,Divorced,0,Affluent,North,Yishun,77,1.4293,103.8355,1,2020-10-02
+484,CUS0000484,45,40-49,Male,Professional,40k-79k,Single,1,Affluent,West,Bukit Batok,65,1.3496,103.749,1,2012-04-01
+485,CUS0000485,22,18-29,Female,Professional,Below 40k,Single,0,Emerging,North-East,Hougang,53,1.3714,103.892,0,2022-09-24
+486,CUS0000486,27,18-29,Female,Retired,40k-79k,Married,0,Mass,Central,Toa Payoh,32,1.3343,103.8563,1,2025-02-15
+487,CUS0000487,23,18-29,Female,Homemaker,40k-79k,Single,0,Mass,North,Sembawang,75,1.4491,103.8185,0,2014-01-09
+488,CUS0000488,52,50-59,Male,Homemaker,Below 40k,Married,1,Emerging,North,Sembawang,75,1.4491,103.8185,1,2021-04-14
+489,CUS0000489,42,40-49,Male,Manager,40k-79k,Married,0,Mass,West,Clementi,12,1.3151,103.765,1,2024-07-16
+490,CUS0000490,58,50-59,Female,Service,Below 40k,Married,0,Emerging,West,Jurong East,60,1.3329,103.7436,1,2024-04-27
+491,CUS0000491,39,30-39,Female,Manager,80k-119k,Single,0,Mass,North,Yishun,76,1.4293,103.8355,0,2023-11-09
+492,CUS0000492,46,40-49,Female,Self-employed,80k-119k,Single,0,Mass,North-East,Sengkang,55,1.3868,103.8914,1,2013-04-01
+493,CUS0000493,38,30-39,Male,Self-employed,80k-119k,Married,0,Mass,West,Jurong East,60,1.3329,103.7436,1,2012-03-10
+494,CUS0000494,52,50-59,Male,Service,40k-79k,Married,1,Mass,East,Pasir Ris,51,1.373,103.9493,1,2019-08-03
+495,CUS0000495,39,30-39,Female,Technical,40k-79k,Widowed,1,Mass,West,Bukit Batok,65,1.3496,103.749,1,2017-11-15
+496,CUS0000496,44,40-49,Male,Manager,80k-119k,Married,1,Mass,East,Tampines,53,1.352,103.9446,1,2013-06-26
+497,CUS0000497,33,30-39,Male,Service,40k-79k,Married,1,Mass,North,Yishun,76,1.4293,103.8355,1,2012-03-10
+498,CUS0000498,44,40-49,Female,Retired,Below 40k,Single,1,Emerging,North,Yishun,77,1.4293,103.8355,0,2012-01-29
+499,CUS0000499,27,18-29,Male,Professional,80k-119k,Married,0,Mass,East,Pasir Ris,51,1.373,103.9493,1,2018-04-17
+500,CUS0000500,64,60+,Female,Student,Below 40k,Widowed,1,Emerging,Central,Bukit Merah,10,1.2819,103.8239,1,2014-12-28
+501,CUS0000501,20,18-29,Female,Manager,40k-79k,Single,1,Mass,Central,Novena,31,1.3201,103.8439,0,2013-07-31
+502,CUS0000502,43,40-49,Male,Professional,40k-79k,Single,0,Mass,West,Bukit Batok,65,1.3496,103.749,0,2017-09-06
+503,CUS0000503,50,50-59,Female,Retired,200k+,Married,0,High Value,Central,Novena,31,1.3201,103.8439,0,2016-03-10
+504,CUS0000504,48,40-49,Male,Technical,Below 40k,Married,0,Emerging,East,Pasir Ris,51,1.373,103.9493,0,2018-10-08
+505,CUS0000505,44,40-49,Male,Homemaker,120k-199k,Single,0,Affluent,West,Clementi,12,1.3151,103.765,0,2012-04-07
+506,CUS0000506,25,18-29,Female,Service,80k-119k,Single,0,Mass,Central,Queenstown,14,1.2942,103.7861,1,2020-06-10
+507,CUS0000507,34,30-39,Female,Professional,40k-79k,Married,0,Mass,North-East,Sengkang,54,1.3868,103.8914,0,2023-03-24
+508,CUS0000508,21,18-29,Female,,Below 40k,Single,0,Emerging,North-East,Hougang,53,1.3714,103.892,1,2018-04-25
+509,CUS0000509,44,40-49,Male,Professional,Below 40k,Married,0,Emerging,Central,Bukit Merah,09,1.2819,103.8239,1,2023-03-15
+510,CUS0000510,31,30-39,Male,Manager,40k-79k,Widowed,1,Mass,North-East,Punggol,82,1.3984,103.9072,1,2014-09-02
+511,CUS0000511,18,18-29,Female,Self-employed,40k-79k,Single,0,Mass,Central,Novena,31,1.3201,103.8439,1,2023-08-27
+512,CUS0000512,49,40-49,Male,Professional,120k-199k,Married,1,Affluent,West,Jurong West,64,1.3404,103.709,1,2020-04-16
+513,CUS0000513,53,50-59,Male,,40k-79k,Divorced,1,Mass,East,Tampines,53,1.352,103.9446,1,2016-07-15
+514,CUS0000514,26,18-29,Female,Student,80k-119k,Single,0,Mass,North-East,Punggol,82,1.3984,103.9072,1,2020-02-29
+515,CUS0000515,42,40-49,Male,Homemaker,Below 40k,Married,1,Emerging,East,Pasir Ris,51,1.373,103.9493,1,2024-11-06
+516,CUS0000516,42,40-49,Male,Homemaker,120k-199k,Married,0,Affluent,Central,Bukit Merah,09,1.2819,103.8239,0,2026-05-14
+517,CUS0000517,26,18-29,Male,Technical,40k-79k,Single,0,Mass,Central,Downtown Core,01,1.2867,103.8535,1,2018-09-27
+518,CUS0000518,37,30-39,Non-binary,Professional,120k-199k,Single,1,Affluent,Central,Queenstown,14,1.2942,103.7861,1,2016-11-12
+519,CUS0000519,33,30-39,Male,Self-employed,120k-199k,Married,0,Mass,North,Yishun,76,1.4293,103.8355,0,2026-04-20
+520,CUS0000520,31,30-39,Female,Homemaker,120k-199k,Single,0,Affluent,Central,Queenstown,14,1.2942,103.7861,1,2017-02-24
+521,CUS0000521,51,50-59,Female,Service,40k-79k,Married,0,Mass,Central,Toa Payoh,31,1.3343,103.8563,0,2021-02-02
+522,CUS0000522,43,40-49,Male,Self-employed,80k-119k,Married,0,Mass,Central,Queenstown,14,1.2942,103.7861,1,2025-06-29
+523,CUS0000523,37,30-39,Male,Service,Below 40k,Single,0,Emerging,North-East,Sengkang,55,1.3868,103.8914,1,2017-07-24
+524,CUS0000524,52,50-59,Female,Professional,120k-199k,Married,1,Affluent,Central,Toa Payoh,31,1.3343,103.8563,1,2026-04-27
+525,CUS0000525,26,18-29,Female,Manager,Below 40k,Single,0,Emerging,West,Jurong East,60,1.3329,103.7436,1,2024-01-15
+526,CUS0000526,65,60+,Female,Manager,80k-119k,Married,1,Mass,North,Sembawang,75,1.4491,103.8185,0,2019-06-22
+527,CUS0000527,60,60+,Female,Professional,Below 40k,Married,0,Emerging,North,Yishun,77,1.4293,103.8355,0,2025-06-17
+528,CUS0000528,48,40-49,Male,Manager,40k-79k,Married,0,Mass,East,Pasir Ris,51,1.373,103.9493,1,2024-06-07
+529,CUS0000529,54,50-59,Male,Manager,80k-119k,Married,1,Mass,East,Bedok,46,1.3236,103.9273,1,2026-07-07
+530,CUS0000530,25,18-29,Female,Retired,40k-79k,Single,0,Mass,West,Clementi,12,1.3151,103.765,1,2024-05-16
+531,CUS0000531,52,50-59,Female,Technical,Below 40k,Married,1,Emerging,North-East,Punggol,82,1.3984,103.9072,0,2020-09-24
+532,CUS0000532,37,30-39,Female,Technical,40k-79k,Single,0,Mass,Central,Bukit Merah,09,1.2819,103.8239,1,2026-04-16
+533,CUS0000533,44,40-49,Male,Self-employed,Below 40k,Married,0,Emerging,West,Bukit Batok,65,1.3496,103.749,1,2024-10-28
+534,CUS0000534,40,40-49,Female,Retired,80k-119k,Married,0,Mass,Central,Novena,31,1.3201,103.8439,0,2016-11-24
+535,CUS0000535,53,50-59,Female,Manager,40k-79k,Married,1,Mass,North,Woodlands,74,1.4382,103.789,1,2015-09-25
+536,CUS0000536,58,50-59,Male,Manager,40k-79k,Married,1,Mass,North,Yishun,77,1.4293,103.8355,1,2023-04-18
+537,CUS0000537,34,30-39,Female,Professional,40k-79k,Married,1,Mass,Central,Queenstown,15,1.2942,103.7861,0,2021-08-18
+538,CUS0000538,26,18-29,Female,Service,Below 40k,Single,1,Emerging,Central,Novena,31,1.3201,103.8439,0,2013-05-21
+539,CUS0000539,52,50-59,Male,Technical,Below 40k,Married,0,Emerging,North,Woodlands,74,1.4382,103.789,0,2021-11-30
+540,CUS0000540,53,50-59,Male,Manager,200k+,Married,0,High Value,Central,Toa Payoh,31,1.3343,103.8563,1,2026-01-19
+541,CUS0000541,44,40-49,Female,Service,40k-79k,Married,1,Mass,North-East,Punggol,82,1.3984,103.9072,0,2018-10-18
+542,CUS0000542,25,18-29,Male,Manager,40k-79k,Single,1,Mass,Central,Novena,31,1.3201,103.8439,0,2018-12-07
+543,CUS0000543,30,30-39,Male,Professional,80k-119k,Single,1,Mass,North-East,Sengkang,55,1.3868,103.8914,1,2022-05-26
+544,CUS0000544,27,18-29,Male,Service,120k-199k,Married,1,High Value,West,Jurong West,64,1.3404,103.709,1,2024-01-09
+545,CUS0000545,29,18-29,Male,Service,Below 40k,Single,1,Affluent,North,Yishun,76,1.4293,103.8355,1,2023-05-02
+546,CUS0000546,46,40-49,Male,Technical,200k+,Single,1,High Value,Central,Downtown Core,04,1.2867,103.8535,0,2018-05-08
+547,CUS0000547,28,18-29,Female,Manager,40k-79k,Married,1,Emerging,North-East,Hougang,53,1.3714,103.892,0,2025-12-31
+548,CUS0000548,57,50-59,Female,Technical,Below 40k,Single,1,Emerging,North-East,Hougang,53,1.3714,103.892,1,2026-03-02
+549,CUS0000549,46,40-49,Female,Self-employed,80k-119k,Single,1,Mass,Central,Bukit Merah,10,1.2819,103.8239,0,2020-04-23
+550,CUS0000550,30,30-39,Female,Professional,80k-119k,Single,0,Mass,West,Bukit Batok,65,1.3496,103.749,1,2020-05-19
+551,CUS0000551,40,40-49,Male,Professional,200k+,Single,0,High Value,East,Tampines,52,1.352,103.9446,1,2024-02-17
+552,CUS0000552,18,18-29,Female,Professional,200k+,Single,0,High Value,Central,Novena,31,1.3201,103.8439,1,2012-12-16
+553,CUS0000553,36,30-39,Female,Professional,40k-79k,Single,1,Mass,North-East,Punggol,82,1.3984,103.9072,1,2013-08-15
+554,CUS0000554,24,18-29,Female,Homemaker,40k-79k,Single,0,Mass,East,Pasir Ris,51,1.373,103.9493,1,2024-05-28
+555,CUS0000555,58,50-59,Male,Manager,80k-119k,Married,0,Mass,Central,Novena,30,1.3201,103.8439,0,2024-08-26
+556,CUS0000556,37,30-39,Female,Professional,80k-119k,Married,1,Mass,West,Jurong East,60,1.3329,103.7436,1,2023-06-16
+557,CUS0000557,48,40-49,Female,Professional,80k-119k,Married,0,Mass,North-East,Sengkang,54,1.3868,103.8914,1,2020-12-09
+558,CUS0000558,54,50-59,Male,Manager,Below 40k,Married,0,Emerging,Central,Queenstown,14,1.2942,103.7861,0,2013-11-29
+559,CUS0000559,43,40-49,Male,Self-employed,40k-79k,Divorced,0,Mass,Central,Bukit Merah,10,1.2819,103.8239,1,2012-04-28
+560,CUS0000560,42,40-49,Female,Manager,80k-119k,Single,1,Mass,East,Pasir Ris,51,1.373,103.9493,1,2014-04-22
+561,CUS0000561,45,40-49,Male,Manager,40k-79k,Married,1,Mass,West,Bukit Batok,65,1.3496,103.749,0,2020-02-26
+562,CUS0000562,53,50-59,Male,Technical,80k-119k,Married,1,Mass,North,Woodlands,73,1.4382,103.789,1,2026-08-07
+563,CUS0000563,31,30-39,Male,Manager,Below 40k,Single,0,Emerging,West,Jurong East,60,1.3329,103.7436,1,2018-07-29
+564,CUS0000564,46,40-49,Male,Professional,80k-119k,Married,1,Mass,West,Jurong West,64,1.3404,103.709,1,2016-11-20
+565,CUS0000565,51,50-59,Male,Professional,200k+,Single,1,High Value,East,Tampines,52,1.352,103.9446,1,2013-01-15
+566,CUS0000566,22,18-29,Male,Professional,Below 40k,Single,0,Emerging,Central,Queenstown,14,1.2942,103.7861,0,2016-07-04
+567,CUS0000567,42,40-49,Female,Retired,80k-119k,Single,0,Mass,North,Woodlands,73,1.4382,103.789,0,2020-04-29
+568,CUS0000568,44,40-49,Male,Manager,40k-79k,Single,0,Mass,North-East,Hougang,53,1.3714,103.892,0,2016-06-22
+569,CUS0000569,37,30-39,Female,Professional,40k-79k,Single,0,Mass,Central,Downtown Core,04,1.2867,103.8535,1,2024-05-23
+570,CUS0000570,63,60+,Male,Student,80k-119k,Single,1,Mass,West,Bukit Batok,65,1.3496,103.749,1,2015-09-01
+571,CUS0000571,24,18-29,Female,Technical,120k-199k,Single,0,Affluent,East,Pasir Ris,51,1.373,103.9493,1,2024-02-16
+572,CUS0000572,70,60+,Female,Service,80k-119k,Married,0,Mass,Central,Bukit Merah,09,1.2819,103.8239,0,2012-02-18
+573,CUS0000573,37,30-39,Female,Technical,120k-199k,Divorced,1,Affluent,East,Pasir Ris,51,1.373,103.9493,1,2018-03-20
+574,CUS0000574,38,30-39,Female,Service,Below 40k,Married,0,Emerging,Central,Toa Payoh,32,1.3343,103.8563,1,2022-05-22
+575,CUS0000575,62,60+,Female,Service,80k-119k,Married,1,Mass,North,Yishun,76,1.4293,103.8355,1,2017-03-02
+576,CUS0000576,64,60+,Female,Professional,40k-79k,Married,1,Mass,North,Yishun,77,1.4293,103.8355,0,2026-07-19
+577,CUS0000577,65,60+,Female,Technical,80k-119k,Married,0,Mass,East,Bedok,46,1.3236,103.9273,0,2021-09-24
+578,CUS0000578,18,18-29,Female,Professional,Below 40k,Single,0,Emerging,North,Woodlands,74,1.4382,103.789,0,2015-12-10
+579,CUS0000579,32,30-39,Male,Manager,120k-199k,Single,1,Affluent,North,Sembawang,75,1.4491,103.8185,1,2017-12-16
+580,CUS0000580,41,40-49,Female,Homemaker,80k-119k,Single,1,Mass,North,Sembawang,75,1.4491,103.8185,1,2014-03-25
+581,CUS0000581,26,18-29,Female,Retired,80k-119k,Single,1,Mass,North-East,Sengkang,54,1.3868,103.8914,0,2018-10-03
+582,CUS0000582,45,40-49,Male,Retired,200k+,Married,0,Emerging,North-East,Sengkang,55,1.3868,103.8914,1,2017-12-27
+583,CUS0000583,57,50-59,Male,Manager,200k+,Married,0,High Value,East,Pasir Ris,51,1.373,103.9493,1,2024-04-30
+584,CUS0000584,26,18-29,Female,Student,40k-79k,Single,0,Mass,Central,Queenstown,14,1.2942,103.7861,1,2012-08-15
+585,CUS0000585,54,50-59,Male,Professional,40k-79k,Married,0,Mass,West,Jurong West,64,1.3404,103.709,0,2024-02-10
+586,CUS0000586,51,50-59,Male,Manager,80k-119k,Divorced,1,Mass,Central,Novena,31,1.3201,103.8439,0,2023-01-03
+587,CUS0000587,27,18-29,Female,Homemaker,40k-79k,Single,0,Mass,North-East,Sengkang,54,1.3868,103.8914,1,2018-09-05
+588,CUS0000588,33,30-39,Male,Professional,40k-79k,Married,0,Mass,North-East,Hougang,53,1.3714,103.892,0,2020-06-23
+589,CUS0000589,57,50-59,Male,Technical,80k-119k,Single,0,Mass,Central,Downtown Core,04,1.2867,103.8535,1,2024-08-13
+590,CUS0000590,56,50-59,Male,Homemaker,120k-199k,Married,1,Affluent,Central,Queenstown,15,1.2942,103.7861,1,2012-05-10
+591,CUS0000591,53,50-59,Female,Student,Below 40k,Single,0,Emerging,Central,Novena,30,1.3201,103.8439,1,2026-07-07
+592,CUS0000592,44,40-49,Female,Service,40k-79k,Single,0,Mass,West,Bukit Batok,65,1.3496,103.749,0,2025-04-24
+593,CUS0000593,61,60+,Male,Professional,40k-79k,Married,1,Mass,Central,Bukit Merah,09,1.2819,103.8239,1,2013-08-24
+594,CUS0000594,36,30-39,Male,,Below 40k,Single,0,Emerging,Central,Queenstown,15,1.2942,103.7861,1,2013-02-07
+595,CUS0000595,42,40-49,Female,Technical,120k-199k,Single,0,Emerging,North,Sembawang,75,1.4491,103.8185,1,2012-06-08
+596,CUS0000596,33,30-39,Male,Professional,Below 40k,Married,0,Emerging,North,Yishun,77,1.4293,103.8355,0,2021-07-20
+597,CUS0000597,21,18-29,Female,Technical,120k-199k,Single,0,Affluent,West,Jurong East,60,1.3329,103.7436,1,2018-11-27
+598,CUS0000598,32,30-39,Male,Professional,Below 40k,Single,0,Emerging,Central,Downtown Core,01,1.2867,103.8535,1,2016-10-07
+599,CUS0000599,35,30-39,Male,Service,80k-119k,Single,0,Mass,East,Tampines,52,1.352,103.9446,0,2024-11-23
+600,CUS0000600,29,18-29,Female,Self-employed,80k-119k,Single,1,Mass,North,Yishun,76,1.4293,103.8355,1,2024-08-17
+601,CUS0000601,67,60+,Female,Homemaker,Below 40k,Married,0,Emerging,Central,Queenstown,14,1.2942,103.7861,1,2021-08-20
+602,CUS0000602,43,40-49,Female,Professional,Below 40k,Single,0,Emerging,North,Yishun,77,1.4293,103.8355,1,2012-05-04
+603,CUS0000603,35,30-39,Male,Service,120k-199k,Married,1,Affluent,East,Tampines,52,1.352,103.9446,1,2018-02-23
+604,CUS0000604,19,18-29,Male,Service,40k-79k,Married,0,Mass,North,Sembawang,75,1.4491,103.8185,1,2017-11-02
+605,CUS0000605,38,30-39,Female,Technical,40k-79k,Single,1,Mass,North-East,Hougang,53,1.3714,103.892,0,2016-10-14
+606,CUS0000606,18,18-29,Male,Service,40k-79k,Single,0,Mass,East,Bedok,47,1.3236,103.9273,1,2019-10-01
+607,CUS0000607,40,40-49,Male,Professional,80k-119k,Married,0,Mass,North-East,Punggol,82,1.3984,103.9072,0,2022-10-06
+608,CUS0000608,28,18-29,Female,Professional,40k-79k,Single,0,Mass,North-East,Sengkang,55,1.3868,103.8914,1,2019-06-27
+609,CUS0000609,43,40-49,Male,Student,Below 40k,Single,0,Emerging,Central,Bukit Merah,10,1.2819,103.8239,1,2018-04-02
+610,CUS0000610,29,18-29,Male,Professional,80k-119k,Single,0,Mass,West,Jurong East,60,1.3329,103.7436,0,2025-04-04
+611,CUS0000611,44,40-49,Female,Service,40k-79k,Married,0,Mass,East,Bedok,46,1.3236,103.9273,1,2016-06-19
+612,CUS0000612,58,50-59,Female,Manager,120k-199k,Divorced,1,Affluent,North,Woodlands,73,1.4382,103.789,0,2014-12-18
+613,CUS0000613,59,50-59,Male,Technical,80k-119k,Married,0,Mass,North,Yishun,77,1.4293,103.8355,1,2015-11-30
+614,CUS0000614,63,60+,Male,Professional,200k+,Married,1,High Value,North-East,Punggol ,82,1.3984,103.9072,1,2020-05-10
+615,CUS0000615,41,40-49,Male,Technical,Below 40k,Single,1,Emerging,East,Bedok,46,1.3236,103.9273,0,2017-04-24
+616,CUS0000616,43,40-49,Female,Service,120k-199k,Married,1,Mass,East,Bedok,47,1.3236,103.9273,0,2016-02-06
+617,CUS0000617,41,40-49,Male,Professional,80k-119k,Married,1,Affluent,East,Tampines,53,1.352,103.9446,1,2015-01-24
+618,CUS0000618,30,30-39,Male,Technical,120k-199k,Single,0,Affluent,Central,Bukit Merah,09,1.2819,103.8239,1,2018-12-15
+619,CUS0000619,44,40-49,Male,Manager,120k-199k,Single,1,Affluent,North,Yishun,77,1.4293,103.8355,1,2013-05-17
+620,CUS0000620,40,40-49,Male,Technical,40k-79k,Married,1,Affluent,West,Jurong West,64,1.3404,103.709,1,2012-12-18
+621,CUS0000621,72,60+,Male,Student,120k-199k,Married,1,Affluent,Central,Queenstown,15,1.2942,103.7861,1,2014-07-21
+622,CUS0000622,62,60+,Female,Service,120k-199k,Married,1,Affluent,North,Woodlands,74,1.4382,103.789,1,2015-02-23
+623,CUS0000623,57,50-59,Female,Retired,120k-199k,Married,0,Affluent,North,Woodlands,73,1.4382,103.789,1,2022-07-30
+624,CUS0000624,42,40-49,Male,Self-employed,Below 40k,Married,1,Emerging,Central,Downtown Core,04,1.2867,103.8535,1,2021-08-01
+625,CUS0000625,20,18-29,Male,Student,40k-79k,Single,1,Mass,West,Jurong East,60,1.3329,103.7436,0,2017-06-28
+626,CUS0000626,52,50-59,Female,Homemaker,Below 40k,Single,1,Emerging,Central,Downtown Core,01,1.2867,103.8535,0,2016-03-25
+627,CUS0000627,47,40-49,Male,Professional,Below 40k,Widowed,1,Emerging,East,Pasir Ris,51,1.373,103.9493,1,2016-05-25
+628,CUS0000628,61,60+,Male,Technical,120k-199k,Married,0,Affluent,West,Clementi,12,1.3151,103.765,1,2026-09-12
+629,CUS0000629,33,30-39,Female,Technical,200k+,Single,0,High Value,North-East,Sengkang,54,1.3868,103.8914,1,2016-04-18
+630,CUS0000630,43,40-49,Male,Professional,120k-199k,Single,1,Affluent,Central,Toa Payoh,31,1.3343,103.8563,1,2023-11-04
+631,CUS0000631,57,50-59,Female,Technical,80k-119k,Divorced,1,Mass,East,Tampines,52,1.352,103.9446,0,2021-12-18
+632,CUS0000632,51,50-59,Male,Retired,40k-79k,Married,1,Mass,East,Bedok,47,1.3236,103.9273,0,2023-11-05
+633,CUS0000633,35,30-39,Male,Professional,40k-79k,Single,1,Mass,Central,Queenstown,15,1.2942,103.7861,1,2024-10-22
+634,CUS0000634,37,30-39,Female,Service,40k-79k,Married,1,Mass,Central,Bukit Merah,10,1.2819,103.8239,1,2015-11-05
+635,CUS0000635,44,40-49,Female,Technical,40k-79k,Single,0,Mass,Central,Downtown Core,04,1.2867,103.8535,1,2016-10-25
+636,CUS0000636,47,40-49,Female,Manager,80k-119k,Married,1,Mass,North,Woodlands,73,1.4382,103.789,1,2017-10-29
+637,CUS0000637,32,30-39,Female,Self-employed,200k+,Single,0,High Value,East,Bedok,47,1.3236,103.9273,1,2022-08-05
+638,CUS0000638,47,40-49,Female,Service,80k-119k,Divorced,0,Mass,Central,Bukit Merah,10,1.2819,103.8239,1,2017-11-23
+639,CUS0000639,38,30-39,Female,Service,40k-79k,Divorced,1,Mass,East,Bedok,46,1.3236,103.9273,1,2013-01-17
+640,CUS0000640,49,40-49,Female,Service,80k-119k,Single,0,Mass,North-East,Sengkang,55,1.3868,103.8914,0,2026-06-14
+641,CUS0000641,63,60+,Male,Manager,40k-79k,Married,0,Mass,West,Jurong East,60,1.3329,103.7436,1,2018-09-09
+642,CUS0000642,49,40-49,Female,Self-employed,Below 40k,Married,0,Emerging,East,Bedok,47,1.3236,103.9273,1,2023-06-25
+643,CUS0000643,57,50-59,Male,Manager,Below 40k,Married,1,Emerging,East,Tampines,53,1.352,103.9446,0,2012-07-04
+644,CUS0000644,36,30-39,Female,Professional,Below 40k,Married,1,Emerging,Central,Novena,31,1.3201,103.8439,1,2020-01-20
+645,CUS0000645,26,18-29,Female,Manager,80k-119k,Single,0,Mass,North-East,Punggol,82,1.3984,103.9072,1,2015-10-16
+646,CUS0000646,46,40-49,Female,Retired,120k-199k,Single,1,Affluent,West,Bukit Batok,65,1.3496,103.749,0,2012-05-25
+647,CUS0000647,18,18-29,Female,Service,40k-79k,Single,0,Mass,West,Bukit Batok,65,1.3496,103.749,1,2013-09-12
+648,CUS0000648,29,18-29,Male,Retired,40k-79k,Single,1,Affluent,North-East,Punggol,82,1.3984,103.9072,1,2013-01-04
+649,CUS0000649,35,30-39,Female,Service,Below 40k,Married,0,Emerging,North,Sembawang,75,1.4491,103.8185,0,2013-06-05
+650,CUS0000650,48,40-49,Female,Professional,80k-119k,Divorced,0,Mass,Central,Toa Payoh,32,1.3343,103.8563,0,2019-04-04
+651,CUS0000651,19,18-29,Male,Manager,40k-79k,Married,0,Mass,East,Tampines,53,1.352,103.9446,1,2022-01-16
+652,CUS0000652,48,40-49,Female,Retired,40k-79k,Married,0,Emerging,East,Pasir Ris,51,1.373,103.9493,1,2016-05-26
+653,CUS0000653,27,18-29,Female,Self-employed,40k-79k,Single,1,Mass,East,Bedok,46,1.3236,103.9273,1,2016-08-31
+654,CUS0000654,38,30-39,Male,Manager,80k-119k,Married,0,Mass,East,Bedok,47,1.3236,103.9273,1,2021-11-09
+655,CUS0000655,73,60+,Male,Retired,Below 40k,Married,1,Emerging,North,Sembawang,75,1.4491,103.8185,1,2022-03-06
+656,CUS0000656,48,40-49,Female,Professional,40k-79k,Divorced,1,Mass,East,Bedok,47,1.3236,103.9273,1,2012-06-23
+657,CUS0000657,65,60+,Female,Service,40k-79k,Married,0,Mass,West,Jurong West,64,1.3404,103.709,1,2019-06-14
+658,CUS0000658,45,40-49,Female,Self-employed,Below 40k,Single,1,Emerging,North-East,Sengkang,55,1.3868,103.8914,1,2019-08-02
+659,CUS0000659,44,40-49,Female,Professional,40k-79k,Single,0,Mass,Central,Novena,30,1.3201,103.8439,1,2019-09-14
+660,CUS0000660,30,30-39,Female,Service,200k+,Single,0,High Value,Central,Toa Payoh,32,1.3343,103.8563,0,2017-05-02
+661,CUS0000661,18,18-29,Male,Technical,40k-79k,Single,0,Mass,Central,Bukit Merah,10,1.2819,103.8239,1,2017-12-18
+662,CUS0000662,51,50-59,Female,Manager,40k-79k,Married,0,Mass,Central,Queenstown,15,1.2942,103.7861,0,2017-06-21
+663,CUS0000663,46,40-49,Female,Self-employed,200k+,Single,1,High Value,North,Sembawang,75,1.4491,103.8185,1,2016-06-25
+664,CUS0000664,45,40-49,Male,Homemaker,80k-119k,Married,0,Mass,North-East,Hougang,53,1.3714,103.892,0,2019-10-31
+665,CUS0000665,43,40-49,Male,Technical,80k-119k,Single,1,Mass,North-East,Sengkang,55,1.3868,103.8914,0,2020-05-14
+666,CUS0000666,32,30-39,Male,Professional,40k-79k,Single,0,Mass,West,Bukit Batok,65,1.3496,103.749,1,2022-04-27
+667,CUS0000667,48,40-49,Female,Self-employed,Below 40k,Married,0,Emerging,West,Clementi,12,1.3151,103.765,0,2025-06-02
+668,CUS0000668,43,40-49,Male,Professional,120k-199k,Single,0,Affluent,North-East,Sengkang,55,1.3868,103.8914,1,2012-07-01
+669,CUS0000669,31,30-39,Male,Professional,80k-119k,Single,1,Mass,Central,Bukit Merah,09,1.2819,103.8239,0,2012-11-01
+670,CUS0000670,39,30-39,Prefer not to say,Manager,40k-79k,Married,0,Mass,North,Yishun,76,1.4293,103.8355,0,2017-01-01
+671,CUS0000671,26,18-29,Female,Student,80k-119k,Single,0,Mass,West,Jurong West,64,1.3404,103.709,0,2024-12-30
+672,CUS0000672,55,50-59,Female,Professional,200k+,Married,0,High Value,West,Clementi,12,1.3151,103.765,1,2015-05-11
+673,CUS0000673,45,40-49,Male,Professional,120k-199k,Married,1,Affluent,East,Pasir Ris,51,1.373,103.9493,1,2015-11-28
+674,CUS0000674,46,40-49,Male,Service,80k-119k,Widowed,0,Mass,Central,Bukit Merah,10,1.2819,103.8239,0,2015-02-20
+675,CUS0000675,38,30-39,Female,Manager,Below 40k,Widowed,0,Emerging,Central,Toa Payoh,31,1.3343,103.8563,1,2016-05-14
+676,CUS0000676,31,30-39,Male,Homemaker,40k-79k,Married,0,Mass,Central,Queenstown,15,1.2942,103.7861,1,2017-12-13
+677,CUS0000677,37,30-39,Male,Service,80k-119k,Married,0,Mass,Central,Toa Payoh,31,1.3343,103.8563,1,2020-09-07
+678,CUS0000678,29,18-29,Female,Technical,80k-119k,Single,0,Mass,Central,Downtown Core,01,1.2867,103.8535,0,2019-03-03
+679,CUS0000679,62,60+,Male,Manager,80k-119k,Married,0,Mass,West,Clementi,12,1.3151,103.765,1,2021-06-27
+680,CUS0000680,36,30-39,Female,Technical,120k-199k,Single,0,Affluent,Central,Novena,30,1.3201,103.8439,0,2026-06-15
+681,CUS0000681,39,30-39,Male,Manager,80k-119k,Married,1,Mass,North-East,Sengkang,55,1.3868,103.8914,1,2023-11-27
+682,CUS0000682,34,30-39,Male,Homemaker,40k-79k,Single,1,Mass,West,Bukit Batok,65,1.3496,103.749,0,2021-03-05
+683,CUS0000683,49,40-49,Male,Retired,80k-119k,Married,0,Mass,North,Woodlands,74,1.4382,103.789,1,2021-08-16
+684,CUS0000684,43,40-49,Male,Technical,80k-119k,Single,0,Mass,East,Bedok,47,1.3236,103.9273,0,2020-06-16
+685,CUS0000685,48,40-49,Male,Technical,Below 40k,Single,0,High Value,North,Sembawang,75,1.4491,103.8185,0,2021-05-24
+686,CUS0000686,33,30-39,Male,Retired,80k-119k,Married,1,Mass,North-East,Hougang,53,1.3714,103.892,1,2024-05-19
+687,CUS0000687,34,30-39,Female,Technical,80k-119k,Single,1,Mass,Central,Toa Payoh,32,1.3343,103.8563,0,2026-05-24
+688,CUS0000688,28,18-29,Male,Service,Below 40k,Single,0,Emerging,North-East,Sengkang,55,1.3868,103.8914,0,2023-11-30
+689,CUS0000689,56,50-59,Male,Manager,Below 40k,Single,0,Emerging,North-East,Sengkang,54,1.3868,103.8914,1,2015-05-28
+690,CUS0000690,38,30-39,Male,Technical,120k-199k,Divorced,0,Affluent,West,Clementi,12,1.3151,103.765,0,2026-06-24
+691,CUS0000691,70,60+,Male,Professional,80k-119k,Married,1,Mass,North,Woodlands,74,1.4382,103.789,1,2018-12-23
+692,CUS0000692,52,50-59,Male,Homemaker,40k-79k,Married,0,Mass,East,Pasir Ris,51,1.373,103.9493,1,2026-08-30
+693,CUS0000693,43,40-49,Male,Service,40k-79k,Married,1,Mass,North-East,Hougang,53,1.3714,103.892,1,2020-11-01
+694,CUS0000694,43,40-49,Non-binary,Professional,120k-199k,Widowed,0,Affluent,West,Jurong West,64,1.3404,103.709,0,2018-11-15
+695,CUS0000695,27,18-29,Female,Technical,Below 40k,Single,1,Emerging,Central,Downtown Core,01,1.2867,103.8535,0,2012-04-30
+696,CUS0000696,64,60+,Male,Service,Below 40k,Married,1,Emerging,North-East,Hougang,53,1.3714,103.892,1,2013-12-14
+697,CUS0000697,25,18-29,Male,Manager,40k-79k,Single,1,Mass,East,Tampines,52,1.352,103.9446,0,2021-05-20
+698,CUS0000698,66,60+,Male,Technical,80k-119k,Married,1,Mass,Central,Queenstown,14,1.2942,103.7861,1,2023-11-26
+699,CUS0000699,39,30-39,Male,Professional,120k-199k,Single,1,Affluent,Central,Queenstown,15,1.2942,103.7861,0,2021-09-08
+700,CUS0000700,41,40-49,Male,Service,40k-79k,Married,1,Mass,West,Bukit Batok,65,1.3496,103.749,0,2018-12-17
+701,CUS0000701,44,40-49,Male,Professional,80k-119k,Divorced,1,Mass,East,Tampines,53,1.352,103.9446,1,2024-04-17
+702,CUS0000702,34,30-39,Male,Service,40k-79k,Married,0,Mass,Central,Toa Payoh,32,1.3343,103.8563,1,2021-08-14
+703,CUS0000703,43,40-49,Male,Professional,120k-199k,Single,1,Affluent,East,Pasir Ris,51,1.373,103.9493,1,2025-02-18
+704,CUS0000704,32,30-39,Male,Professional,Below 40k,Single,0,Emerging,East,Bedok,46,1.3236,103.9273,1,2022-12-15
+705,CUS0000705,43,40-49,Male,Retired,120k-199k,Single,0,Affluent,North,Woodlands,74,1.4382,103.789,1,2017-04-02
+706,CUS0000706,34,30-39,Female,Homemaker,Below 40k,Single,1,Emerging,Central,Downtown Core,02,1.2867,103.8535,1,2023-04-12
+707,CUS0000707,27,18-29,Male,Service,80k-119k,Single,0,Mass,North,Sembawang,75,1.4491,103.8185,1,2015-03-19
+708,CUS0000708,51,50-59,Female,Manager,80k-119k,Single,1,Mass,Central,Toa Payoh,32,1.3343,103.8563,0,2020-10-26
+709,CUS0000709,30,30-39,Female,Professional,Below 40k,Single,0,Emerging,West,Jurong West,64,1.3404,103.709,1,2019-03-05
+710,CUS0000710,48,40-49,Female,Professional,80k-119k,Single,1,Mass,North-East,Hougang,53,1.3714,103.892,1,2020-02-15
+711,CUS0000711,62,60+,Male,Manager,200k+,Divorced,1,High Value,East,Bedok,47,1.3236,103.9273,1,2019-05-08
+712,CUS0000712,50,50-59,Male,Manager,80k-119k,Married,0,Mass,Central,Novena,31,1.3201,103.8439,1,2016-11-28
+713,CUS0000713,55,50-59,Male,Student,40k-79k,Married,1,Mass,North,Sembawang,75,1.4491,103.8185,1,2015-12-19
+714,CUS0000714,38,30-39,Male,Manager,Below 40k,Single,1,Emerging,West,Jurong East,60,1.3329,103.7436,1,2013-09-14
+715,CUS0000715,30,30-39,Male,Self-employed,80k-119k,Single,1,Mass,North-East,Punggol,82,1.3984,103.9072,1,2018-02-26
+716,CUS0000716,38,30-39,Female,Service,40k-79k,Single,1,Mass,Central,Queenstown,15,1.2942,103.7861,1,2019-12-17
+717,CUS0000717,32,30-39,Prefer not to say,Professional,80k-119k,Single,1,Mass,West,Bukit Batok,65,1.3496,103.749,1,2015-02-19
+718,CUS0000718,52,50-59,Female,Self-employed,Below 40k,Married,0,Emerging,Central,Downtown Core,04,1.2867,103.8535,0,2021-06-21
+719,CUS0000719,30,30-39,Female,Technical,40k-79k,Single,0,Mass,Central,Downtown Core,04,1.2867,103.8535,1,2012-10-21
+720,CUS0000720,23,18-29,Male,Self-employed,40k-79k,Single,0,Mass,West,Jurong East,60,1.3329,103.7436,1,2017-01-26
+721,CUS0000721,64,60+,Female,Self-employed,120k-199k,Married,1,Mass,West,Jurong West,64,1.3404,103.709,0,2019-07-15
+722,CUS0000722,32,30-39,Female,Technical,40k-79k,Single,0,Mass,East,Tampines,53,1.352,103.9446,0,2022-12-26
+723,CUS0000723,54,50-59,Male,Professional,40k-79k,Married,0,Affluent,Central,Novena,31,1.3201,103.8439,1,2025-12-23
+724,CUS0000724,59,50-59,Female,Retired,40k-79k,Single,0,Mass,East,Bedok,46,1.3236,103.9273,1,2025-03-28
+725,CUS0000725,58,50-59,Male,Retired,Below 40k,Married,1,Emerging,Central,Bukit Merah,09,1.2819,103.8239,1,2019-08-12
+726,CUS0000726,38,30-39,Female,Technical,80k-119k,Single,0,Mass,East,Pasir Ris,51,1.373,103.9493,0,2024-06-30
+727,CUS0000727,30,30-39,Female,Technical,Below 40k,Married,1,Emerging,East,Pasir Ris,51,1.373,103.9493,0,2024-01-22
+728,CUS0000728,37,30-39,Male,Professional,40k-79k,Single,1,Mass,West,Bukit Batok,65,1.3496,103.749,1,2017-02-24
+729,CUS0000729,28,18-29,Male,Manager,40k-79k,Single,0,Mass,Central,Bukit Merah,10,1.2819,103.8239,0,2017-04-16
+730,CUS0000730,38,30-39,Male,Retired,40k-79k,Single,1,Mass,North-East,Sengkang,54,1.3868,103.8914,1,2026-07-29
+731,CUS0000731,46,40-49,Female,Student,120k-199k,Married,0,Affluent,West,Bukit Batok,65,1.3496,103.749,1,2017-03-28
+732,CUS0000732,40,40-49,Female,Technical,Below 40k,Single,0,Emerging,Central,Queenstown,14,1.2942,103.7861,0,2015-03-21
+733,CUS0000733,47,40-49,Male,Service,200k+,Single,0,High Value,West,Jurong East,60,1.3329,103.7436,0,2018-06-16
+734,CUS0000734,59,50-59,Male,Professional,80k-119k,Married,1,Mass,North,Sembawang,75,1.4491,103.8185,0,2019-05-01
+735,CUS0000735,38,30-39,Female,Self-employed,80k-119k,Married,0,Mass,Central,Queenstown,14,1.2942,103.7861,1,2025-03-10
+736,CUS0000736,40,40-49,Female,Service,40k-79k,Widowed,0,Mass,North-East,Hougang,53,1.3714,103.892,1,2025-06-04
+737,CUS0000737,47,40-49,Female,Retired,120k-199k,Married,1,Affluent,West,Clementi,12,1.3151,103.765,1,2020-11-09
+738,CUS0000738,30,30-39,Male,Student,80k-119k,Married,1,Mass,North-East,Punggol,82,1.3984,103.9072,1,2015-05-20
+739,CUS0000739,19,18-29,Male,Homemaker,40k-79k,Single,0,Mass,Central,Novena,31,1.3201,103.8439,1,2026-06-05
+740,CUS0000740,50,50-59,Female,Professional,40k-79k,Widowed,0,Mass,North,Yishun,76,1.4293,103.8355,0,2021-02-15
+741,CUS0000741,47,40-49,Female,Self-employed,120k-199k,Married,0,Affluent,West,Clementi,12,1.3151,103.765,1,2023-04-19
+742,CUS0000742,56,50-59,Female,Service,120k-199k,Married,0,Affluent,West,Clementi,12,1.3151,103.765,1,2016-10-09
+743,CUS0000743,58,50-59,Non-binary,Manager,80k-119k,Widowed,0,Mass,West,Jurong West,64,1.3404,103.709,1,2018-11-28
+744,CUS0000744,46,40-49,Female,Manager,80k-119k,Single,1,Mass,Central,Downtown Core,01,1.2867,103.8535,0,2024-03-17
+745,CUS0000745,71,60+,Female,Professional,40k-79k,Widowed,0,Mass,North-East,Punggol,82,1.3984,103.9072,0,2016-09-03
+746,CUS0000746,27,18-29,Female,Professional,80k-119k,Single,0,Mass,East,Pasir Ris,51,1.373,103.9493,1,2022-09-28
+747,CUS0000747,41,40-49,Female,Technical,120k-199k,Married,0,Affluent,West,Jurong East,60,1.3329,103.7436,1,2015-06-05
+748,CUS0000748,34,30-39,Female,Retired,40k-79k,Married,0,Mass,Central,Downtown Core,04,1.2867,103.8535,1,2016-03-12
+749,CUS0000749,24,18-29,Male,Homemaker,80k-119k,Single,0,Mass,North,Woodlands,74,1.4382,103.789,0,2022-01-17
+750,CUS0000750,38,30-39,Male,Manager,40k-79k,Married,0,Mass,Central,Toa Payoh,32,1.3343,103.8563,1,2023-02-26

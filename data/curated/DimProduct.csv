@@ -1,0 +1,13 @@
+ProductKey,ProductCode,ProductName,ProductFamily,CoverageType,RiskTier,MinEntryAge,MaxEntryAge,TypicalPremiumBand,TypicalSumAssuredBand,InvestmentLinkedFlag,CriticalIllnessFlag,ProductActiveFlag,ProductLaunchDate
+1,TL-A,Secure Horizon Term,Term Life,Death,Low,18,65,"SGD 300-1,800",SGD 100k-1.5m,0,0,1,2019-04-01
+2,TL-B,Family Shield Term,Term Life,Death + TPD,Standard,18,60,"SGD 450-2,400",SGD 150k-1.2m,0,0,1,2020-07-15
+3,WL-A,Lifetime Heritage,Whole Life,Death + TPD,Standard,18,60,"SGD 1,800-9,000",SGD 75k-750k,0,0,1,2018-02-20
+4,WL-B,Legacy Plus,Whole Life,Death + CI,Elevated,21,55,"SGD 2,400-12,000",SGD 100k-800k,0,1,1,2021-01-05
+5,ES-A,Future Builder Savings,Endowment / Savings,Savings + Death,Low,18,65,"SGD 2,000-18,000",SGD 50k-500k,0,0,1,2017-09-01
+6,ES-B,Education Milestone,Endowment / Savings,Savings + Death,Standard,18,55,"SGD 2,400-20,000",SGD 60k-450k,0,0,1,2022-03-18
+7,IL-A,Growth Navigator,Investment Linked,Death + Investment,Elevated,21,65,"SGD 1,800-24,000",SGD 100k-1m,1,0,1,2020-11-09
+8,IL-B,Balanced Wealth Link,Investment Linked,Death + Investment,Standard,21,60,"SGD 2,400-30,000",SGD 150k-1.2m,1,0,1,2023-05-12
+9,CI-A,Critical Care Protect,Critical Illness,Critical Illness,Elevated,18,60,"SGD 600-6,000",SGD 50k-500k,0,1,1,2019-08-22
+10,CI-B,Early Stage Guard,Critical Illness,Early + Major CI,Elevated,18,55,"SGD 900-7,500",SGD 75k-400k,0,1,1,2022-10-03
+11,RA-A,RetireIncome Select,Retirement / Annuity,Retirement Income,Low,35,70,"SGD 3,600-36,000",SGD 100k-1m,0,0,1,2018-06-14
+12,RA-B,Golden Years Annuity,Retirement / Annuity,Lifetime Income,Standard,40,70,"SGD 4,800-48,000",SGD 150k-1.2m,0,0,1,2021-06-30
