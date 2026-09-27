@@ -1,0 +1,39 @@
+{
+  "name": "Insurance Executive",
+  "dataColors": [
+    "#008C95",
+    "#2874C7",
+    "#709EBC",
+    "#D4A348",
+    "#547093",
+    "#89BDBC"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#142D4E",
+  "tableAccent": "#008C95",
+  "good": "#008C95",
+  "neutral": "#D4A348",
+  "bad": "#C44F55",
+  "textClasses": {
+    "title": {
+      "fontFace": "Segoe UI",
+      "fontSize": 12,
+      "color": "#142D4E"
+    },
+    "label": {
+      "fontFace": "Segoe UI",
+      "fontSize": 10,
+      "color": "#142D4E"
+    },
+    "callout": {
+      "fontFace": "Segoe UI",
+      "fontSize": 28,
+      "color": "#142D4E"
+    },
+    "header": {
+      "fontFace": "Segoe UI",
+      "fontSize": 12,
+      "color": "#142D4E"
+    }
+  }
+}

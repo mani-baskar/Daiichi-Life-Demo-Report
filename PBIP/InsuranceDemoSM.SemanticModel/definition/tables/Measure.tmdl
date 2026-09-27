@@ -29,7 +29,7 @@ table Measure
 			DIVIDE (
 				CALCULATE (
 					COUNTROWS ( gold_fact_policy ),
-					gold_fact_policy[RenewalPaidFlag] = 1
+					gold_fact_policy[RenewalPaidFlag] = TRUE()
 				),
 				CALCULATE (
 					COUNTROWS ( gold_fact_policy ),
@@ -43,7 +43,7 @@ table Measure
 			DIVIDE (
 				CALCULATE (
 					COUNTROWS ( gold_fact_policy ),
-					gold_fact_policy[LapseFlag] = 1
+					gold_fact_policy[LapseFlag] = TRUE()
 				),
 				[Total Policies]
 			)
@@ -72,7 +72,7 @@ table Measure
 	measure 'Converted Leads' =
 			CALCULATE (
 				DISTINCTCOUNT ( gold_lead_conversion[LeadID] ),
-				gold_lead_conversion[ConvertedFlag] = 1
+				gold_lead_conversion[ConvertedFlag] = TRUE()
 			)
 		formatString: #,0
 		lineageTag: 40402647-7511-435e-9e15-ec8388c892bc
@@ -136,7 +136,7 @@ table Measure
 	measure 'Active Agents' =
 			CALCULATE (
 				DISTINCTCOUNT ( gold_dim_agent[AgentID] ),
-				gold_dim_agent[ActiveFlag] = 1
+				gold_dim_agent[ActiveFlag] = TRUE()
 			)
 		formatString: #,0
 		lineageTag: 3497e637-bf9a-476f-933c-6fc4d2bb77ba
