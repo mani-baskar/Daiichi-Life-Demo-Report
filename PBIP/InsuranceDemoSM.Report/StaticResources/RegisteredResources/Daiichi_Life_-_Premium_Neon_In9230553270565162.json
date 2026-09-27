@@ -1,0 +1,106 @@
+{
+  "name": "Daiichi Life - Premium Neon Insurance",
+  "dataColors": [
+    "#38D9F5",
+    "#69B7FF",
+    "#B9A3FF",
+    "#55DCC3",
+    "#F5C76B",
+    "#F28BB8",
+    "#92B5DD",
+    "#FB7185"
+  ],
+  "good": "#55DCC3",
+  "neutral": "#F5C76B",
+  "bad": "#FB7185",
+  "maximum": "#38D9F5",
+  "center": "#69B7FF",
+  "minimum": "#44699B",
+  "null": "#92A8C4",
+  "firstLevelElements": "#F8FAFC",
+  "secondLevelElements": "#D6E5F5",
+  "thirdLevelElements": "#344766",
+  "fourthLevelElements": "#A8BDD6",
+  "background": "#08142C",
+  "secondaryBackground": "#101E3B",
+  "tableAccent": "#38D9F5",
+  "textClasses": {
+    "callout": {
+      "fontSize": 30,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#F8FAFC"
+    },
+    "title": {
+      "fontSize": 12,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#F8FAFC"
+    },
+    "header": {
+      "fontSize": 12,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#F8FAFC"
+    },
+    "label": {
+      "fontSize": 10,
+      "fontFace": "Segoe UI",
+      "color": "#D6E5F5"
+    }
+  },
+  "foreground": "#F8FAFC",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "categoryAxis": [
+          {
+            "labelColor": {
+              "solid": {
+                "color": "#D6E5F5"
+              }
+            }
+          }
+        ],
+        "valueAxis": [
+          {
+            "labelColor": {
+              "solid": {
+                "color": "#D6E5F5"
+              }
+            },
+            "gridlineColor": {
+              "solid": {
+                "color": "#344766"
+              }
+            }
+          }
+        ],
+        "legend": [
+          {
+            "labelColor": {
+              "solid": {
+                "color": "#D6E5F5"
+              }
+            }
+          }
+        ],
+        "title": [
+          {
+            "fontColor": {
+              "solid": {
+                "color": "#F8FAFC"
+              }
+            }
+          }
+        ],
+        "subTitle": [
+          {
+            "fontColor": {
+              "solid": {
+                "color": "#A8BDD6"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

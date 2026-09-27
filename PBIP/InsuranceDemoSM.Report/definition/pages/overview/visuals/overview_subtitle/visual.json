@@ -3,7 +3,7 @@
   "name": "overview_subtitle",
   "position": {
     "x": 0,
-    "y": 40,
+    "y": 63.285714285714292,
     "z": 2000,
     "height": 22,
     "width": 600,
@@ -23,7 +23,7 @@
                     "textStyle": {
                       "fontFamily": "Segoe UI",
                       "fontSize": "10pt",
-                      "color": "#62758a"
+                      "color": "#ffffff"
                     }
                   }
                 ]
@@ -56,7 +56,7 @@
                 "color": {
                   "expr": {
                     "Literal": {
-                      "Value": "'#142D4E'"
+                      "Value": "'#F8FAFC'"
                     }
                   }
                 }

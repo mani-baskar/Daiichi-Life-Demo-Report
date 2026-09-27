@@ -1,12 +1,21 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/report/3.3.0/schema.json",
   "themeCollection": {
-    "customTheme": {
-      "name": "InsuranceExecutive",
+    "baseTheme": {
+      "name": "Fluent2-CY26SU08",
       "reportVersionAtImport": {
-        "visual": "1.8.1",
-        "report": "2.0.1",
-        "page": "1.3.1"
+        "visual": "2.12.0",
+        "report": "3.4.0",
+        "page": "2.3.1"
+      },
+      "type": "SharedResources"
+    },
+    "customTheme": {
+      "name": "Daiichi_Life_-_Premium_Neon_In9230553270565162.json",
+      "reportVersionAtImport": {
+        "visual": "2.12.0",
+        "report": "3.4.0",
+        "page": "2.3.1"
       },
       "type": "RegisteredResources"
     }
@@ -32,9 +41,34 @@
       "type": "RegisteredResources",
       "items": [
         {
-          "name": "InsuranceExecutive",
-          "path": "InsuranceExecutive",
+          "name": "Background_29515669991047163.png",
+          "path": "Background_29515669991047163.png",
+          "type": "Image"
+        },
+        {
+          "name": "Daiichi_Life_-_Premium_Neon_In9230553270565162.json",
+          "path": "Daiichi_Life_-_Premium_Neon_In9230553270565162.json",
           "type": "CustomTheme"
+        },
+        {
+          "name": "Page_29384083833869811.png",
+          "path": "Page_29384083833869811.png",
+          "type": "Image"
+        },
+        {
+          "name": "Page_34562776755948079.png",
+          "path": "Page_34562776755948079.png",
+          "type": "Image"
+        },
+        {
+          "name": "Page_42973854422830252.png",
+          "path": "Page_42973854422830252.png",
+          "type": "Image"
+        },
+        {
+          "name": "Page_53551987939569523.png",
+          "path": "Page_53551987939569523.png",
+          "type": "Image"
         }
       ]
     }
