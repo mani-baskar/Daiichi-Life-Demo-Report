@@ -32,7 +32,7 @@
               "name": {
                 "expr": {
                   "Literal": {
-                    "Value": "'Page 4.png'"
+                    "Value": "'Background 2.png'"
                   }
                 }
               },
@@ -41,7 +41,7 @@
                   "ResourcePackageItem": {
                     "PackageName": "RegisteredResources",
                     "PackageType": 1,
-                    "ItemName": "Page_42973854422830252.png"
+                    "ItemName": "Background_29515669991047163.png"
                   }
                 }
               },
