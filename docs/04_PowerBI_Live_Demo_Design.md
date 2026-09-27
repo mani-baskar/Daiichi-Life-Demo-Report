@@ -286,7 +286,9 @@ This becomes sales priority queue.
 
 # Core DAX Measures
 
-Create at least:
+## Core measures required for the report
+
+Use these exact explicit measure names in the semantic model:
 
 ```text
 [Total Policies]
@@ -297,20 +299,46 @@ Create at least:
 [Renewal Rate]
 [Lapse Rate]
 [Claim Rate]
-[Average Days To Issue]
+[Avg Days to Issue]
 
 [Total Leads]
 [Converted Leads]
 [Conversion Rate]
 [Open Leads]
 [High Propensity Leads]
-[Average Conversion Probability]
+[Avg Conversion Probability]
 [Expected Conversions]
 [Potential Premium - High Propensity]
 ```
 
+## Additional explicit measures required by the planned visuals
+
+Because `DiscourageImplicitMeasures = true` is enabled for Calculation Groups, visuals should not depend on implicit Sum/Average aggregations. Create these explicit measures before Codex builds the report pages:
+
+```text
+[New Policies]
+[Total Customers]
+[Average Sum Assured]
+[Active Agents]
+[Premium per Agent]
+[Policies per Agent]
+[Target Attainment]
+[Avg First Response Hours]
+```
+
+### Why these extra measures?
+
+- `[New Policies]` -> Executive Overview KPI / monthly acquisition trend
+- `[Total Customers]` -> Customer & Geography map tooltip / customer KPIs
+- `[Average Sum Assured]` -> Product Performance scatter
+- `[Active Agents]` -> Distribution KPI
+- `[Premium per Agent]` -> Distribution KPI / leaderboard
+- `[Policies per Agent]` -> Distribution KPI / leaderboard
+- `[Target Attainment]` -> Agent target comparison
+- `[Avg First Response Hours]` -> Distribution/service responsiveness KPI
+
 Avoid too many calculated columns.
-Business aggregation mostly measures-la.
+Business aggregation mostly explicit measures-la maintain pannunga.
 
 ---
 
