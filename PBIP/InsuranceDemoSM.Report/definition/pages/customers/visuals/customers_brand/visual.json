@@ -5,8 +5,8 @@
     "x": 0,
     "y": 0,
     "z": 1000,
-    "height": 40,
-    "width": 600,
+    "height": 60,
+    "width": 1110,
     "tabOrder": 0
   },
   "visual": {
@@ -19,11 +19,22 @@
               {
                 "textRuns": [
                   {
-                    "value": "Life Insurance Growth & Customer Analytics",
+                    "value": "Life Insurance ",
                     "textStyle": {
+                      "fontWeight": "bold",
                       "fontFamily": "Segoe UI",
-                      "fontSize": "21pt",
-                      "color": "#142d4e"
+                      "fontSize": "32pt",
+                      "color": "#ffffff"
+                    }
+                  },
+                  {
+                    "value": "Growth & Customer Analytics",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontFamily": "Segoe UI",
+                      "fontStyle": "italic",
+                      "fontSize": "32pt",
+                      "color": "#38d9f5"
                     }
                   }
                 ]
@@ -56,7 +67,7 @@
                 "color": {
                   "expr": {
                     "Literal": {
-                      "Value": "'#142D4E'"
+                      "Value": "'#F8FAFC'"
                     }
                   }
                 }
@@ -153,17 +164,17 @@
       "padding": [
         {
           "properties": {
-            "right": {
-              "expr": {
-                "Literal": {
-                  "Value": "0D"
-                }
-              }
-            },
             "left": {
               "expr": {
                 "Literal": {
                   "Value": "10D"
+                }
+              }
+            },
+            "right": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
                 }
               }
             },
