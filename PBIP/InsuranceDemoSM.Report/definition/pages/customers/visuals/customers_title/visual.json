@@ -4,10 +4,10 @@
   "position": {
     "x": 0,
     "y": 61.39677666922487,
-    "z": 2000,
+    "z": 22000,
     "height": 45.433614735226406,
     "width": 500,
-    "tabOrder": 2000
+    "tabOrder": 22000
   },
   "visual": {
     "visualType": "textbox",
@@ -23,7 +23,7 @@
                     "textStyle": {
                       "fontFamily": "Segoe UI",
                       "fontSize": "22pt",
-                      "color": "#142D4E"
+                      "color": "#142d4e"
                     }
                   }
                 ]
@@ -47,7 +47,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "''"
+                  "Value": "'Page Title'"
                 }
               }
             },
@@ -149,7 +149,42 @@
             }
           }
         }
+      ],
+      "padding": [
+        {
+          "properties": {
+            "right": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
+                }
+              }
+            },
+            "left": {
+              "expr": {
+                "Literal": {
+                  "Value": "10D"
+                }
+              }
+            },
+            "bottom": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
+                }
+              }
+            },
+            "top": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
+                }
+              }
+            }
+          }
+        }
       ]
     }
-  }
+  },
+  "parentGroupName": "customers_header_group"
 }

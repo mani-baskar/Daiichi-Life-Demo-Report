@@ -3,11 +3,11 @@
   "name": "ai_leads_nav_ai_leads",
   "position": {
     "x": 1389,
-    "y": 67.146584804297788,
+    "y": 67.14658480429779,
     "z": 7000,
     "height": 36,
     "width": 200,
-    "tabOrder": 7000
+    "tabOrder": 6000
   },
   "visual": {
     "visualType": "actionButton",
@@ -69,6 +69,20 @@
               }
             }
           }
+        },
+        {
+          "properties": {
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'AI Lead Conversion'"
+                }
+              }
+            }
+          },
+          "selector": {
+            "id": "default"
+          }
         }
       ],
       "icon": [
@@ -112,7 +126,7 @@
                 "color": {
                   "expr": {
                     "Literal": {
-                      "Value": "'#008C95'"
+                      "Value": "'#142D4E'"
                     }
                   }
                 }
@@ -136,7 +150,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "''"
+                  "Value": "'AI Lead Conversion'"
                 }
               }
             },
@@ -197,7 +211,7 @@
                 "color": {
                   "expr": {
                     "Literal": {
-                      "Value": "'#008C95'"
+                      "Value": "'#142D4E'"
                     }
                   }
                 }
@@ -267,5 +281,6 @@
         }
       ]
     }
-  }
+  },
+  "parentGroupName": "ai_leads_header_group"
 }
