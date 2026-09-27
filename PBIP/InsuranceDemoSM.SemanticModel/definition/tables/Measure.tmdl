@@ -181,6 +181,16 @@ table Measure
 		formatString: 0.00
 		lineageTag: af650f01-d111-48e9-b560-b6ed47ea4561
 
+	measure 'Last Refresh' =
+			VAR RefreshTime = MAX ( RefreshInfo[LastRefreshSGT] )
+			RETURN
+				IF (
+					ISBLANK ( RefreshTime ),
+					BLANK (),
+					FORMAT ( RefreshTime, "dd MMM yyyy, hh:mm AM/PM" ) & " SGT"
+				)
+		lineageTag: 7a9d34f0-9552-47d5-b7b7-348a4cdb2d63
+
 	column Column
 		formatString: 0
 		lineageTag: a8cf4b92-dad7-4041-80cf-4aa1a377088c

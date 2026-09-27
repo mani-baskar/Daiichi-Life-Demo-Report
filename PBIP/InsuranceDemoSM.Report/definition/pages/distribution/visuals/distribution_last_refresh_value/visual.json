@@ -1,6 +1,6 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
-  "name": "b819edf960e4a697d4ee",
+  "name": "distribution_last_refresh_value",
   "position": {
     "x": 1349.5011511895625,
     "y": 0,
@@ -233,6 +233,5 @@
         }
       ]
     }
-  },
-  "parentGroupName": "4c6a2650aa0483c24c99"
+  }
 }

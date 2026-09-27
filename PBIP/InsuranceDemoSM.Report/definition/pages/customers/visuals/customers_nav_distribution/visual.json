@@ -2,11 +2,11 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
   "name": "customers_nav_distribution",
   "position": {
-    "x": 1272,
-    "y": 89,
+    "x": 1131.75,
+    "y": 67.14658480429779,
     "z": 6000,
     "height": 36,
-    "width": 146,
+    "width": 250,
     "tabOrder": 6000
   },
   "visual": {

@@ -2,11 +2,11 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
   "name": "distribution_nav_ai_leads",
   "position": {
-    "x": 1428,
-    "y": 89,
+    "x": 1389,
+    "y": 67.14658480429779,
     "z": 7000,
     "height": 36,
-    "width": 146,
+    "width": 200,
     "tabOrder": 7000
   },
   "visual": {

@@ -1,13 +1,13 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
-  "name": "customers_footer",
+  "name": "customers_last_refresh_label",
   "position": {
-    "x": 0,
-    "y": 870,
-    "z": 8000,
+    "x": 1177.590176515733,
+    "y": 4.91174213353799,
+    "z": 23000,
     "height": 30,
-    "width": 1600,
-    "tabOrder": 8000
+    "width": 150,
+    "tabOrder": 22001
   },
   "visual": {
     "visualType": "textbox",
@@ -19,11 +19,11 @@
               {
                 "textRuns": [
                   {
-                    "value": "Synthetic demonstration data  |  Planning-area geography  |  All monetary values in SGD",
+                    "value": "Last Refresh",
                     "textStyle": {
                       "fontFamily": "Segoe UI",
-                      "fontSize": "9pt",
-                      "color": "#62758A"
+                      "fontSize": "16pt",
+                      "color": "#62758a"
                     }
                   }
                 ]
@@ -47,7 +47,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "''"
+                  "Value": "'Last Refresh Label'"
                 }
               }
             },
@@ -143,7 +143,41 @@
             "show": {
               "expr": {
                 "Literal": {
-                  "Value": "true"
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "padding": [
+        {
+          "properties": {
+            "left": {
+              "expr": {
+                "Literal": {
+                  "Value": "10D"
+                }
+              }
+            },
+            "right": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
+                }
+              }
+            },
+            "bottom": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
+                }
+              }
+            },
+            "top": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
                 }
               }
             }

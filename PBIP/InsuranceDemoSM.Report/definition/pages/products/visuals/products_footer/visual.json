@@ -2,11 +2,11 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
   "name": "products_footer",
   "position": {
-    "x": 24,
-    "y": 874,
+    "x": 0,
+    "y": 870,
     "z": 8000,
-    "height": 22,
-    "width": 1450,
+    "height": 30,
+    "width": 1600,
     "tabOrder": 8000
   },
   "visual": {
