@@ -2,12 +2,12 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
   "name": "ai_leads_last_refresh_value",
   "position": {
-    "x": 1349.5011511895625,
-    "y": 0,
-    "z": 16000,
+    "x": 1331.4285714285716,
+    "y": 7.53086419753086,
+    "z": 24000,
     "height": 40,
     "width": 250,
-    "tabOrder": 16000
+    "tabOrder": 9000
   },
   "visual": {
     "visualType": "cardVisual",
@@ -167,7 +167,28 @@
             "paddingUniform": {
               "expr": {
                 "Literal": {
-                  "Value": "12L"
+                  "Value": "0L"
+                }
+              }
+            },
+            "rightMargin": {
+              "expr": {
+                "Literal": {
+                  "Value": "0L"
+                }
+              }
+            },
+            "leftMargin": {
+              "expr": {
+                "Literal": {
+                  "Value": "0L"
+                }
+              }
+            },
+            "paddingIndividual": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
                 }
               }
             }
@@ -228,10 +249,22 @@
                   "Value": "'Last Refresh'"
                 }
               }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#F8FAFC'"
+                    }
+                  }
+                }
+              }
             }
           }
         }
       ]
     }
-  }
+  },
+  "parentGroupName": "ai_leads_header_group"
 }

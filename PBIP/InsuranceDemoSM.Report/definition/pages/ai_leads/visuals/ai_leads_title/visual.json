@@ -3,11 +3,11 @@
   "name": "ai_leads_title",
   "position": {
     "x": 0,
-    "y": 61.39677666922487,
-    "z": 22000,
-    "height": 45.433614735226406,
-    "width": 500,
-    "tabOrder": 22000
+    "y": 88.57142857142858,
+    "z": 2500,
+    "height": 45.714285714285715,
+    "width": 450.00000000000006,
+    "tabOrder": 7000
   },
   "visual": {
     "visualType": "textbox",
@@ -21,9 +21,10 @@
                   {
                     "value": "AI Lead Conversion",
                     "textStyle": {
+                      "fontWeight": "bold",
                       "fontFamily": "Segoe UI",
                       "fontSize": "22pt",
-                      "color": "#142d4e"
+                      "color": "#ffffff"
                     }
                   }
                 ]
@@ -56,7 +57,7 @@
                 "color": {
                   "expr": {
                     "Literal": {
-                      "Value": "'#142D4E'"
+                      "Value": "'#F8FAFC'"
                     }
                   }
                 }
@@ -153,17 +154,17 @@
       "padding": [
         {
           "properties": {
-            "right": {
-              "expr": {
-                "Literal": {
-                  "Value": "0D"
-                }
-              }
-            },
             "left": {
               "expr": {
                 "Literal": {
                   "Value": "10D"
+                }
+              }
+            },
+            "right": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
                 }
               }
             },
