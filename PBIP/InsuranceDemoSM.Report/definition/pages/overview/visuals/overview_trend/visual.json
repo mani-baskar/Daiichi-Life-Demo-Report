@@ -1,16 +1,93 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.0.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
   "name": "overview_trend",
   "position": {
     "x": 24,
     "y": 330,
-    "width": 1000,
+    "z": 18000,
     "height": 254,
-    "z": 56,
-    "tabOrder": 56
+    "width": 1000,
+    "tabOrder": 18000
   },
   "visual": {
     "visualType": "lineClusteredColumnComboChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "gold_dim_date"
+                    }
+                  },
+                  "Property": "YearMonth"
+                }
+              },
+              "queryRef": "gold_dim_date.YearMonth",
+              "nativeQueryRef": "YearMonth",
+              "active": true
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure"
+                    }
+                  },
+                  "Property": "Annual Premium"
+                }
+              },
+              "queryRef": "Measure.Annual Premium",
+              "nativeQueryRef": "Annual Premium",
+              "format": "\"SGD \" #,0"
+            }
+          ]
+        },
+        "Y2": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure"
+                    }
+                  },
+                  "Property": "New Policies"
+                }
+              },
+              "queryRef": "Measure.New Policies",
+              "nativeQueryRef": "New Policies"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "gold_dim_date"
+                  }
+                },
+                "Property": "YearMonth"
+              }
+            },
+            "direction": "Ascending"
+          }
+        ]
+      }
+    },
     "objects": {
       "legend": [
         {
@@ -303,83 +380,6 @@
           }
         }
       ]
-    },
-    "query": {
-      "queryState": {
-        "Category": {
-          "projections": [
-            {
-              "field": {
-                "Column": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "gold_dim_date"
-                    }
-                  },
-                  "Property": "YearMonth"
-                }
-              },
-              "queryRef": "gold_dim_date.YearMonth",
-              "nativeQueryRef": "YearMonth"
-            }
-          ]
-        },
-        "Y": {
-          "projections": [
-            {
-              "field": {
-                "Measure": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "Measure"
-                    }
-                  },
-                  "Property": "Annual Premium"
-                }
-              },
-              "queryRef": "Measure.Annual Premium",
-              "nativeQueryRef": "Annual Premium",
-              "format": "\"SGD \" #,0"
-            }
-          ]
-        },
-        "Y2": {
-          "projections": [
-            {
-              "field": {
-                "Measure": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "Measure"
-                    }
-                  },
-                  "Property": "New Policies"
-                }
-              },
-              "queryRef": "Measure.New Policies",
-              "nativeQueryRef": "New Policies"
-            }
-          ]
-        }
-      },
-      "sortDefinition": {
-        "sort": [
-          {
-            "field": {
-              "Column": {
-                "Expression": {
-                  "SourceRef": {
-                    "Entity": "gold_dim_date"
-                  }
-                },
-                "Property": "YearMonth"
-              }
-            },
-            "direction": "Ascending"
-          }
-        ],
-        "isDefaultSort": false
-      }
     }
   }
 }

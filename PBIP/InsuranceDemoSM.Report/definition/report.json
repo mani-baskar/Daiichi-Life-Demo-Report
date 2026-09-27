@@ -1,25 +1,16 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/report/2.0.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/report/3.3.0/schema.json",
   "themeCollection": {
     "customTheme": {
       "name": "InsuranceExecutive",
-      "reportVersionAtImport": "2.0",
+      "reportVersionAtImport": {
+        "visual": "1.8.1",
+        "report": "2.0.1",
+        "page": "1.3.1"
+      },
       "type": "RegisteredResources"
     }
   },
-  "resourcePackages": [
-    {
-      "name": "RegisteredResources",
-      "type": "RegisteredResources",
-      "items": [
-        {
-          "name": "InsuranceExecutive",
-          "path": "InsuranceExecutive.json",
-          "type": "CustomTheme"
-        }
-      ]
-    }
-  ],
   "objects": {
     "outspacePane": [
       {
@@ -34,5 +25,25 @@
         }
       }
     ]
+  },
+  "resourcePackages": [
+    {
+      "name": "RegisteredResources",
+      "type": "RegisteredResources",
+      "items": [
+        {
+          "name": "InsuranceExecutive",
+          "path": "InsuranceExecutive",
+          "type": "CustomTheme"
+        }
+      ]
+    }
+  ],
+  "settings": {
+    "useStylableVisualContainerHeader": true,
+    "useEnhancedTooltips": false,
+    "queryLimitOption": "None",
+    "customMemoryLimit": "1048576",
+    "customTimeoutLimit": "225"
   }
 }

@@ -1,16 +1,140 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.0.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
   "name": "customers_map",
   "position": {
     "x": 24,
     "y": 330,
-    "width": 624,
+    "z": 17000,
     "height": 334,
-    "z": 82,
-    "tabOrder": 82
+    "width": 624,
+    "tabOrder": 17000
   },
   "visual": {
-    "visualType": "map",
+    "visualType": "azureMap",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "gold_dim_customer"
+                    }
+                  },
+                  "Property": "PlanningArea"
+                }
+              },
+              "queryRef": "gold_dim_customer.PlanningArea",
+              "nativeQueryRef": "PlanningArea",
+              "active": true
+            }
+          ]
+        },
+        "Latitude": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "gold_dim_customer"
+                    }
+                  },
+                  "Property": "PlanningAreaLatitude"
+                }
+              },
+              "queryRef": "gold_dim_customer.PlanningAreaLatitude",
+              "nativeQueryRef": "PlanningAreaLatitude"
+            }
+          ]
+        },
+        "Longitude": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "gold_dim_customer"
+                    }
+                  },
+                  "Property": "PlanningAreaLongitude"
+                }
+              },
+              "queryRef": "gold_dim_customer.PlanningAreaLongitude",
+              "nativeQueryRef": "PlanningAreaLongitude"
+            }
+          ]
+        },
+        "Size": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure"
+                    }
+                  },
+                  "Property": "Total Policies"
+                }
+              },
+              "queryRef": "Measure.Total Policies",
+              "nativeQueryRef": "Total Policies"
+            }
+          ]
+        },
+        "Tooltips": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure"
+                    }
+                  },
+                  "Property": "Total Customers"
+                }
+              },
+              "queryRef": "Measure.Total Customers",
+              "nativeQueryRef": "Total Customers"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure"
+                    }
+                  },
+                  "Property": "Annual Premium"
+                }
+              },
+              "queryRef": "Measure.Annual Premium",
+              "nativeQueryRef": "Annual Premium",
+              "format": "\"SGD \" #,0"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure"
+                    }
+                  },
+                  "Property": "Renewal Rate"
+                }
+              },
+              "queryRef": "Measure.Renewal Rate",
+              "nativeQueryRef": "Renewal Rate"
+            }
+          ]
+        }
+      }
+    },
     "objects": {
       "legend": [
         {
@@ -50,117 +174,94 @@
           }
         }
       ],
-      "categoryAxis": [
-        {
-          "properties": {
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            },
-            "showAxisTitle": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
-                }
-              }
-            },
-            "fontSize": {
-              "expr": {
-                "Literal": {
-                  "Value": "9D"
-                }
-              }
-            },
-            "labelColor": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "Literal": {
-                      "Value": "'#62758A'"
-                    }
-                  }
-                }
-              }
-            }
-          }
-        }
-      ],
-      "valueAxis": [
-        {
-          "properties": {
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            },
-            "showAxisTitle": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
-                }
-              }
-            },
-            "fontSize": {
-              "expr": {
-                "Literal": {
-                  "Value": "9D"
-                }
-              }
-            },
-            "labelColor": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "Literal": {
-                      "Value": "'#62758A'"
-                    }
-                  }
-                }
-              }
-            },
-            "gridlineColor": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "Literal": {
-                      "Value": "'#EEF2F6'"
-                    }
-                  }
-                }
-              }
-            }
-          }
-        }
-      ],
       "dataPoint": [
         {
+          "properties": {}
+        }
+      ],
+      "mapControls": [
+        {
           "properties": {
-            "defaultColor": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "Literal": {
-                      "Value": "'#008C95'"
-                    }
-                  }
+            "defaultStyle": {
+              "expr": {
+                "Literal": {
+                  "Value": "'road'"
+                }
+              }
+            },
+            "showStylePicker": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            },
+            "showNavigationControls": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            },
+            "showSelectionControl": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
                 }
               }
             }
           }
         }
       ],
-      "labels": [
+      "bubbleLayer": [
         {
           "properties": {
             "show": {
               "expr": {
                 "Literal": {
-                  "Value": "false"
+                  "Value": "true"
+                }
+              }
+            },
+            "bubbleRadius": {
+              "expr": {
+                "Literal": {
+                  "Value": "6L"
+                }
+              }
+            },
+            "minBubbleRadius": {
+              "expr": {
+                "Literal": {
+                  "Value": "6L"
+                }
+              }
+            },
+            "maxRadius": {
+              "expr": {
+                "Literal": {
+                  "Value": "21L"
+                }
+              }
+            },
+            "bubbleStrokeWidth": {
+              "expr": {
+                "Literal": {
+                  "Value": "1L"
+                }
+              }
+            },
+            "autoStrokeColor": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "layerPosition": {
+              "expr": {
+                "Literal": {
+                  "Value": "''"
                 }
               }
             }
@@ -303,129 +404,6 @@
           }
         }
       ]
-    },
-    "query": {
-      "queryState": {
-        "Category": {
-          "projections": [
-            {
-              "field": {
-                "Column": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "gold_dim_customer"
-                    }
-                  },
-                  "Property": "PlanningArea"
-                }
-              },
-              "queryRef": "gold_dim_customer.PlanningArea",
-              "nativeQueryRef": "PlanningArea"
-            }
-          ]
-        },
-        "Latitude": {
-          "projections": [
-            {
-              "field": {
-                "Column": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "gold_dim_customer"
-                    }
-                  },
-                  "Property": "PlanningAreaLatitude"
-                }
-              },
-              "queryRef": "gold_dim_customer.PlanningAreaLatitude",
-              "nativeQueryRef": "PlanningAreaLatitude"
-            }
-          ]
-        },
-        "Longitude": {
-          "projections": [
-            {
-              "field": {
-                "Column": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "gold_dim_customer"
-                    }
-                  },
-                  "Property": "PlanningAreaLongitude"
-                }
-              },
-              "queryRef": "gold_dim_customer.PlanningAreaLongitude",
-              "nativeQueryRef": "PlanningAreaLongitude"
-            }
-          ]
-        },
-        "Size": {
-          "projections": [
-            {
-              "field": {
-                "Measure": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "Measure"
-                    }
-                  },
-                  "Property": "Total Policies"
-                }
-              },
-              "queryRef": "Measure.Total Policies",
-              "nativeQueryRef": "Total Policies"
-            }
-          ]
-        },
-        "Tooltips": {
-          "projections": [
-            {
-              "field": {
-                "Measure": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "Measure"
-                    }
-                  },
-                  "Property": "Total Customers"
-                }
-              },
-              "queryRef": "Measure.Total Customers",
-              "nativeQueryRef": "Total Customers"
-            },
-            {
-              "field": {
-                "Measure": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "Measure"
-                    }
-                  },
-                  "Property": "Annual Premium"
-                }
-              },
-              "queryRef": "Measure.Annual Premium",
-              "nativeQueryRef": "Annual Premium",
-              "format": "\"SGD \" #,0"
-            },
-            {
-              "field": {
-                "Measure": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "Measure"
-                    }
-                  },
-                  "Property": "Renewal Rate"
-                }
-              },
-              "queryRef": "Measure.Renewal Rate",
-              "nativeQueryRef": "Renewal Rate"
-            }
-          ]
-        }
-      }
     }
   }
 }

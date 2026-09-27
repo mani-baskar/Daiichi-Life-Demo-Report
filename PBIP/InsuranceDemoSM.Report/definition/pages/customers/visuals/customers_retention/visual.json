@@ -1,16 +1,57 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.0.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
   "name": "customers_retention",
   "position": {
     "x": 1128,
     "y": 602,
-    "width": 448,
+    "z": 21000,
     "height": 254,
-    "z": 86,
-    "tabOrder": 86
+    "width": 448,
+    "tabOrder": 21000
   },
   "visual": {
     "visualType": "barChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "gold_dim_customer"
+                    }
+                  },
+                  "Property": "Region"
+                }
+              },
+              "queryRef": "gold_dim_customer.Region",
+              "nativeQueryRef": "Region",
+              "active": true
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure"
+                    }
+                  },
+                  "Property": "Lapse Rate"
+                }
+              },
+              "queryRef": "Measure.Lapse Rate",
+              "nativeQueryRef": "Lapse Rate"
+            }
+          ]
+        }
+      }
+    },
     "objects": {
       "legend": [
         {
@@ -303,46 +344,6 @@
           }
         }
       ]
-    },
-    "query": {
-      "queryState": {
-        "Category": {
-          "projections": [
-            {
-              "field": {
-                "Column": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "gold_dim_customer"
-                    }
-                  },
-                  "Property": "Region"
-                }
-              },
-              "queryRef": "gold_dim_customer.Region",
-              "nativeQueryRef": "Region"
-            }
-          ]
-        },
-        "Y": {
-          "projections": [
-            {
-              "field": {
-                "Measure": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "Measure"
-                    }
-                  },
-                  "Property": "Lapse Rate"
-                }
-              },
-              "queryRef": "Measure.Lapse Rate",
-              "nativeQueryRef": "Lapse Rate"
-            }
-          ]
-        }
-      }
     }
   }
 }

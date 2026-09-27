@@ -1,16 +1,38 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.0.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
   "name": "ai_leads_kpi_2",
   "position": {
     "x": 649.6,
     "y": 214,
-    "width": 300.8,
+    "z": 15000,
     "height": 98,
-    "z": 109,
-    "tabOrder": 109
+    "width": 300.8,
+    "tabOrder": 15000
   },
   "visual": {
     "visualType": "card",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure"
+                    }
+                  },
+                  "Property": "Avg Conversion Probability"
+                }
+              },
+              "queryRef": "Measure.Avg Conversion Probability",
+              "nativeQueryRef": "Avg Conversion Probability"
+            }
+          ]
+        }
+      }
+    },
     "objects": {
       "labels": [
         {
@@ -199,28 +221,6 @@
           }
         }
       ]
-    },
-    "query": {
-      "queryState": {
-        "Values": {
-          "projections": [
-            {
-              "field": {
-                "Measure": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "Measure"
-                    }
-                  },
-                  "Property": "Avg Conversion Probability"
-                }
-              },
-              "queryRef": "Measure.Avg Conversion Probability",
-              "nativeQueryRef": "Avg Conversion Probability"
-            }
-          ]
-        }
-      }
     }
   }
 }

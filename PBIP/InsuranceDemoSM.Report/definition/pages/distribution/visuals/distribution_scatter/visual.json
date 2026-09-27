@@ -1,16 +1,113 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.0.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
   "name": "distribution_scatter",
   "position": {
     "x": 1050,
     "y": 330,
-    "width": 526,
+    "z": 20000,
     "height": 292,
-    "z": 99,
-    "tabOrder": 99
+    "width": 526,
+    "tabOrder": 20000
   },
   "visual": {
     "visualType": "scatterChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "gold_dim_agent"
+                    }
+                  },
+                  "Property": "AgentName"
+                }
+              },
+              "queryRef": "gold_dim_agent.AgentName",
+              "nativeQueryRef": "AgentName",
+              "active": true
+            }
+          ]
+        },
+        "Series": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "gold_dim_agent"
+                    }
+                  },
+                  "Property": "DistributionChannel"
+                }
+              },
+              "queryRef": "gold_dim_agent.DistributionChannel",
+              "nativeQueryRef": "DistributionChannel"
+            }
+          ]
+        },
+        "Size": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure"
+                    }
+                  },
+                  "Property": "Total Policies"
+                }
+              },
+              "queryRef": "Measure.Total Policies",
+              "nativeQueryRef": "Total Policies"
+            }
+          ]
+        },
+        "X": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure"
+                    }
+                  },
+                  "Property": "Conversion Rate"
+                }
+              },
+              "queryRef": "Measure.Conversion Rate",
+              "nativeQueryRef": "Conversion Rate",
+              "active": true
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure"
+                    }
+                  },
+                  "Property": "Annual Premium"
+                }
+              },
+              "queryRef": "Measure.Annual Premium",
+              "nativeQueryRef": "Annual Premium",
+              "format": "\"SGD \" #,0"
+            }
+          ]
+        }
+      }
+    },
     "objects": {
       "legend": [
         {
@@ -153,19 +250,6 @@
             }
           }
         }
-      ],
-      "labels": [
-        {
-          "properties": {
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
-                }
-              }
-            }
-          }
-        }
       ]
     },
     "visualContainerObjects": {
@@ -303,101 +387,6 @@
           }
         }
       ]
-    },
-    "query": {
-      "queryState": {
-        "Category": {
-          "projections": [
-            {
-              "field": {
-                "Column": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "gold_dim_agent"
-                    }
-                  },
-                  "Property": "AgentName"
-                }
-              },
-              "queryRef": "gold_dim_agent.AgentName",
-              "nativeQueryRef": "AgentName"
-            }
-          ]
-        },
-        "Series": {
-          "projections": [
-            {
-              "field": {
-                "Column": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "gold_dim_agent"
-                    }
-                  },
-                  "Property": "DistributionChannel"
-                }
-              },
-              "queryRef": "gold_dim_agent.DistributionChannel",
-              "nativeQueryRef": "DistributionChannel"
-            }
-          ]
-        },
-        "X": {
-          "projections": [
-            {
-              "field": {
-                "Measure": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "Measure"
-                    }
-                  },
-                  "Property": "Conversion Rate"
-                }
-              },
-              "queryRef": "Measure.Conversion Rate",
-              "nativeQueryRef": "Conversion Rate"
-            }
-          ]
-        },
-        "Y": {
-          "projections": [
-            {
-              "field": {
-                "Measure": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "Measure"
-                    }
-                  },
-                  "Property": "Annual Premium"
-                }
-              },
-              "queryRef": "Measure.Annual Premium",
-              "nativeQueryRef": "Annual Premium",
-              "format": "\"SGD \" #,0"
-            }
-          ]
-        },
-        "Size": {
-          "projections": [
-            {
-              "field": {
-                "Measure": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "Measure"
-                    }
-                  },
-                  "Property": "Total Policies"
-                }
-              },
-              "queryRef": "Measure.Total Policies",
-              "nativeQueryRef": "Total Policies"
-            }
-          ]
-        }
-      }
     }
   }
 }

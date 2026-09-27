@@ -1,13 +1,13 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.0.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
   "name": "overview_brand",
   "position": {
-    "x": 24,
-    "y": 14,
-    "width": 1400,
-    "height": 34,
-    "z": 1,
-    "tabOrder": 1
+    "x": 0,
+    "y": 0,
+    "z": 1000,
+    "height": 40,
+    "width": 600,
+    "tabOrder": 0
   },
   "visual": {
     "visualType": "textbox",
@@ -23,7 +23,7 @@
                     "textStyle": {
                       "fontFamily": "Segoe UI",
                       "fontSize": "21pt",
-                      "color": "#142D4E"
+                      "color": "#142d4e"
                     }
                   }
                 ]
@@ -47,7 +47,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "''"
+                  "Value": "'Title'"
                 }
               }
             },
@@ -143,7 +143,41 @@
             "show": {
               "expr": {
                 "Literal": {
-                  "Value": "true"
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "padding": [
+        {
+          "properties": {
+            "right": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
+                }
+              }
+            },
+            "left": {
+              "expr": {
+                "Literal": {
+                  "Value": "10D"
+                }
+              }
+            },
+            "bottom": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
+                }
+              }
+            },
+            "top": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
                 }
               }
             }
@@ -151,5 +185,6 @@
         }
       ]
     }
-  }
+  },
+  "parentGroupName": "4c6a2650aa0483c24c99"
 }

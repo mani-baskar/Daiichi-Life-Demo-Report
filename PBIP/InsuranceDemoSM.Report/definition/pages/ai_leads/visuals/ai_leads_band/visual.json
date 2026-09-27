@@ -1,16 +1,39 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.0.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
   "name": "ai_leads_band",
   "position": {
     "x": 24,
     "y": 138,
-    "width": 376,
+    "z": 9000,
     "height": 60,
-    "z": 103,
-    "tabOrder": 103
+    "width": 376,
+    "tabOrder": 9000
   },
   "visual": {
     "visualType": "slicer",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "gold_lead_propensity"
+                    }
+                  },
+                  "Property": "PropensityBand"
+                }
+              },
+              "queryRef": "gold_lead_propensity.PropensityBand",
+              "nativeQueryRef": "PropensityBand",
+              "active": true
+            }
+          ]
+        }
+      }
+    },
     "objects": {
       "data": [
         {
@@ -41,13 +64,6 @@
       "items": [
         {
           "properties": {
-            "fontSize": {
-              "expr": {
-                "Literal": {
-                  "Value": "10D"
-                }
-              }
-            },
             "fontColor": {
               "solid": {
                 "color": {
@@ -218,28 +234,6 @@
           }
         }
       ]
-    },
-    "query": {
-      "queryState": {
-        "Values": {
-          "projections": [
-            {
-              "field": {
-                "Column": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "gold_lead_propensity"
-                    }
-                  },
-                  "Property": "PropensityBand"
-                }
-              },
-              "queryRef": "gold_lead_propensity.PropensityBand",
-              "nativeQueryRef": "PropensityBand"
-            }
-          ]
-        }
-      }
     }
   }
 }

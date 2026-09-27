@@ -1,16 +1,39 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.0.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
   "name": "products_kpi_2",
   "position": {
-    "x": 545.3333333333333,
+    "x": 545.33333333333326,
     "y": 214,
-    "width": 248.66666666666666,
+    "z": 15000,
     "height": 98,
-    "z": 66,
-    "tabOrder": 66
+    "width": 248.66666666666666,
+    "tabOrder": 15000
   },
   "visual": {
     "visualType": "card",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure"
+                    }
+                  },
+                  "Property": "Total Sum Assured"
+                }
+              },
+              "queryRef": "Measure.Total Sum Assured",
+              "nativeQueryRef": "Total Sum Assured",
+              "format": "\"SGD \" #,0"
+            }
+          ]
+        }
+      }
+    },
     "objects": {
       "labels": [
         {
@@ -199,29 +222,6 @@
           }
         }
       ]
-    },
-    "query": {
-      "queryState": {
-        "Values": {
-          "projections": [
-            {
-              "field": {
-                "Measure": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "Measure"
-                    }
-                  },
-                  "Property": "Total Sum Assured"
-                }
-              },
-              "queryRef": "Measure.Total Sum Assured",
-              "nativeQueryRef": "Total Sum Assured",
-              "format": "\"SGD \" #,0"
-            }
-          ]
-        }
-      }
     }
   }
 }

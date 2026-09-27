@@ -1,16 +1,93 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.0.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
   "name": "products_trend",
   "position": {
     "x": 24,
     "y": 640,
-    "width": 800,
+    "z": 21000,
     "height": 216,
-    "z": 72,
-    "tabOrder": 72
+    "width": 800,
+    "tabOrder": 21000
   },
   "visual": {
     "visualType": "lineChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "gold_dim_date"
+                    }
+                  },
+                  "Property": "YearMonth"
+                }
+              },
+              "queryRef": "gold_dim_date.YearMonth",
+              "nativeQueryRef": "YearMonth",
+              "active": true
+            }
+          ]
+        },
+        "Series": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "gold_dim_product"
+                    }
+                  },
+                  "Property": "ProductFamily"
+                }
+              },
+              "queryRef": "gold_dim_product.ProductFamily",
+              "nativeQueryRef": "ProductFamily"
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure"
+                    }
+                  },
+                  "Property": "Annual Premium"
+                }
+              },
+              "queryRef": "Measure.Annual Premium",
+              "nativeQueryRef": "Annual Premium",
+              "format": "\"SGD \" #,0"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "gold_dim_date"
+                  }
+                },
+                "Property": "YearMonth"
+              }
+            },
+            "direction": "Ascending"
+          }
+        ]
+      }
+    },
     "objects": {
       "legend": [
         {
@@ -303,83 +380,6 @@
           }
         }
       ]
-    },
-    "query": {
-      "queryState": {
-        "Category": {
-          "projections": [
-            {
-              "field": {
-                "Column": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "gold_dim_date"
-                    }
-                  },
-                  "Property": "YearMonth"
-                }
-              },
-              "queryRef": "gold_dim_date.YearMonth",
-              "nativeQueryRef": "YearMonth"
-            }
-          ]
-        },
-        "Series": {
-          "projections": [
-            {
-              "field": {
-                "Column": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "gold_dim_product"
-                    }
-                  },
-                  "Property": "ProductFamily"
-                }
-              },
-              "queryRef": "gold_dim_product.ProductFamily",
-              "nativeQueryRef": "ProductFamily"
-            }
-          ]
-        },
-        "Y": {
-          "projections": [
-            {
-              "field": {
-                "Measure": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "Measure"
-                    }
-                  },
-                  "Property": "Annual Premium"
-                }
-              },
-              "queryRef": "Measure.Annual Premium",
-              "nativeQueryRef": "Annual Premium",
-              "format": "\"SGD \" #,0"
-            }
-          ]
-        }
-      },
-      "sortDefinition": {
-        "sort": [
-          {
-            "field": {
-              "Column": {
-                "Expression": {
-                  "SourceRef": {
-                    "Entity": "gold_dim_date"
-                  }
-                },
-                "Property": "YearMonth"
-              }
-            },
-            "direction": "Ascending"
-          }
-        ],
-        "isDefaultSort": false
-      }
     }
   }
 }

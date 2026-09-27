@@ -1,16 +1,58 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.0.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
   "name": "distribution_branches",
   "position": {
     "x": 1064,
     "y": 640,
-    "width": 512,
+    "z": 23000,
     "height": 216,
-    "z": 102,
-    "tabOrder": 102
+    "width": 512,
+    "tabOrder": 23000
   },
   "visual": {
     "visualType": "barChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "gold_dim_agent"
+                    }
+                  },
+                  "Property": "Region"
+                }
+              },
+              "queryRef": "gold_dim_agent.Region",
+              "nativeQueryRef": "Region",
+              "active": true
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure"
+                    }
+                  },
+                  "Property": "Annual Premium"
+                }
+              },
+              "queryRef": "Measure.Annual Premium",
+              "nativeQueryRef": "Annual Premium",
+              "format": "\"SGD \" #,0"
+            }
+          ]
+        }
+      }
+    },
     "objects": {
       "legend": [
         {
@@ -303,47 +345,6 @@
           }
         }
       ]
-    },
-    "query": {
-      "queryState": {
-        "Category": {
-          "projections": [
-            {
-              "field": {
-                "Column": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "gold_dim_agent"
-                    }
-                  },
-                  "Property": "Region"
-                }
-              },
-              "queryRef": "gold_dim_agent.Region",
-              "nativeQueryRef": "Region"
-            }
-          ]
-        },
-        "Y": {
-          "projections": [
-            {
-              "field": {
-                "Measure": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "Measure"
-                    }
-                  },
-                  "Property": "Annual Premium"
-                }
-              },
-              "queryRef": "Measure.Annual Premium",
-              "nativeQueryRef": "Annual Premium",
-              "format": "\"SGD \" #,0"
-            }
-          ]
-        }
-      }
     }
   }
 }

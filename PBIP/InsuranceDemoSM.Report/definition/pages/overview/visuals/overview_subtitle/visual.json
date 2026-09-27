@@ -1,13 +1,13 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.0.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
   "name": "overview_subtitle",
   "position": {
-    "x": 24,
-    "y": 51,
-    "width": 1400,
-    "height": 24,
-    "z": 2,
-    "tabOrder": 2
+    "x": 0,
+    "y": 40,
+    "z": 2000,
+    "height": 22,
+    "width": 600,
+    "tabOrder": 1000
   },
   "visual": {
     "visualType": "textbox",
@@ -23,7 +23,7 @@
                     "textStyle": {
                       "fontFamily": "Segoe UI",
                       "fontSize": "10pt",
-                      "color": "#62758A"
+                      "color": "#62758a"
                     }
                   }
                 ]
@@ -47,7 +47,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "''"
+                  "Value": "'SubTitle'"
                 }
               }
             },
@@ -143,7 +143,41 @@
             "show": {
               "expr": {
                 "Literal": {
-                  "Value": "true"
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "padding": [
+        {
+          "properties": {
+            "left": {
+              "expr": {
+                "Literal": {
+                  "Value": "10D"
+                }
+              }
+            },
+            "right": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
+                }
+              }
+            },
+            "bottom": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
+                }
+              }
+            },
+            "top": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
                 }
               }
             }
@@ -151,5 +185,6 @@
         }
       ]
     }
-  }
+  },
+  "parentGroupName": "4c6a2650aa0483c24c99"
 }

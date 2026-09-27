@@ -1,16 +1,38 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.0.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
   "name": "distribution_kpi_5",
   "position": {
     "x": 1327.333333333333,
     "y": 214,
-    "width": 248.66666666666666,
+    "z": 18000,
     "height": 98,
-    "z": 97,
-    "tabOrder": 97
+    "width": 248.66666666666666,
+    "tabOrder": 18000
   },
   "visual": {
     "visualType": "card",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure"
+                    }
+                  },
+                  "Property": "Avg First Response Hours"
+                }
+              },
+              "queryRef": "Measure.Avg First Response Hours",
+              "nativeQueryRef": "Avg First Response Hours"
+            }
+          ]
+        }
+      }
+    },
     "objects": {
       "labels": [
         {
@@ -199,28 +221,6 @@
           }
         }
       ]
-    },
-    "query": {
-      "queryState": {
-        "Values": {
-          "projections": [
-            {
-              "field": {
-                "Measure": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "Measure"
-                    }
-                  },
-                  "Property": "Avg First Response Hours"
-                }
-              },
-              "queryRef": "Measure.Avg First Response Hours",
-              "nativeQueryRef": "Avg First Response Hours"
-            }
-          ]
-        }
-      }
     }
   }
 }

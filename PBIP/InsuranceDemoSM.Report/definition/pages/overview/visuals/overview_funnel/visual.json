@@ -1,55 +1,58 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.0.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
   "name": "overview_funnel",
   "position": {
     "x": 1040,
     "y": 330,
-    "width": 536,
+    "z": 19000,
     "height": 254,
-    "z": 57,
-    "tabOrder": 57
+    "width": 536,
+    "tabOrder": 19000
   },
   "visual": {
     "visualType": "funnel",
-    "objects": {
-      "legend": [
-        {
-          "properties": {
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
-                }
-              }
-            },
-            "position": {
-              "expr": {
-                "Literal": {
-                  "Value": "'Top'"
-                }
-              }
-            },
-            "fontSize": {
-              "expr": {
-                "Literal": {
-                  "Value": "9D"
-                }
-              }
-            },
-            "labelColor": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "Literal": {
-                      "Value": "'#62758A'"
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "gold_lead_conversion"
                     }
-                  }
+                  },
+                  "Property": "LeadStage"
                 }
-              }
+              },
+              "queryRef": "gold_lead_conversion.LeadStage",
+              "nativeQueryRef": "LeadStage",
+              "active": true
             }
-          }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure"
+                    }
+                  },
+                  "Property": "Total Leads"
+                }
+              },
+              "queryRef": "Measure.Total Leads",
+              "nativeQueryRef": "Total Leads"
+            }
+          ]
         }
-      ],
+      }
+    },
+    "objects": {
       "categoryAxis": [
         {
           "properties": {
@@ -60,77 +63,10 @@
                 }
               }
             },
-            "showAxisTitle": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
-                }
-              }
-            },
             "fontSize": {
               "expr": {
                 "Literal": {
                   "Value": "9D"
-                }
-              }
-            },
-            "labelColor": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "Literal": {
-                      "Value": "'#62758A'"
-                    }
-                  }
-                }
-              }
-            }
-          }
-        }
-      ],
-      "valueAxis": [
-        {
-          "properties": {
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            },
-            "showAxisTitle": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
-                }
-              }
-            },
-            "fontSize": {
-              "expr": {
-                "Literal": {
-                  "Value": "9D"
-                }
-              }
-            },
-            "labelColor": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "Literal": {
-                      "Value": "'#62758A'"
-                    }
-                  }
-                }
-              }
-            },
-            "gridlineColor": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "Literal": {
-                      "Value": "'#EEF2F6'"
-                    }
-                  }
                 }
               }
             }
@@ -303,46 +239,6 @@
           }
         }
       ]
-    },
-    "query": {
-      "queryState": {
-        "Category": {
-          "projections": [
-            {
-              "field": {
-                "Column": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "gold_lead_conversion"
-                    }
-                  },
-                  "Property": "LeadStage"
-                }
-              },
-              "queryRef": "gold_lead_conversion.LeadStage",
-              "nativeQueryRef": "LeadStage"
-            }
-          ]
-        },
-        "Y": {
-          "projections": [
-            {
-              "field": {
-                "Measure": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "Measure"
-                    }
-                  },
-                  "Property": "Total Leads"
-                }
-              },
-              "queryRef": "Measure.Total Leads",
-              "nativeQueryRef": "Total Leads"
-            }
-          ]
-        }
-      }
     }
   }
 }

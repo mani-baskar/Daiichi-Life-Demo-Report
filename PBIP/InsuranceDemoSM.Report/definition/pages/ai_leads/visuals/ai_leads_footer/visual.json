@@ -1,13 +1,13 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.0.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
   "name": "ai_leads_footer",
   "position": {
     "x": 24,
     "y": 874,
-    "width": 1450,
+    "z": 8000,
     "height": 22,
-    "z": 45,
-    "tabOrder": 45
+    "width": 1450,
+    "tabOrder": 8000
   },
   "visual": {
     "visualType": "textbox",

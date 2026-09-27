@@ -1,16 +1,57 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.0.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
   "name": "products_status",
   "position": {
     "x": 1050,
     "y": 330,
-    "width": 526,
+    "z": 20000,
     "height": 292,
-    "z": 71,
-    "tabOrder": 71
+    "width": 526,
+    "tabOrder": 20000
   },
   "visual": {
     "visualType": "donutChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "gold_fact_policy"
+                    }
+                  },
+                  "Property": "PolicyStatus"
+                }
+              },
+              "queryRef": "gold_fact_policy.PolicyStatus",
+              "nativeQueryRef": "PolicyStatus",
+              "active": true
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure"
+                    }
+                  },
+                  "Property": "Total Policies"
+                }
+              },
+              "queryRef": "Measure.Total Policies",
+              "nativeQueryRef": "Total Policies"
+            }
+          ]
+        }
+      }
+    },
     "objects": {
       "legend": [
         {
@@ -33,93 +74,6 @@
               "expr": {
                 "Literal": {
                   "Value": "10D"
-                }
-              }
-            }
-          }
-        }
-      ],
-      "categoryAxis": [
-        {
-          "properties": {
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            },
-            "showAxisTitle": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
-                }
-              }
-            },
-            "fontSize": {
-              "expr": {
-                "Literal": {
-                  "Value": "9D"
-                }
-              }
-            },
-            "labelColor": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "Literal": {
-                      "Value": "'#62758A'"
-                    }
-                  }
-                }
-              }
-            }
-          }
-        }
-      ],
-      "valueAxis": [
-        {
-          "properties": {
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            },
-            "showAxisTitle": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
-                }
-              }
-            },
-            "fontSize": {
-              "expr": {
-                "Literal": {
-                  "Value": "9D"
-                }
-              }
-            },
-            "labelColor": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "Literal": {
-                      "Value": "'#62758A'"
-                    }
-                  }
-                }
-              }
-            },
-            "gridlineColor": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "Literal": {
-                      "Value": "'#EEF2F6'"
-                    }
-                  }
                 }
               }
             }
@@ -292,46 +246,6 @@
           }
         }
       ]
-    },
-    "query": {
-      "queryState": {
-        "Category": {
-          "projections": [
-            {
-              "field": {
-                "Column": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "gold_fact_policy"
-                    }
-                  },
-                  "Property": "PolicyStatus"
-                }
-              },
-              "queryRef": "gold_fact_policy.PolicyStatus",
-              "nativeQueryRef": "PolicyStatus"
-            }
-          ]
-        },
-        "Y": {
-          "projections": [
-            {
-              "field": {
-                "Measure": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "Measure"
-                    }
-                  },
-                  "Property": "Total Policies"
-                }
-              },
-              "queryRef": "Measure.Total Policies",
-              "nativeQueryRef": "Total Policies"
-            }
-          ]
-        }
-      }
     }
   }
 }

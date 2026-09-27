@@ -1,13 +1,13 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.0.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
   "name": "customers_nav_distribution",
   "position": {
     "x": 1272,
     "y": 89,
-    "width": 146,
+    "z": 6000,
     "height": 36,
-    "z": 25,
-    "tabOrder": 25
+    "width": 146,
+    "tabOrder": 6000
   },
   "visual": {
     "visualType": "actionButton",

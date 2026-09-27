@@ -1,13 +1,13 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.0.0/schema.json",
-  "name": "overview_title",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
+  "name": "6ad48153370d227406d1",
   "position": {
-    "x": 24,
-    "y": 90,
-    "width": 720,
-    "height": 40,
-    "z": 3,
-    "tabOrder": 3
+    "x": 1177.590176515733,
+    "y": 4.91174213353799,
+    "z": 23000,
+    "height": 30,
+    "width": 150,
+    "tabOrder": 22001
   },
   "visual": {
     "visualType": "textbox",
@@ -19,11 +19,11 @@
               {
                 "textRuns": [
                   {
-                    "value": "Executive Overview",
+                    "value": "Last Refresh",
                     "textStyle": {
                       "fontFamily": "Segoe UI",
-                      "fontSize": "22pt",
-                      "color": "#142D4E"
+                      "fontSize": "16pt",
+                      "color": "#62758a"
                     }
                   }
                 ]
@@ -47,7 +47,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "''"
+                  "Value": "'Last Refresh Label'"
                 }
               }
             },
@@ -143,7 +143,41 @@
             "show": {
               "expr": {
                 "Literal": {
-                  "Value": "true"
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "padding": [
+        {
+          "properties": {
+            "left": {
+              "expr": {
+                "Literal": {
+                  "Value": "10D"
+                }
+              }
+            },
+            "right": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
+                }
+              }
+            },
+            "bottom": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
+                }
+              }
+            },
+            "top": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
                 }
               }
             }
@@ -151,5 +185,6 @@
         }
       ]
     }
-  }
+  },
+  "parentGroupName": "4c6a2650aa0483c24c99"
 }

@@ -1,16 +1,75 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.0.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
   "name": "distribution_stages",
   "position": {
     "x": 24,
     "y": 640,
-    "width": 504,
+    "z": 21000,
     "height": 216,
-    "z": 100,
-    "tabOrder": 100
+    "width": 504,
+    "tabOrder": 21000
   },
   "visual": {
     "visualType": "barChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "gold_lead_conversion"
+                    }
+                  },
+                  "Property": "DistributionChannel"
+                }
+              },
+              "queryRef": "gold_lead_conversion.DistributionChannel",
+              "nativeQueryRef": "DistributionChannel",
+              "active": true
+            }
+          ]
+        },
+        "Series": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "gold_lead_conversion"
+                    }
+                  },
+                  "Property": "LeadStage"
+                }
+              },
+              "queryRef": "gold_lead_conversion.LeadStage",
+              "nativeQueryRef": "LeadStage"
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure"
+                    }
+                  },
+                  "Property": "Total Leads"
+                }
+              },
+              "queryRef": "Measure.Total Leads",
+              "nativeQueryRef": "Total Leads"
+            }
+          ]
+        }
+      }
+    },
     "objects": {
       "legend": [
         {
@@ -303,64 +362,6 @@
           }
         }
       ]
-    },
-    "query": {
-      "queryState": {
-        "Category": {
-          "projections": [
-            {
-              "field": {
-                "Column": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "gold_lead_conversion"
-                    }
-                  },
-                  "Property": "DistributionChannel"
-                }
-              },
-              "queryRef": "gold_lead_conversion.DistributionChannel",
-              "nativeQueryRef": "DistributionChannel"
-            }
-          ]
-        },
-        "Series": {
-          "projections": [
-            {
-              "field": {
-                "Column": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "gold_lead_conversion"
-                    }
-                  },
-                  "Property": "LeadStage"
-                }
-              },
-              "queryRef": "gold_lead_conversion.LeadStage",
-              "nativeQueryRef": "LeadStage"
-            }
-          ]
-        },
-        "Y": {
-          "projections": [
-            {
-              "field": {
-                "Measure": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "Measure"
-                    }
-                  },
-                  "Property": "Total Leads"
-                }
-              },
-              "queryRef": "Measure.Total Leads",
-              "nativeQueryRef": "Total Leads"
-            }
-          ]
-        }
-      }
     }
   }
 }

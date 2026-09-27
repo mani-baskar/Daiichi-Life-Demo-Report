@@ -1,13 +1,13 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.0.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
   "name": "ai_leads_nav_customers",
   "position": {
     "x": 1116,
     "y": 89,
-    "width": 146,
+    "z": 5000,
     "height": 36,
-    "z": 42,
-    "tabOrder": 42
+    "width": 146,
+    "tabOrder": 5000
   },
   "visual": {
     "visualType": "actionButton",

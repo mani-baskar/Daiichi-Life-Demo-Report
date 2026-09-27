@@ -1,16 +1,57 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.0.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
   "name": "ai_leads_product_high",
   "position": {
     "x": 1192,
     "y": 330,
-    "width": 384,
+    "z": 21000,
     "height": 238,
-    "z": 115,
-    "tabOrder": 115
+    "width": 384,
+    "tabOrder": 21000
   },
   "visual": {
     "visualType": "barChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "gold_lead_propensity"
+                    }
+                  },
+                  "Property": "ProductInterest"
+                }
+              },
+              "queryRef": "gold_lead_propensity.ProductInterest",
+              "nativeQueryRef": "ProductInterest",
+              "active": true
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure"
+                    }
+                  },
+                  "Property": "High Propensity Leads"
+                }
+              },
+              "queryRef": "Measure.High Propensity Leads",
+              "nativeQueryRef": "High Propensity Leads"
+            }
+          ]
+        }
+      }
+    },
     "objects": {
       "legend": [
         {
@@ -303,46 +344,6 @@
           }
         }
       ]
-    },
-    "query": {
-      "queryState": {
-        "Category": {
-          "projections": [
-            {
-              "field": {
-                "Column": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "gold_lead_propensity"
-                    }
-                  },
-                  "Property": "ProductInterest"
-                }
-              },
-              "queryRef": "gold_lead_propensity.ProductInterest",
-              "nativeQueryRef": "ProductInterest"
-            }
-          ]
-        },
-        "Y": {
-          "projections": [
-            {
-              "field": {
-                "Measure": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "Measure"
-                    }
-                  },
-                  "Property": "High Propensity Leads"
-                }
-              },
-              "queryRef": "Measure.High Propensity Leads",
-              "nativeQueryRef": "High Propensity Leads"
-            }
-          ]
-        }
-      }
     }
   }
 }

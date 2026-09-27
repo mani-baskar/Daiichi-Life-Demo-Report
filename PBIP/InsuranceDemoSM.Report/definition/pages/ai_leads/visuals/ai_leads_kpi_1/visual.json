@@ -1,16 +1,38 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.0.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
   "name": "ai_leads_kpi_1",
   "position": {
     "x": 336.8,
     "y": 214,
-    "width": 300.8,
+    "z": 14000,
     "height": 98,
-    "z": 108,
-    "tabOrder": 108
+    "width": 300.8,
+    "tabOrder": 14000
   },
   "visual": {
     "visualType": "card",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure"
+                    }
+                  },
+                  "Property": "High Propensity Leads"
+                }
+              },
+              "queryRef": "Measure.High Propensity Leads",
+              "nativeQueryRef": "High Propensity Leads"
+            }
+          ]
+        }
+      }
+    },
     "objects": {
       "labels": [
         {
@@ -199,28 +221,6 @@
           }
         }
       ]
-    },
-    "query": {
-      "queryState": {
-        "Values": {
-          "projections": [
-            {
-              "field": {
-                "Measure": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "Measure"
-                    }
-                  },
-                  "Property": "High Propensity Leads"
-                }
-              },
-              "queryRef": "Measure.High Propensity Leads",
-              "nativeQueryRef": "High Propensity Leads"
-            }
-          ]
-        }
-      }
     }
   }
 }

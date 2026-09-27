@@ -1,16 +1,39 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.0.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
   "name": "products_time",
   "position": {
     "x": 1200,
     "y": 138,
-    "width": 376,
+    "z": 12000,
     "height": 60,
-    "z": 63,
-    "tabOrder": 63
+    "width": 376,
+    "tabOrder": 12000
   },
   "visual": {
     "visualType": "slicer",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Time Intelligence"
+                    }
+                  },
+                  "Property": "Time Calculation"
+                }
+              },
+              "queryRef": "Time Intelligence.Time Calculation",
+              "nativeQueryRef": "Time Calculation",
+              "active": true
+            }
+          ]
+        }
+      }
+    },
     "objects": {
       "data": [
         {
@@ -41,13 +64,6 @@
       "items": [
         {
           "properties": {
-            "fontSize": {
-              "expr": {
-                "Literal": {
-                  "Value": "10D"
-                }
-              }
-            },
             "fontColor": {
               "solid": {
                 "color": {
@@ -211,28 +227,6 @@
           }
         }
       ]
-    },
-    "query": {
-      "queryState": {
-        "Values": {
-          "projections": [
-            {
-              "field": {
-                "Column": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "Time Intelligence"
-                    }
-                  },
-                  "Property": "Time Calculation"
-                }
-              },
-              "queryRef": "Time Intelligence.Time Calculation",
-              "nativeQueryRef": "Time Calculation"
-            }
-          ]
-        }
-      }
     }
   }
 }

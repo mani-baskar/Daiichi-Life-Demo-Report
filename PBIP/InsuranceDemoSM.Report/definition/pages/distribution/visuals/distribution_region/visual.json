@@ -1,16 +1,39 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.0.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
   "name": "distribution_region",
   "position": {
     "x": 416,
     "y": 138,
-    "width": 376,
+    "z": 10000,
     "height": 60,
-    "z": 89,
-    "tabOrder": 89
+    "width": 376,
+    "tabOrder": 10000
   },
   "visual": {
     "visualType": "slicer",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "gold_dim_agent"
+                    }
+                  },
+                  "Property": "Region"
+                }
+              },
+              "queryRef": "gold_dim_agent.Region",
+              "nativeQueryRef": "Region",
+              "active": true
+            }
+          ]
+        }
+      }
+    },
     "objects": {
       "data": [
         {
@@ -41,13 +64,6 @@
       "items": [
         {
           "properties": {
-            "fontSize": {
-              "expr": {
-                "Literal": {
-                  "Value": "10D"
-                }
-              }
-            },
             "fontColor": {
               "solid": {
                 "color": {
@@ -218,28 +234,6 @@
           }
         }
       ]
-    },
-    "query": {
-      "queryState": {
-        "Values": {
-          "projections": [
-            {
-              "field": {
-                "Column": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "gold_dim_agent"
-                    }
-                  },
-                  "Property": "Region"
-                }
-              },
-              "queryRef": "gold_dim_agent.Region",
-              "nativeQueryRef": "Region"
-            }
-          ]
-        }
-      }
     },
     "syncGroup": {
       "groupName": "gold_dim_agent.Region",

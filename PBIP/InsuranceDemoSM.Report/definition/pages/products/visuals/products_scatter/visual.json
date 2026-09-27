@@ -1,16 +1,114 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.0.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
   "name": "products_scatter",
   "position": {
     "x": 840,
     "y": 640,
-    "width": 736,
+    "z": 22000,
     "height": 216,
-    "z": 73,
-    "tabOrder": 73
+    "width": 736,
+    "tabOrder": 22000
   },
   "visual": {
     "visualType": "scatterChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "gold_dim_product"
+                    }
+                  },
+                  "Property": "ProductName"
+                }
+              },
+              "queryRef": "gold_dim_product.ProductName",
+              "nativeQueryRef": "ProductName",
+              "active": true
+            }
+          ]
+        },
+        "Series": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "gold_dim_product"
+                    }
+                  },
+                  "Property": "ProductFamily"
+                }
+              },
+              "queryRef": "gold_dim_product.ProductFamily",
+              "nativeQueryRef": "ProductFamily"
+            }
+          ]
+        },
+        "Size": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure"
+                    }
+                  },
+                  "Property": "Total Policies"
+                }
+              },
+              "queryRef": "Measure.Total Policies",
+              "nativeQueryRef": "Total Policies"
+            }
+          ]
+        },
+        "X": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure"
+                    }
+                  },
+                  "Property": "Average Premium"
+                }
+              },
+              "queryRef": "Measure.Average Premium",
+              "nativeQueryRef": "Average Premium",
+              "active": true,
+              "format": "\"SGD \" #,0"
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure"
+                    }
+                  },
+                  "Property": "Average Sum Assured"
+                }
+              },
+              "queryRef": "Measure.Average Sum Assured",
+              "nativeQueryRef": "Average Sum Assured",
+              "format": "\"SGD \" #,0"
+            }
+          ]
+        }
+      }
+    },
     "objects": {
       "legend": [
         {
@@ -153,19 +251,6 @@
             }
           }
         }
-      ],
-      "labels": [
-        {
-          "properties": {
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
-                }
-              }
-            }
-          }
-        }
       ]
     },
     "visualContainerObjects": {
@@ -303,102 +388,6 @@
           }
         }
       ]
-    },
-    "query": {
-      "queryState": {
-        "Category": {
-          "projections": [
-            {
-              "field": {
-                "Column": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "gold_dim_product"
-                    }
-                  },
-                  "Property": "ProductName"
-                }
-              },
-              "queryRef": "gold_dim_product.ProductName",
-              "nativeQueryRef": "ProductName"
-            }
-          ]
-        },
-        "Series": {
-          "projections": [
-            {
-              "field": {
-                "Column": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "gold_dim_product"
-                    }
-                  },
-                  "Property": "ProductFamily"
-                }
-              },
-              "queryRef": "gold_dim_product.ProductFamily",
-              "nativeQueryRef": "ProductFamily"
-            }
-          ]
-        },
-        "X": {
-          "projections": [
-            {
-              "field": {
-                "Measure": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "Measure"
-                    }
-                  },
-                  "Property": "Average Premium"
-                }
-              },
-              "queryRef": "Measure.Average Premium",
-              "nativeQueryRef": "Average Premium",
-              "format": "\"SGD \" #,0"
-            }
-          ]
-        },
-        "Y": {
-          "projections": [
-            {
-              "field": {
-                "Measure": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "Measure"
-                    }
-                  },
-                  "Property": "Average Sum Assured"
-                }
-              },
-              "queryRef": "Measure.Average Sum Assured",
-              "nativeQueryRef": "Average Sum Assured",
-              "format": "\"SGD \" #,0"
-            }
-          ]
-        },
-        "Size": {
-          "projections": [
-            {
-              "field": {
-                "Measure": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "Measure"
-                    }
-                  },
-                  "Property": "Total Policies"
-                }
-              },
-              "queryRef": "Measure.Total Policies",
-              "nativeQueryRef": "Total Policies"
-            }
-          ]
-        }
-      }
     }
   }
 }

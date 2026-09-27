@@ -1,123 +1,34 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
-  "name": "products_nav_customers",
+  "name": "d37aae7caeb23a013dda",
   "position": {
-    "x": 1116,
-    "y": 89,
-    "z": 5000,
-    "height": 36,
-    "width": 146,
-    "tabOrder": 5000
+    "x": 0,
+    "y": 61.39677666922487,
+    "z": 22000,
+    "height": 45.433614735226406,
+    "width": 500,
+    "tabOrder": 22000
   },
   "visual": {
-    "visualType": "actionButton",
+    "visualType": "textbox",
     "objects": {
-      "text": [
+      "general": [
         {
           "properties": {
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            },
-            "text": {
-              "expr": {
-                "Literal": {
-                  "Value": "'Customers'"
-                }
-              }
-            },
-            "fontSize": {
-              "expr": {
-                "Literal": {
-                  "Value": "11D"
-                }
-              }
-            },
-            "fontFamily": {
-              "expr": {
-                "Literal": {
-                  "Value": "'Segoe UI'"
-                }
-              }
-            },
-            "fontColor": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "Literal": {
-                      "Value": "'#142D4E'"
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Executive Overview",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI",
+                      "fontSize": "22pt",
+                      "color": "#142d4e"
                     }
                   }
-                }
+                ]
               }
-            },
-            "horizontalAlignment": {
-              "expr": {
-                "Literal": {
-                  "Value": "'center'"
-                }
-              }
-            },
-            "verticalAlignment": {
-              "expr": {
-                "Literal": {
-                  "Value": "'middle'"
-                }
-              }
-            }
-          }
-        }
-      ],
-      "icon": [
-        {
-          "properties": {
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
-                }
-              }
-            }
-          }
-        }
-      ],
-      "outline": [
-        {
-          "properties": {
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
-                }
-              }
-            }
-          }
-        }
-      ],
-      "fill": [
-        {
-          "properties": {
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            },
-            "fillColor": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "Literal": {
-                      "Value": "'#E6EDF4'"
-                    }
-                  }
-                }
-              }
-            }
+            ]
           }
         }
       ]
@@ -136,7 +47,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "''"
+                  "Value": "'Page Title'"
                 }
               }
             },
@@ -188,7 +99,7 @@
             "show": {
               "expr": {
                 "Literal": {
-                  "Value": "true"
+                  "Value": "false"
                 }
               }
             },
@@ -197,7 +108,7 @@
                 "color": {
                   "expr": {
                     "Literal": {
-                      "Value": "'#E6EDF4'"
+                      "Value": "'#FFFFFF'"
                     }
                   }
                 }
@@ -206,7 +117,7 @@
             "transparency": {
               "expr": {
                 "Literal": {
-                  "Value": "0D"
+                  "Value": "100D"
                 }
               }
             }
@@ -239,27 +150,34 @@
           }
         }
       ],
-      "visualLink": [
+      "padding": [
         {
           "properties": {
-            "show": {
+            "right": {
               "expr": {
                 "Literal": {
-                  "Value": "true"
+                  "Value": "0D"
                 }
               }
             },
-            "type": {
+            "left": {
               "expr": {
                 "Literal": {
-                  "Value": "'PageNavigation'"
+                  "Value": "10D"
                 }
               }
             },
-            "navigationSection": {
+            "bottom": {
               "expr": {
                 "Literal": {
-                  "Value": "'customers'"
+                  "Value": "0D"
+                }
+              }
+            },
+            "top": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
                 }
               }
             }
@@ -267,5 +185,6 @@
         }
       ]
     }
-  }
+  },
+  "parentGroupName": "4c6a2650aa0483c24c99"
 }

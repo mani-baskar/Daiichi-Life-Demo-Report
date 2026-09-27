@@ -1,16 +1,38 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.0.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
   "name": "distribution_kpi_4",
   "position": {
     "x": 1066.6666666666665,
     "y": 214,
-    "width": 248.66666666666666,
+    "z": 17000,
     "height": 98,
-    "z": 96,
-    "tabOrder": 96
+    "width": 248.66666666666666,
+    "tabOrder": 17000
   },
   "visual": {
     "visualType": "card",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure"
+                    }
+                  },
+                  "Property": "Target Attainment"
+                }
+              },
+              "queryRef": "Measure.Target Attainment",
+              "nativeQueryRef": "Target Attainment"
+            }
+          ]
+        }
+      }
+    },
     "objects": {
       "labels": [
         {
@@ -199,28 +221,6 @@
           }
         }
       ]
-    },
-    "query": {
-      "queryState": {
-        "Values": {
-          "projections": [
-            {
-              "field": {
-                "Measure": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "Measure"
-                    }
-                  },
-                  "Property": "Target Attainment"
-                }
-              },
-              "queryRef": "Measure.Target Attainment",
-              "nativeQueryRef": "Target Attainment"
-            }
-          ]
-        }
-      }
     }
   }
 }

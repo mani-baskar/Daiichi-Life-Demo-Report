@@ -1,16 +1,169 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.0.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
   "name": "ai_leads_priority",
   "position": {
     "x": 24,
     "y": 586,
-    "width": 1552,
+    "z": 22000,
     "height": 270,
-    "z": 116,
-    "tabOrder": 116
+    "width": 1552,
+    "tabOrder": 22000
   },
   "visual": {
     "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "gold_lead_propensity"
+                    }
+                  },
+                  "Property": "LeadID"
+                }
+              },
+              "queryRef": "gold_lead_propensity.LeadID",
+              "nativeQueryRef": "LeadID"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "gold_lead_propensity"
+                    }
+                  },
+                  "Property": "ProductInterest"
+                }
+              },
+              "queryRef": "gold_lead_propensity.ProductInterest",
+              "nativeQueryRef": "ProductInterest"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "gold_lead_propensity"
+                    }
+                  },
+                  "Property": "DistributionChannel"
+                }
+              },
+              "queryRef": "gold_lead_propensity.DistributionChannel",
+              "nativeQueryRef": "DistributionChannel"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "gold_lead_propensity"
+                    }
+                  },
+                  "Property": "Region"
+                }
+              },
+              "queryRef": "gold_lead_propensity.Region",
+              "nativeQueryRef": "Region"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "gold_lead_propensity"
+                    }
+                  },
+                  "Property": "EstimatedAnnualPremiumSGD"
+                }
+              },
+              "queryRef": "gold_lead_propensity.EstimatedAnnualPremiumSGD",
+              "nativeQueryRef": "EstimatedAnnualPremiumSGD",
+              "displayName": "Est. premium (SGD)",
+              "format": "\"SGD \" #,0"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure"
+                    }
+                  },
+                  "Property": "Avg Conversion Probability"
+                }
+              },
+              "queryRef": "Measure.Avg Conversion Probability",
+              "nativeQueryRef": "Avg Conversion Probability"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "gold_lead_propensity"
+                    }
+                  },
+                  "Property": "PropensityBand"
+                }
+              },
+              "queryRef": "gold_lead_propensity.PropensityBand",
+              "nativeQueryRef": "PropensityBand"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "gold_lead_propensity"
+                    }
+                  },
+                  "Property": "DaysSinceLeadCreated"
+                }
+              },
+              "queryRef": "gold_lead_propensity.DaysSinceLeadCreated",
+              "nativeQueryRef": "DaysSinceLeadCreated"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "gold_lead_propensity"
+                    }
+                  },
+                  "Property": "AgentKey"
+                }
+              },
+              "queryRef": "gold_lead_propensity.AgentKey",
+              "nativeQueryRef": "AgentKey"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Measure"
+                  }
+                },
+                "Property": "Avg Conversion Probability"
+              }
+            },
+            "direction": "Descending"
+          }
+        ]
+      }
+    },
     "objects": {
       "columnHeaders": [
         {
@@ -52,26 +205,6 @@
               }
             },
             "wordWrap": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            }
-          }
-        }
-      ],
-      "rowHeaders": [
-        {
-          "properties": {
-            "fontSize": {
-              "expr": {
-                "Literal": {
-                  "Value": "10D"
-                }
-              }
-            },
-            "stepped": {
               "expr": {
                 "Literal": {
                   "Value": "true"
@@ -134,16 +267,6 @@
           }
         },
         {
-          "selector": {
-            "data": [
-              {
-                "dataViewWildcard": {
-                  "matchingOption": 1
-                }
-              }
-            ],
-            "metadata": "Measure.Avg Conversion Probability"
-          },
           "properties": {
             "backColor": {
               "solid": {
@@ -216,6 +339,16 @@
                 }
               }
             }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 1
+                }
+              }
+            ],
+            "metadata": "Measure.Avg Conversion Probability"
           }
         }
       ],
@@ -406,160 +539,6 @@
           }
         }
       ]
-    },
-    "query": {
-      "queryState": {
-        "Values": {
-          "projections": [
-            {
-              "field": {
-                "Column": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "gold_lead_propensity"
-                    }
-                  },
-                  "Property": "LeadID"
-                }
-              },
-              "queryRef": "gold_lead_propensity.LeadID",
-              "nativeQueryRef": "LeadID"
-            },
-            {
-              "field": {
-                "Column": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "gold_lead_propensity"
-                    }
-                  },
-                  "Property": "ProductInterest"
-                }
-              },
-              "queryRef": "gold_lead_propensity.ProductInterest",
-              "nativeQueryRef": "ProductInterest"
-            },
-            {
-              "field": {
-                "Column": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "gold_lead_propensity"
-                    }
-                  },
-                  "Property": "DistributionChannel"
-                }
-              },
-              "queryRef": "gold_lead_propensity.DistributionChannel",
-              "nativeQueryRef": "DistributionChannel"
-            },
-            {
-              "field": {
-                "Column": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "gold_lead_propensity"
-                    }
-                  },
-                  "Property": "Region"
-                }
-              },
-              "queryRef": "gold_lead_propensity.Region",
-              "nativeQueryRef": "Region"
-            },
-            {
-              "field": {
-                "Column": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "gold_lead_propensity"
-                    }
-                  },
-                  "Property": "EstimatedAnnualPremiumSGD"
-                }
-              },
-              "queryRef": "gold_lead_propensity.EstimatedAnnualPremiumSGD",
-              "nativeQueryRef": "EstimatedAnnualPremiumSGD",
-              "displayName": "Est. premium (SGD)",
-              "format": "\"SGD \" #,0"
-            },
-            {
-              "field": {
-                "Measure": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "Measure"
-                    }
-                  },
-                  "Property": "Avg Conversion Probability"
-                }
-              },
-              "queryRef": "Measure.Avg Conversion Probability",
-              "nativeQueryRef": "Avg Conversion Probability"
-            },
-            {
-              "field": {
-                "Column": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "gold_lead_propensity"
-                    }
-                  },
-                  "Property": "PropensityBand"
-                }
-              },
-              "queryRef": "gold_lead_propensity.PropensityBand",
-              "nativeQueryRef": "PropensityBand"
-            },
-            {
-              "field": {
-                "Column": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "gold_lead_propensity"
-                    }
-                  },
-                  "Property": "DaysSinceLeadCreated"
-                }
-              },
-              "queryRef": "gold_lead_propensity.DaysSinceLeadCreated",
-              "nativeQueryRef": "DaysSinceLeadCreated"
-            },
-            {
-              "field": {
-                "Column": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "gold_lead_propensity"
-                    }
-                  },
-                  "Property": "AgentKey"
-                }
-              },
-              "queryRef": "gold_lead_propensity.AgentKey",
-              "nativeQueryRef": "AgentKey"
-            }
-          ]
-        }
-      },
-      "sortDefinition": {
-        "sort": [
-          {
-            "field": {
-              "Measure": {
-                "Expression": {
-                  "SourceRef": {
-                    "Entity": "Measure"
-                  }
-                },
-                "Property": "Avg Conversion Probability"
-              }
-            },
-            "direction": "Descending"
-          }
-        ],
-        "isDefaultSort": false
-      }
     }
   }
 }

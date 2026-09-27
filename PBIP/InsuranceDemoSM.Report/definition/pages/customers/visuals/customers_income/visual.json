@@ -1,16 +1,58 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.0.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
   "name": "customers_income",
   "position": {
     "x": 664,
     "y": 602,
-    "width": 448,
+    "z": 20000,
     "height": 254,
-    "z": 85,
-    "tabOrder": 85
+    "width": 448,
+    "tabOrder": 20000
   },
   "visual": {
     "visualType": "clusteredColumnChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "gold_dim_customer"
+                    }
+                  },
+                  "Property": "IncomeBandSGD"
+                }
+              },
+              "queryRef": "gold_dim_customer.IncomeBandSGD",
+              "nativeQueryRef": "IncomeBandSGD",
+              "active": true
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure"
+                    }
+                  },
+                  "Property": "Annual Premium"
+                }
+              },
+              "queryRef": "Measure.Annual Premium",
+              "nativeQueryRef": "Annual Premium",
+              "format": "\"SGD \" #,0"
+            }
+          ]
+        }
+      }
+    },
     "objects": {
       "legend": [
         {
@@ -303,47 +345,6 @@
           }
         }
       ]
-    },
-    "query": {
-      "queryState": {
-        "Category": {
-          "projections": [
-            {
-              "field": {
-                "Column": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "gold_dim_customer"
-                    }
-                  },
-                  "Property": "IncomeBandSGD"
-                }
-              },
-              "queryRef": "gold_dim_customer.IncomeBandSGD",
-              "nativeQueryRef": "IncomeBandSGD"
-            }
-          ]
-        },
-        "Y": {
-          "projections": [
-            {
-              "field": {
-                "Measure": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "Measure"
-                    }
-                  },
-                  "Property": "Annual Premium"
-                }
-              },
-              "queryRef": "Measure.Annual Premium",
-              "nativeQueryRef": "Annual Premium",
-              "format": "\"SGD \" #,0"
-            }
-          ]
-        }
-      }
     }
   }
 }
