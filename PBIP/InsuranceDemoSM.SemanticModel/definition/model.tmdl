@@ -1,0 +1,27 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	discourageImplicitMeasures
+	sourceQueryCulture: en-US
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_QueryOrder = ["DirectLake - lh_insurance_demo"]
+
+annotation __LastRPTime = 134349688929786660
+
+annotation PBI_ProTooling = ["DirectLakeOnOneLakeInWeb","WebModelingEdit","TMDLView_Desktop","CalcGroup","DevMode","RemoteModeling"]
+
+ref table gold_dim_product
+ref table gold_dim_customer
+ref table gold_dim_agent
+ref table gold_lead_conversion
+ref table gold_lead_propensity
+ref table gold_dim_date
+ref table gold_fact_policy
+ref table Measure
+ref table 'Time Intelligence'
+

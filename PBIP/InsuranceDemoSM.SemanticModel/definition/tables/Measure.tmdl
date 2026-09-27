@@ -1,0 +1,200 @@
+table Measure
+	lineageTag: e84eba0a-10f7-4bf3-866e-f9d071896092
+
+	measure 'Total Policies' = DISTINCTCOUNT ( gold_fact_policy[PolicyID] )
+		formatString: #,0
+		lineageTag: 41f7a089-773a-4b29-b1c1-54912eb4680b
+
+	measure 'Active Policies' =
+			CALCULATE (
+				[Total Policies],
+				gold_fact_policy[PolicyStatus] = "Active"
+			)
+		formatString: #,0
+		lineageTag: f31fc44f-9eba-4f0c-b9b4-049f997b8b39
+
+	measure 'Annual Premium' = SUM ( gold_fact_policy[AnnualPremiumSGD] )
+		formatString: #,0.00
+		lineageTag: f6672ca1-bfc2-48c9-84e5-bf4bc7ae9a35
+
+	measure 'Average Premium' = AVERAGE ( gold_fact_policy[AnnualPremiumSGD] )
+		formatString: #,0.00
+		lineageTag: 9d14d73c-43c7-4101-887b-ab61f9a99ea0
+
+	measure 'Total Sum Assured' = SUM ( gold_fact_policy[SumAssuredSGD] )
+		formatString: #,0.00
+		lineageTag: db6d643b-2be4-4177-97da-d8f3f6711fa5
+
+	measure 'Renewal Rate' =
+			DIVIDE (
+				CALCULATE (
+					COUNTROWS ( gold_fact_policy ),
+					gold_fact_policy[RenewalPaidFlag] = 1
+				),
+				CALCULATE (
+					COUNTROWS ( gold_fact_policy ),
+					gold_fact_policy[RenewalPremiumDueSGD] > 0
+				)
+			)
+		formatString: 0.00%
+		lineageTag: 209c2648-9fe2-4d2c-b7b3-9be883332ecf
+
+	measure 'Lapse Rate' =
+			DIVIDE (
+				CALCULATE (
+					COUNTROWS ( gold_fact_policy ),
+					gold_fact_policy[LapseFlag] = 1
+				),
+				[Total Policies]
+			)
+		formatString: 0.00%
+		lineageTag: ad35e9f1-2506-4cfa-9114-df932c6d34a9
+
+	measure 'Claim Rate' =
+			DIVIDE (
+				CALCULATE (
+					COUNTROWS ( gold_fact_policy ),
+					gold_fact_policy[ClaimCount] > 0
+				),
+				[Total Policies]
+			)
+		formatString: 0.00%
+		lineageTag: 118bdebc-392f-45d6-a552-2eb7cb0705f1
+
+	measure 'Avg Days to Issue' = AVERAGE ( gold_fact_policy[DaysToIssue] )
+		formatString: 0.00
+		lineageTag: 7fedb1a3-f53d-4f47-a9e3-ad25062f1f53
+
+	measure 'Total Leads' = DISTINCTCOUNT ( gold_lead_conversion[LeadID] )
+		formatString: #,0
+		lineageTag: 22a6e10d-b5a3-479b-a3b2-ddb7854fc4b4
+
+	measure 'Converted Leads' =
+			CALCULATE (
+				DISTINCTCOUNT ( gold_lead_conversion[LeadID] ),
+				gold_lead_conversion[ConvertedFlag] = 1
+			)
+		formatString: #,0
+		lineageTag: 40402647-7511-435e-9e15-ec8388c892bc
+
+	measure 'Conversion Rate' =
+			DIVIDE (
+				[Converted Leads],
+				[Total Leads]
+			)
+		formatString: 0.00%
+		lineageTag: 748249e5-9b61-4ce4-bc07-fe3924639e49
+
+	measure 'High Propensity Leads' =
+			CALCULATE (
+				DISTINCTCOUNT ( gold_lead_propensity[LeadID] ),
+				gold_lead_propensity[PropensityBand] = "High"
+			)
+		formatString: #,0
+		lineageTag: 0532c409-a389-4bad-a2f8-9b8dc889384a
+
+	measure 'Avg Conversion Probability' = AVERAGE ( gold_lead_propensity[ConversionProbability] )
+		formatString: 0.00%
+		lineageTag: 5b951b97-cf47-4825-8671-619bab911280
+
+	measure 'Open Leads' =
+			CALCULATE (
+				DISTINCTCOUNT ( gold_lead_conversion[LeadID] ),
+				ISBLANK ( gold_lead_conversion[ConvertedFlag] )
+			)
+		formatString: #,0
+		lineageTag: fe96f90e-c96c-4593-9d3b-59e7e7b72af1
+
+	measure 'Expected Conversions' =
+			SUMX (
+				gold_lead_propensity,
+				gold_lead_propensity[ConversionProbability]
+			)
+		formatString: #,0.0
+		lineageTag: eee4644d-1f7b-4827-b609-cef3048d292e
+
+	measure 'Potential Premium - High Propensity' =
+			CALCULATE (
+				SUM ( gold_lead_propensity[EstimatedAnnualPremiumSGD] ),
+				gold_lead_propensity[PropensityBand] = "High"
+			)
+		formatString: #,0.00
+		lineageTag: 19c99b3a-a3d1-49ba-bf3d-ddfb4f98d9a4
+
+	measure 'New Policies' = [Total Policies]
+		formatString: #,0
+		lineageTag: 5479089d-f143-44af-831c-ad6d6ffb9203
+
+	measure 'Total Customers' = DISTINCTCOUNT ( gold_dim_customer[CustomerID] )
+		formatString: #,0
+		lineageTag: 1bdaf4d1-4643-4bb8-89e0-7a4c4e0072dd
+
+	measure 'Average Sum Assured' = AVERAGE ( gold_fact_policy[SumAssuredSGD] )
+		formatString: #,0.00
+		lineageTag: 807cc02d-698b-4864-b682-cd40b534b346
+
+	measure 'Active Agents' =
+			CALCULATE (
+				DISTINCTCOUNT ( gold_dim_agent[AgentID] ),
+				gold_dim_agent[ActiveFlag] = 1
+			)
+		formatString: #,0
+		lineageTag: 3497e637-bf9a-476f-933c-6fc4d2bb77ba
+
+	measure 'Premium per Agent' =
+			DIVIDE (
+				[Annual Premium],
+				[Active Agents]
+			)
+		formatString: #,0.00
+		lineageTag: 4f39696c-a82e-4bc0-93ab-5f426ee44c9d
+
+	measure 'Policies per Agent' =
+			DIVIDE (
+				[Total Policies],
+				[Active Agents]
+			)
+		formatString: #,0.00
+		lineageTag: b4b44c67-f9e2-417d-b94d-7a964e93a2f8
+
+	measure 'Target Attainment' =
+			VAR SelectedMonths =
+				DISTINCTCOUNT ( gold_dim_date[YearMonth] )
+			VAR MonthlyTarget =
+				SUMX (
+					VALUES ( gold_dim_agent[AgentKey] ),
+					CALCULATE (
+						MAX ( gold_dim_agent[MonthlyTargetSGD] )
+					)
+				)
+			VAR TargetForPeriod =
+				MonthlyTarget * SelectedMonths
+			RETURN
+				DIVIDE (
+					[Annual Premium],
+					TargetForPeriod
+				)
+		formatString: 0.00%
+		lineageTag: 335bb058-2bde-49ff-bf9b-161cd97df356
+
+	measure 'Avg First Response Hours' = AVERAGE ( gold_lead_conversion[FirstResponseHours] )
+		formatString: 0.00
+		lineageTag: af650f01-d111-48e9-b560-b6ed47ea4561
+
+	column Column
+		formatString: 0
+		lineageTag: a8cf4b92-dad7-4041-80cf-4aa1a377088c
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [Column]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Measure = calculated
+		mode: import
+		source = Row("Column", BLANK())
+
+	annotation PBI_Id = 3818e469a92944b1bee7cc5ffa28e79a
+
+	annotation 436ba87b-9c83-4389-a31b-ebd06a36be98 = {"Expression":""}
+
