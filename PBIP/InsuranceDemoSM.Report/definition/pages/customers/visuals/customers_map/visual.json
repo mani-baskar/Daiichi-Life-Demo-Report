@@ -209,6 +209,27 @@
                   "Value": "false"
                 }
               }
+            },
+            "zoom": {
+              "expr": {
+                "Literal": {
+                  "Value": "0.84D"
+                }
+              }
+            },
+            "centerLatitude": {
+              "expr": {
+                "Literal": {
+                  "Value": "-3.7150759250874756D"
+                }
+              }
+            },
+            "centerLongitude": {
+              "expr": {
+                "Literal": {
+                  "Value": "-164.2780532836914D"
+                }
+              }
             }
           }
         }

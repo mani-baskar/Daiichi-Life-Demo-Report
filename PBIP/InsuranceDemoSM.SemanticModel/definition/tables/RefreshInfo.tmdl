@@ -14,9 +14,10 @@ table RefreshInfo
 	partition RefreshInfo = m
 		mode: import
 		source =
-			let
-				RefreshUTC = DateTimeZone.FixedUtcNow(),
-				RefreshSGT = DateTimeZone.RemoveZone(DateTimeZone.SwitchZone(RefreshUTC, 8)),
-				Source = #table(type table [LastRefreshSGT = datetime], {{RefreshSGT}})
-			in
-				Source
+				let
+					RefreshUTC = DateTimeZone.FixedUtcNow(),
+					RefreshSGT = DateTimeZone.RemoveZone(DateTimeZone.SwitchZone(RefreshUTC, 8)),
+					Source = #table(type table [LastRefreshSGT = datetime], {{RefreshSGT}})
+				in
+					Source
+
