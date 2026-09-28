@@ -4,6 +4,62 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1] / 'PBIP' / 'InsuranceDemoSM.Report'
 
+NEON = ['#38D9F5', '#F05CFF', '#F5C76B', '#55DCC3', '#69B7FF', '#FB7185',
+        '#B9A3FF', '#34D399', '#FF9F6E', '#7DD3FC', '#C084FC', '#F472B6']
+
+# Stable business colors make the same option recognizable on every page.
+VALUE_COLORS = {
+    'Agency': '#38D9F5', 'Bancassurance': '#F05CFF', 'Broker / IFA': '#F5C76B',
+    'Digital': '#55DCC3', 'Direct': '#B9A3FF',
+    'Central': '#38D9F5', 'East': '#55DCC3', 'North': '#69B7FF',
+    'North-East': '#F05CFF', 'West': '#F5C76B',
+    'Critical Illness': '#FB7185', 'Endowment / Savings': '#F5C76B',
+    'Investment Linked': '#F05CFF', 'Retirement / Annuity': '#B9A3FF',
+    'Term Life': '#38D9F5', 'Whole Life': '#55DCC3',
+    'Application': '#38D9F5', 'Appointment': '#F05CFF', 'Contacted': '#F5C76B',
+    'Lost': '#FB7185', 'New': '#69B7FF', 'Qualified': '#B9A3FF',
+    'Quote': '#55DCC3', 'Won': '#34D399',
+    'Active': '#55DCC3', 'Cancelled': '#92A8C4', 'Claimed': '#F05CFF',
+    'Lapsed': '#FB7185', 'Matured': '#F5C76B',
+    'High': '#55DCC3', 'Medium': '#F5C76B', 'Low': '#FB7185',
+    'Affluent': '#F5C76B', 'Emerging': '#38D9F5', 'High Value': '#F05CFF', 'Mass': '#69B7FF',
+    '18-29': '#38D9F5', '30-39': '#55DCC3', '40-49': '#F5C76B',
+    '50-59': '#F05CFF', '60+': '#B9A3FF',
+    'Below 40k': '#69B7FF', '40k-79k': '#38D9F5', '80k-119k': '#55DCC3',
+    '120k-199k': '#F5C76B', '200k+': '#F05CFF',
+    'Balanced Wealth Link': NEON[0], 'Critical Care Protect': NEON[5],
+    'Early Stage Guard': NEON[2], 'Education Milestone': NEON[3],
+    'Family Shield Term': NEON[4], 'Future Builder Savings': NEON[1],
+    'Golden Years Annuity': NEON[6], 'Growth Navigator': NEON[7],
+    'Legacy Plus': NEON[8], 'Lifetime Heritage': NEON[9],
+    'RetireIncome Select': NEON[10], 'Secure Horizon Term': NEON[11],
+}
+
+PROPERTY_VALUES = {
+    'DistributionChannel': ['Agency', 'Bancassurance', 'Broker / IFA', 'Digital', 'Direct'],
+    'Region': ['Central', 'East', 'North', 'North-East', 'West'],
+    'ProductFamily': ['Critical Illness', 'Endowment / Savings', 'Investment Linked',
+                      'Retirement / Annuity', 'Term Life', 'Whole Life'],
+    'LeadStage': ['Application', 'Appointment', 'Contacted', 'Lost', 'New', 'Qualified', 'Quote', 'Won'],
+    'PolicyStatus': ['Active', 'Cancelled', 'Claimed', 'Lapsed', 'Matured'],
+    'PropensityBand': ['High', 'Medium', 'Low'],
+    'CustomerSegment': ['Affluent', 'Emerging', 'High Value', 'Mass'],
+    'AgeBand': ['18-29', '30-39', '40-49', '50-59', '60+'],
+    'IncomeBandSGD': ['Below 40k', '40k-79k', '80k-119k', '120k-199k', '200k+'],
+    'ProductInterest': ['Balanced Wealth Link', 'Critical Care Protect', 'Early Stage Guard',
+                        'Education Milestone', 'Family Shield Term', 'Future Builder Savings',
+                        'Golden Years Annuity', 'Growth Navigator', 'Legacy Plus',
+                        'Lifetime Heritage', 'RetireIncome Select', 'Secure Horizon Term'],
+}
+
+CHART_TYPES = {
+    'barChart', 'clusteredBarChart', 'stackedBarChart', 'hundredPercentStackedBarChart',
+    'columnChart', 'clusteredColumnChart', 'stackedColumnChart',
+    'hundredPercentStackedColumnChart', 'lineChart', 'lineClusteredColumnComboChart',
+    'lineStackedColumnComboChart', 'scatterChart', 'pieChart', 'donutChart',
+    'funnel', 'treemap', 'map', 'filledMap'
+}
+
 def literal(value):
     if isinstance(value, str):
         value = "'" + value.replace("'", "''") + "'"
@@ -31,6 +87,59 @@ def conditional(visual, measure, threshold, high, low):
         'selector': {'data': [{'dataViewWildcard': {'matchingOption': 1}}], 'metadata': 'Measure.' + measure},
         'properties': {'backColor': {'solid': {'color': expression}}}
     })
+
+def category_column(query_state):
+    projections = query_state.get('Category', {}).get('projections', [])
+    if not projections:
+        return None
+    return projections[0].get('field', {}).get('Column')
+
+def category_color_entry(entity, property_name, value, value_color):
+    return {
+        'properties': {'fill': color(value_color)},
+        'selector': {'data': [{'scopeId': {'Comparison': {
+            'ComparisonKind': 0,
+            'Left': {'Column': {'Expression': {'SourceRef': {'Entity': entity}},
+                                'Property': property_name}},
+            'Right': {'Literal': {'Value': "'" + value.replace("'", "''") + "'"}}
+        }}}]}
+    }
+
+def apply_neon_series_colors(visual, name):
+    if visual.get('visualType') not in CHART_TYPES:
+        return
+    query_state = visual.get('query', {}).get('queryState', {})
+
+    # The probability scatter should use propensity as its color series, not only as a tooltip.
+    if name == 'ai_leads_probability' and 'Tooltips' in query_state:
+        query_state['Series'] = query_state.pop('Tooltips')
+
+    objects = visual.setdefault('objects', {})
+    current = objects.get('dataPoint', [])
+    if query_state.get('Series', {}).get('projections'):
+        # An unscoped defaultColor overrides the theme palette and makes every legend item cyan.
+        selected = [item for item in current if item.get('selector')]
+        if selected:
+            objects['dataPoint'] = selected
+        else:
+            objects.pop('dataPoint', None)
+        return
+
+    category = category_column(query_state)
+    if not category or category.get('Property') not in PROPERTY_VALUES:
+        return
+
+    entity = category.get('Expression', {}).get('SourceRef', {}).get('Entity')
+    property_name = category.get('Property')
+    if not entity:
+        return
+
+    # Preserve measure-level settings, replace the global cyan with explicit category colors.
+    selected = [item for item in current if item.get('selector', {}).get('metadata')]
+    entries = [{'properties': {'showAllDataPoints': literal(True)}}] + selected
+    for value in PROPERTY_VALUES[property_name]:
+        entries.append(category_color_entry(entity, property_name, value, VALUE_COLORS[value]))
+    objects['dataPoint'] = entries
 
 changed = 0
 for path in ROOT.glob('definition/pages/*/visuals/*/visual.json'):
@@ -101,6 +210,7 @@ for path in ROOT.glob('definition/pages/*/visuals/*/visual.json'):
                 backColor=color('#08142C'),
                 bold=literal(True),
             )
+    apply_neon_series_colors(visual, name)
     if name == 'products_status':
         visual['objects']['legend'] = props({'show': literal(True), 'position': literal('Right'), 'fontSize': literal(10)})
     if name in ['products_matrix', 'distribution_leaderboard', 'ai_leads_priority']:

@@ -2,13 +2,17 @@
   "name": "Daiichi Life - Premium Neon Insurance",
   "dataColors": [
     "#38D9F5",
-    "#69B7FF",
-    "#B9A3FF",
-    "#55DCC3",
+    "#F05CFF",
     "#F5C76B",
-    "#F28BB8",
-    "#92B5DD",
-    "#FB7185"
+    "#55DCC3",
+    "#69B7FF",
+    "#FB7185",
+    "#B9A3FF",
+    "#34D399",
+    "#FF9F6E",
+    "#7DD3FC",
+    "#C084FC",
+    "#F472B6"
   ],
   "good": "#55DCC3",
   "neutral": "#F5C76B",

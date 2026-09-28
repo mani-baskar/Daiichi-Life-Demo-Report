@@ -2,11 +2,11 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
   "name": "distribution_leaderboard",
   "position": {
-    "x": 278.74136607828092,
-    "y": 364.69685341519573,
+    "x": 278.20197044334975,
+    "y": 364.65517241379308,
     "z": 11000,
-    "height": 254.18265541059097,
-    "width": 650.8058326937836,
+    "height": 253.81773399014779,
+    "width": 847.90640394088666,
     "tabOrder": 11000
   },
   "visual": {
@@ -425,7 +425,7 @@
             "show": {
               "expr": {
                 "Literal": {
-                  "Value": "false"
+                  "Value": "true"
                 }
               }
             },
@@ -433,8 +433,9 @@
               "solid": {
                 "color": {
                   "expr": {
-                    "Literal": {
-                      "Value": "'#FFFFFF'"
+                    "ThemeDataColor": {
+                      "ColorId": 1,
+                      "Percent": 0
                     }
                   }
                 }
@@ -443,7 +444,7 @@
             "transparency": {
               "expr": {
                 "Literal": {
-                  "Value": "0D"
+                  "Value": "50D"
                 }
               }
             }
