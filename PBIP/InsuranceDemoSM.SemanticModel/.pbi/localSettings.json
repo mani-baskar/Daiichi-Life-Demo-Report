@@ -2,5 +2,7 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/semanticModel/localSettings/1.2.0/schema.json",
   "userConsent": {
     "compositeModel": true
-  }
+  },
+  "securityBindingsSignature": "AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAESJZV+kiCEChBy/whyiXhAAAAAACAAAAAAAQZgAAAAEAACAAAABUfKkGd4jmjZIwa5CUpUAdiKRVu29lgH+ebMObj3wKFAAAAAAOgAAAAAIAACAAAAAgVwjTg1Ue6nE7fJyaWff9P5yO2tNbfxXv9Q0k78cHwlAAAAAJsVs3yGP7G0IBJT+qhaA2g0HGyVXVT8laWzzGvMbNLmy5JgWwjvzCCiVA1YJUQVzacSP71ZegB9loYIT0ZNeWIy1xa0ZOZhdEZE/HZzp64EAAAAC1uvPR2YjBu7mDSV/hTp55c2Ctw+rIflNOm7aCE+y697hNLPd7nhVUXepogB3qVWlwc3GRe0XdTcih8oj4jd77",
+  "remoteModelingObjectId": "57b2a6e9-e5ff-481c-b47f-85cd24f720aa"
 }
