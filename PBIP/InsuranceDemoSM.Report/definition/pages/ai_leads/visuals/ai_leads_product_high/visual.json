@@ -2,11 +2,11 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
   "name": "ai_leads_product_high",
   "position": {
-    "x": 1198.25,
-    "y": 364.28571428571433,
+    "x": 1198.1523117554202,
+    "y": 631.88158712536369,
     "z": 13000,
-    "height": 254.2857142857143,
-    "width": 380.75,
+    "height": 230.8518802762855,
+    "width": 380.66001534919417,
     "tabOrder": 13000
   },
   "visual": {

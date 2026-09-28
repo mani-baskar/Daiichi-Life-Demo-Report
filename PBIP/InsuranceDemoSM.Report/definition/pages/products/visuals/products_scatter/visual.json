@@ -2,11 +2,11 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
   "name": "products_scatter",
   "position": {
-    "x": 804,
-    "y": 628.5714285714286,
+    "x": 922.167487684729,
+    "y": 364.65517241379308,
     "z": 14000,
-    "height": 231.42857142857144,
-    "width": 775,
+    "height": 253.81773399014779,
+    "width": 659.48275862068965,
     "tabOrder": 14000
   },
   "visual": {

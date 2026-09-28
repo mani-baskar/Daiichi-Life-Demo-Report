@@ -2,11 +2,11 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
   "name": "ai_leads_channel_high",
   "position": {
-    "x": 805.5,
-    "y": 364.28571428571433,
+    "x": 1068.4729064039409,
+    "y": 363.54679802955661,
     "z": 12000,
-    "height": 254.2857142857143,
-    "width": 380.75,
+    "height": 254.28571428571431,
+    "width": 510,
     "tabOrder": 12000
   },
   "visual": {

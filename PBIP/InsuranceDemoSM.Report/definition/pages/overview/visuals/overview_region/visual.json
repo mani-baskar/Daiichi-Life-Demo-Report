@@ -20,13 +20,13 @@
                 "Column": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "gold_dim_customer"
+                      "Entity": "gold_dim_agent"
                     }
                   },
                   "Property": "Region"
                 }
               },
-              "queryRef": "gold_dim_customer.Region",
+              "queryRef": "gold_dim_agent.Region",
               "nativeQueryRef": "Region",
               "active": true
             }
@@ -185,7 +185,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Customer region'"
+                  "Value": "'Business region'"
                 }
               }
             },
@@ -490,7 +490,7 @@
       ]
     },
     "syncGroup": {
-      "groupName": "gold_dim_customer.Region",
+      "groupName": "gold_dim_agent.Region",
       "fieldChanges": true,
       "filterChanges": true
     }

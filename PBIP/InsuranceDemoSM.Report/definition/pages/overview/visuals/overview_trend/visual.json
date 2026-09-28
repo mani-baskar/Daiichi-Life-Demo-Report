@@ -2,11 +2,11 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
   "name": "overview_trend",
   "position": {
-    "x": 14.285714285714286,
-    "y": 364.28571428571433,
+    "x": 14.408866995073891,
+    "y": 364.65517241379308,
     "z": 18000,
-    "height": 254.28571428571431,
-    "width": 915.71428571428578,
+    "height": 253.81773399014779,
+    "width": 1178.2019704433496,
     "tabOrder": 18000
   },
   "visual": {

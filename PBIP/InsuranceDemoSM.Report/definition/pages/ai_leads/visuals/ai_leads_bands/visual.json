@@ -5,8 +5,8 @@
     "x": 20,
     "y": 364.28571428571433,
     "z": 10000,
-    "height": 254.2857142857143,
-    "width": 380.75,
+    "height": 254.28571428571431,
+    "width": 510,
     "tabOrder": 10000
   },
   "visual": {
@@ -36,23 +36,17 @@
           "projections": [
             {
               "field": {
-                "Aggregation": {
+                "Measure": {
                   "Expression": {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "gold_lead_propensity"
-                        }
-                      },
-                      "Property": "LeadID"
+                    "SourceRef": {
+                      "Entity": "Measure"
                     }
                   },
-                  "Function": 2
+                  "Property": "Scored Leads"
                 }
               },
-              "queryRef": "CountDistinct(gold_lead_propensity.LeadID)",
-              "nativeQueryRef": "Scored leads",
-              "displayName": "Scored leads"
+              "queryRef": "Measure.Scored Leads",
+              "nativeQueryRef": "Scored Leads"
             }
           ]
         }

@@ -2,11 +2,11 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
   "name": "ai_leads_probability",
   "position": {
-    "x": 412.75,
+    "x": 544.23645320197045,
     "y": 364.28571428571433,
     "z": 11000,
-    "height": 254.2857142857143,
-    "width": 380.75,
+    "height": 254.28571428571431,
+    "width": 510,
     "tabOrder": 11000
   },
   "visual": {
@@ -73,17 +73,17 @@
           "projections": [
             {
               "field": {
-                "Column": {
+                "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "gold_lead_propensity"
+                      "Entity": "Measure"
                     }
                   },
-                  "Property": "DaysSinceLeadCreated"
+                  "Property": "Avg Lead Age Days"
                 }
               },
-              "queryRef": "gold_lead_propensity.DaysSinceLeadCreated",
-              "nativeQueryRef": "DaysSinceLeadCreated"
+              "queryRef": "Measure.Avg Lead Age Days",
+              "nativeQueryRef": "Avg Lead Age Days"
             }
           ]
         }

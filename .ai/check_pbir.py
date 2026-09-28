@@ -50,7 +50,7 @@ for path in REPORT.glob('definition/**/*.json'):
         pos = content['position']
         assert 0 <= pos['x'] and pos['x'] + pos['width'] <= 1600.01
         assert 0 <= pos['y'] and pos['y'] + pos['height'] <= 900.01
-        link = content['visual'].get('visualContainerObjects', {}).get('visualLink')
+        link = content.get('visual', {}).get('visualContainerObjects', {}).get('visualLink')
         if link:
             target = link[0]['properties']['navigationSection']['expr']['Literal']['Value'].strip("'")
             assert target in pages, target

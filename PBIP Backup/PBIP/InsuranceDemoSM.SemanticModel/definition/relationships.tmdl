@@ -1,0 +1,38 @@
+relationship d9944d74-a2c2-e795-fba9-bfaa74c8311a
+	fromColumn: gold_fact_policy.ApplicationDateKey
+	toColumn: gold_dim_date.DateKey
+
+relationship 344ff002-9a20-104e-9a87-a0ae2591e725
+	fromColumn: gold_dim_customer.CustomerKey
+	toColumn: gold_fact_policy.CustomerKey
+
+relationship 5c6aaf13-d398-3782-5208-2cf90f9ad7e0
+	fromColumn: gold_fact_policy.AgentKey
+	toColumn: gold_dim_agent.AgentKey
+
+relationship 1859fcd6-fc26-de6b-c587-3db9a86d40fa
+	fromColumn: gold_fact_policy.ProductKey
+	toColumn: gold_dim_product.ProductKey
+
+relationship d9cb3f3f-0178-aa9f-c587-868ed477e49b
+	fromColumn: gold_lead_conversion.LeadCreatedDateKey
+	toColumn: gold_dim_customer.CustomerKey
+
+relationship b7c90fdc-af50-7026-d36d-92b39e35c5b9
+	isActive: false
+	fromColumn: gold_lead_conversion.ProductKey
+	toColumn: gold_dim_product.ProductKey
+
+relationship bdbfb22b-375b-a661-5850-29662193a8bf
+	isActive: false
+	fromColumn: gold_lead_conversion.AgentKey
+	toColumn: gold_dim_agent.AgentKey
+
+relationship 25a6fa3a-5fd1-9741-093e-61526a93d602
+	fromColumn: gold_lead_propensity.ProductKey
+	toColumn: gold_dim_product.ProductKey
+
+relationship 490a638e-0337-87f0-7b34-5c1282c25b4d
+	fromColumn: gold_lead_propensity.AgentKey
+	toColumn: gold_dim_agent.AgentKey
+

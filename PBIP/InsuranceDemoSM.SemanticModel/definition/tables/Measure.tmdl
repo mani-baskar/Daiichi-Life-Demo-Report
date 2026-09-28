@@ -159,7 +159,12 @@ table Measure
 
 	measure 'Target Attainment' =
 			VAR SelectedMonths =
-				DISTINCTCOUNT ( gold_dim_date[YearMonth] )
+				COUNTROWS (
+					SUMMARIZE (
+						gold_fact_policy,
+						gold_dim_date[YearMonth]
+					)
+				)
 			VAR MonthlyTarget =
 				SUMX (
 					VALUES ( gold_dim_agent[AgentKey] ),
@@ -190,6 +195,14 @@ table Measure
 					FORMAT ( RefreshTime, "dd MMM yyyy, hh:mm AM/PM" ) & " SGT"
 				)
 		lineageTag: 7a9d34f0-9552-47d5-b7b7-348a4cdb2d63
+
+	measure 'Scored Leads' = DISTINCTCOUNT ( gold_lead_propensity[LeadID] )
+		formatString: #,0
+		lineageTag: 37a08b39-10ad-4fbf-9034-e1b3871a280c
+
+	measure 'Avg Lead Age Days' = AVERAGE ( gold_lead_propensity[DaysSinceLeadCreated] )
+		formatString: 0.00
+		lineageTag: cb145a79-6163-4344-a0a1-3130b7a01f21
 
 	column Column
 		formatString: 0

@@ -1,10 +1,10 @@
 relationship d9944d74-a2c2-e795-fba9-bfaa74c8311a
-	fromColumn: gold_fact_policy.ApplicationDateKey
-	toColumn: gold_dim_date.DateKey
+	fromColumn: gold_fact_policy.ApplicationDate
+	toColumn: gold_dim_date.Date
 
 relationship 344ff002-9a20-104e-9a87-a0ae2591e725
-	fromColumn: gold_dim_customer.CustomerKey
-	toColumn: gold_fact_policy.CustomerKey
+	fromColumn: gold_fact_policy.CustomerKey
+	toColumn: gold_dim_customer.CustomerKey
 
 relationship 5c6aaf13-d398-3782-5208-2cf90f9ad7e0
 	fromColumn: gold_fact_policy.AgentKey
@@ -15,16 +15,14 @@ relationship 1859fcd6-fc26-de6b-c587-3db9a86d40fa
 	toColumn: gold_dim_product.ProductKey
 
 relationship d9cb3f3f-0178-aa9f-c587-868ed477e49b
-	fromColumn: gold_lead_conversion.LeadCreatedDateKey
-	toColumn: gold_dim_customer.CustomerKey
+	fromColumn: gold_lead_conversion.LeadCreatedDate
+	toColumn: gold_dim_date.Date
 
 relationship b7c90fdc-af50-7026-d36d-92b39e35c5b9
-	isActive: false
 	fromColumn: gold_lead_conversion.ProductKey
 	toColumn: gold_dim_product.ProductKey
 
 relationship bdbfb22b-375b-a661-5850-29662193a8bf
-	isActive: false
 	fromColumn: gold_lead_conversion.AgentKey
 	toColumn: gold_dim_agent.AgentKey
 

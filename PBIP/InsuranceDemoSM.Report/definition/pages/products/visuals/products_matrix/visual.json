@@ -2,11 +2,11 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
   "name": "products_matrix",
   "position": {
-    "x": 14.285714285714286,
-    "y": 364.28571428571433,
+    "x": 14.408866995073891,
+    "y": 364.65517241379308,
     "z": 11000,
-    "height": 254.2857142857143,
-    "width": 915.7142857142858,
+    "height": 253.81773399014779,
+    "width": 896.67487684729065,
     "tabOrder": 11000
   },
   "visual": {
@@ -137,8 +137,61 @@
             }
           ]
         }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "gold_dim_product"
+                  }
+                },
+                "Property": "ProductFamily"
+              }
+            },
+            "direction": "Ascending"
+          }
+        ]
       }
     },
+    "expansionStates": [
+      {
+        "roles": [
+          "Rows"
+        ],
+        "levels": [
+          {
+            "queryRefs": [
+              "gold_dim_product.ProductFamily"
+            ],
+            "isCollapsed": true,
+            "identityKeys": [
+              {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "gold_dim_product"
+                    }
+                  },
+                  "Property": "ProductFamily"
+                }
+              }
+            ],
+            "isPinned": true
+          },
+          {
+            "queryRefs": [
+              "gold_dim_product.ProductName"
+            ],
+            "isCollapsed": true,
+            "isPinned": true
+          }
+        ],
+        "root": {}
+      }
+    ],
     "objects": {
       "columnHeaders": [
         {
@@ -148,7 +201,7 @@
                 "color": {
                   "expr": {
                     "Literal": {
-                      "Value": "'#142D4E'"
+                      "Value": "'#F8FAFC'"
                     }
                   }
                 }
@@ -159,7 +212,7 @@
                 "color": {
                   "expr": {
                     "Literal": {
-                      "Value": "'#EDF4F8'"
+                      "Value": "'#123B63'"
                     }
                   }
                 }
@@ -205,6 +258,28 @@
                   "Value": "true"
                 }
               }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#EAF4FF'"
+                    }
+                  }
+                }
+              }
+            },
+            "backColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#0B1D3A'"
+                    }
+                  }
+                }
+              }
             }
           }
         }
@@ -224,7 +299,7 @@
                 "color": {
                   "expr": {
                     "Literal": {
-                      "Value": "'#142D4E'"
+                      "Value": "'#EAF4FF'"
                     }
                   }
                 }
@@ -235,7 +310,7 @@
                 "color": {
                   "expr": {
                     "Literal": {
-                      "Value": "'#FFFFFF'"
+                      "Value": "'#0B1D3A'"
                     }
                   }
                 }
@@ -246,7 +321,7 @@
                 "color": {
                   "expr": {
                     "Literal": {
-                      "Value": "'#F5F8FB'"
+                      "Value": "'#10294C'"
                     }
                   }
                 }
@@ -256,6 +331,17 @@
               "expr": {
                 "Literal": {
                   "Value": "false"
+                }
+              }
+            },
+            "fontColorSecondary": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#D6E5F5'"
+                    }
+                  }
                 }
               }
             }
@@ -292,14 +378,14 @@
                           },
                           "Value": {
                             "Literal": {
-                              "Value": "'#FBE6E7'"
+                              "Value": "'#5A2037'"
                             }
                           }
                         }
                       ],
                       "DefaultValue": {
                         "Literal": {
-                          "Value": "'#FFFFFF'"
+                          "Value": "'#0B1D3A'"
                         }
                       }
                     }
@@ -350,14 +436,14 @@
                           },
                           "Value": {
                             "Literal": {
-                              "Value": "'#DEF2EC'"
+                              "Value": "'#0F4A43'"
                             }
                           }
                         }
                       ],
                       "DefaultValue": {
                         "Literal": {
-                          "Value": "'#FFFFFF'"
+                          "Value": "'#0B1D3A'"
                         }
                       }
                     }
@@ -400,7 +486,7 @@
                 "color": {
                   "expr": {
                     "Literal": {
-                      "Value": "'#EDF1F5'"
+                      "Value": "'#27466F'"
                     }
                   }
                 }
@@ -418,7 +504,123 @@
       ],
       "total": [
         {
-          "properties": {}
+          "properties": {
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#F8FAFC'"
+                    }
+                  }
+                }
+              }
+            },
+            "backColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#08142C'"
+                    }
+                  }
+                }
+              }
+            },
+            "bold": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "columnWidth": [
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "195.3541131598962D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "gold_dim_product.ProductFamily"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "110.84236200728705D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Measure.Total Policies"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "132.51724173819525D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Measure.Annual Premium"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "137.40886773472695D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Measure.Average Premium"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "106.08374261460054D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Measure.Renewal Rate"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "86.86699271550576D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Measure.Lapse Rate"
+          }
         }
       ]
     },

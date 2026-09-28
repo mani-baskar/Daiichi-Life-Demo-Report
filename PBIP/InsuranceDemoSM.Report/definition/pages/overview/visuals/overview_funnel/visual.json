@@ -2,15 +2,15 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
   "name": "overview_funnel",
   "position": {
-    "x": 940.00000000000011,
-    "y": 364.28571428571433,
+    "x": 1205.9113300492611,
+    "y": 364.65517241379308,
     "z": 19000,
-    "height": 254.28571428571431,
-    "width": 641.42857142857144,
+    "height": 253.81773399014779,
+    "width": 375.73891625615761,
     "tabOrder": 19000
   },
   "visual": {
-    "visualType": "funnel",
+    "visualType": "barChart",
     "query": {
       "queryState": {
         "Category": {
@@ -50,6 +50,23 @@
             }
           ]
         }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Measure"
+                  }
+                },
+                "Property": "Total Leads"
+              }
+            },
+            "direction": "Descending"
+          }
+        ]
       }
     },
     "objects": {
@@ -129,7 +146,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Lead funnel - current stage counts'"
+                  "Value": "'Lead pipeline - current'"
                 }
               }
             },

@@ -1,0 +1,49 @@
+{
+  "name": "Daiichi Life - Premium Neon Insurance",
+  "dataColors": [
+    "#22D3EE",
+    "#A855F7",
+    "#EC4899",
+    "#3B82F6",
+    "#14B8A6",
+    "#8B5CF6",
+    "#F59E0B",
+    "#FB7185"
+  ],
+  "good": "#10B981",
+  "neutral": "#F59E0B",
+  "bad": "#EF4444",
+  "maximum": "#22D3EE",
+  "center": "#A855F7",
+  "minimum": "#1D4ED8",
+  "null": "#64748B",
+  "firstLevelElements": "#F8FAFC",
+  "secondLevelElements": "#B8C6DA",
+  "thirdLevelElements": "#203453",
+  "fourthLevelElements": "#70819D",
+  "background": "#08142C",
+  "secondaryBackground": "#101E3B",
+  "tableAccent": "#A855F7",
+  "textClasses": {
+    "callout": {
+      "fontSize": 30,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#F8FAFC"
+    },
+    "title": {
+      "fontSize": 12,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#F8FAFC"
+    },
+    "header": {
+      "fontSize": 12,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#F8FAFC"
+    },
+    "label": {
+      "fontSize": 10,
+      "fontFace": "Segoe UI",
+      "color": "#B8C6DA"
+    }
+  }
+}
