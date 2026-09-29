@@ -1,87 +1,21 @@
-# Mermaid Flowchart — Click, Drill-down & Expand/Collapse Guide
+# Mermaid Flowchart — Working Drill-down / Expand Guide
 
-இந்த document-ன் goal:
+> இந்த file GitHub `.md`-ல் **உண்மையாக click செய்து expand/collapse test செய்ய** rewrite செய்யப்பட்டுள்ளது.
 
-> Mermaid flowchart-ல் ஒரு box / node click பண்ணும்போது, அந்த node-க்கு related detailed flow எப்படி காட்டலாம்?
+## முதலில் தெரிந்துகொள்ள வேண்டியது
 
-முக்கியமாக, native Mermaid என்ன support செய்கிறது, என்ன support செய்யாது, Markdown-ல் practical-ஆ எப்படி செய்யலாம் என்பதைக் காண்போம்.
+Pure GitHub Markdown + Mermaid-ல் ஒரு Mermaid node-ஐ click செய்தவுடன் **அதே diagram-க்குள் child nodes dynamically expand ஆகும் native feature இல்லை**.
 
----
+GitHub `.md`-க்கு practical working pattern:
 
-# 1. முக்கியமான உண்மை
-
-Mermaid native flowchart-ல்:
-
-```text
-Node click
-   ↓
-Same diagram-க்குள் அந்த box expand ஆகி
-sub-flow open ஆகும்
-```
-
-இந்த exact behavior **direct native feature ஆக இல்லை**.
-
-அதாவது:
-
-```text
-[Process Order]
-```
-
-இந்த box click பண்ணியவுடன்:
-
-```text
-[Process Order]
-      ↓
-[Validate]
-      ↓
-[Check Stock]
-      ↓
-[Invoice]
-```
-
-என்று same graph-க்குள் dynamically expand/collapse ஆகுவது Mermaid மட்டும் வைத்து straightforward-ஆ செய்ய முடியாது.
+1. மேலே high-level Mermaid flow.
+2. கீழே ஒவ்வொரு major step-க்கும் `<details>` section.
+3. `<summary>`-ஐ click செய்தால் detailed Mermaid flow expand/collapse ஆகும்.
 
 ---
 
-# 2. Mermaid என்ன support செய்கிறது?
+# 1. Live Demo — இதை இங்கேயே click செய்து test செய்யலாம்
 
-Mermaid flowchart-ல் click interaction மூலம்:
-
-- URL open செய்யலாம்
-- Same page anchor-க்கு jump செய்யலாம்
-- Another documentation section-க்கு செல்லலாம்
-- JavaScript callback use செய்யலாம் (custom HTML environment)
-- Separate detailed Mermaid diagram காட்டலாம்
-
-ஆனால்:
-
-- Native node expand/collapse
-- Dynamic subtree expand
-- Interactive drill-down inside same graph
-
-இவை built-in Mermaid feature இல்லை.
-
----
-
-# 3. Markdown-க்கு Best Practical Method
-
-Markdown documentation-ல் மிகவும் clean solution:
-
-```text
-Main Flowchart
-      ↓
-Expandable <details> section
-      ↓
-Detailed Mermaid Flowchart
-```
-
-இதனால் user summary title click பண்ணும்போது detailed flow open / close செய்யலாம்.
-
----
-
-# 4. Basic Expandable Markdown Example
-
-````markdown
 ```mermaid
 flowchart TD
     A[Order Received] --> B{Payment Status}
@@ -91,772 +25,274 @@ flowchart TD
 ```
 
 <details>
-<summary><b>Process Order - Detailed Flow</b></summary>
+<summary><b>▶ Process Order — Click to expand</b></summary>
 
 ```mermaid
 flowchart TD
     P1[Validate Order]
     P2[Check Inventory]
-    P3[Create Invoice]
-    P4[Pack Product]
-    P5[Ship Order]
+    P3{Stock Available?}
+    P4[Reserve Stock]
+    P5[Generate Invoice]
+    P6[Pack Product]
+    P7[Ship Order]
+    P8[Notify Out of Stock]
 
-    P1 --> P2 --> P3 --> P4 --> P5
-```
-
-</details>
-````
-
-Rendered idea:
-
-```text
-Main Diagram
-
-▼ Process Order - Detailed Flow
-   [Validate Order]
-          ↓
-   [Check Inventory]
-          ↓
-   [Create Invoice]
-          ↓
-   [Pack Product]
-          ↓
-   [Ship Order]
-```
-
----
-
-# 5. Multiple Expandable Sections
-
-ஒரே main flowchart-க்கு பல detailed sections வைத்துக்கொள்ளலாம்.
-
-````markdown
-```mermaid
-flowchart TD
-    A[Order Received] --> B{Payment Status}
-
-    B -->|Paid| C[Process Order]
-    B -->|Pending| D[Wait for Payment]
-    B -->|Failed| E[Cancel Order]
-```
-
-<details>
-<summary><b>Process Order</b></summary>
-
-```mermaid
-flowchart TD
-    A1[Validate Order] --> A2[Check Stock]
-    A2 --> A3[Generate Invoice]
-    A3 --> A4[Pack]
-    A4 --> A5[Ship]
+    P1 --> P2 --> P3
+    P3 -->|Yes| P4 --> P5 --> P6 --> P7
+    P3 -->|No| P8
 ```
 
 </details>
 
 <details>
-<summary><b>Wait for Payment</b></summary>
+<summary><b>▶ Wait for Payment — Click to expand</b></summary>
 
 ```mermaid
 flowchart TD
-    B1[Payment Pending]
-    B2[Send Reminder]
-    B3{Payment Received?}
-    B4[Continue Order]
-    B5[Wait Again]
+    W1[Payment Pending]
+    W2[Send Reminder]
+    W3{Payment Received?}
+    W4[Continue Order]
+    W5{Timeout Reached?}
+    W6[Cancel Order]
 
-    B1 --> B2 --> B3
-    B3 -->|Yes| B4
-    B3 -->|No| B5
-    B5 --> B2
+    W1 --> W2 --> W3
+    W3 -->|Yes| W4
+    W3 -->|No| W5
+    W5 -->|No| W2
+    W5 -->|Yes| W6
 ```
 
 </details>
 
 <details>
-<summary><b>Cancel Order</b></summary>
+<summary><b>▶ Cancel Order — Click to expand</b></summary>
 
 ```mermaid
 flowchart TD
-    C1[Mark Order Failed]
+    C1[Mark Order Cancelled]
     C2[Release Reserved Stock]
-    C3[Notify Customer]
-    C4[Close Order]
+    C3[Write Audit Log]
+    C4[Notify Customer]
+    C5[Close Order]
 
-    C1 --> C2 --> C3 --> C4
+    C1 --> C2 --> C3 --> C4 --> C5
 ```
 
 </details>
-````
 
 ---
 
-# 6. Click Node → Jump to Detailed Section
+# 2. இது எப்படி வேலை செய்கிறது?
 
-Mermaid `click` syntax use செய்து ஒரு node click பண்ணும்போது detailed section-க்கு jump செய்யலாம்.
-
-Example:
-
-````markdown
-```mermaid
-flowchart TD
-    A[Order Received] --> B{Payment Status}
-
-    B -->|Paid| C[Process Order]
-    B -->|Pending| D[Wait for Payment]
-    B -->|Failed| E[Cancel Order]
-
-    click C "#process-order" "Open Process Order Details"
-```
-
-<a id="process-order"></a>
-
-## Process Order
-
-```mermaid
-flowchart TD
-    P1[Validate Order]
-    P2[Check Inventory]
-    P3[Create Invoice]
-    P4[Pack Product]
-    P5[Ship Order]
-
-    P1 --> P2 --> P3 --> P4 --> P5
-```
-````
-
-இதில்:
-
-```text
-click C "#process-order"
-```
-
-என்பது:
-
-```text
-Process Order node click
-          ↓
-Process Order section
-```
-
-என்று jump செய்ய முயலும்.
-
-> Note: Click behavior Markdown renderer / platform support-ஐ பொறுத்து மாறலாம்.
-
----
-
-# 7. Click Node + Expandable Section
-
-இரண்டு concepts-ஐ combine செய்யலாம்:
-
-- Main diagram node click
-- Related section-க்கு jump
-- அந்த section expandable `<details>`
-
-Example:
-
-````markdown
-```mermaid
-flowchart TD
-    A[Order Received] --> B{Payment Status}
-
-    B -->|Paid| C[Process Order]
-    B -->|Pending| D[Wait for Payment]
-    B -->|Failed| E[Cancel Order]
-
-    click C "#process-order" "View Process Order Flow"
-```
-
-<a id="process-order"></a>
-
-<details>
-<summary><b>Process Order - Detailed Flow</b></summary>
-
-```mermaid
-flowchart TD
-    P1[Validate Order]
-    P2[Check Inventory]
-    P3[Create Invoice]
-    P4[Pack Product]
-    P5[Ship Order]
-
-    P1 --> P2 --> P3 --> P4 --> P5
-```
-
-</details>
-````
-
-இதுதான் Markdown documentation-க்கு practical drill-down style.
-
----
-
-# 8. Hierarchical Documentation Pattern
-
-Large process இருந்தால்:
-
-```text
-Level 1
-High-Level Flow
-
-Level 2
-Expandable Sub-Flows
-
-Level 3
-Detailed Technical Flow
-```
-
-Example:
-
-```text
-Order Management
-│
-├── Payment
-│   ├── Successful Payment
-│   ├── Pending Payment
-│   └── Failed Payment
-│
-├── Processing
-│   ├── Inventory
-│   ├── Invoice
-│   └── Packing
-│
-└── Delivery
-    ├── Courier Assignment
-    ├── Dispatch
-    └── Delivery
-```
-
----
-
-# 9. Level 1 — Main Flow
-
-````markdown
-```mermaid
-flowchart TD
-    A([Start])
-    B[Receive Order]
-    C{Payment Status}
-    D[Process Order]
-    E[Wait]
-    F[Cancel]
-    G[Delivery]
-    H([End])
-
-    A --> B --> C
-    C -->|Paid| D
-    C -->|Pending| E
-    C -->|Failed| F
-
-    D --> G --> H
-    F --> H
-```
-````
-
----
-
-# 10. Level 2 — Processing Detail
-
-````markdown
-<details>
-<summary><b>Order Processing Flow</b></summary>
-
-```mermaid
-flowchart TD
-    A[Validate Order]
-    B[Check Customer]
-    C[Check Inventory]
-    D{Stock Available?}
-    E[Reserve Stock]
-    F[Create Invoice]
-    G[Pack Product]
-    H[Notify Out of Stock]
-
-    A --> B --> C --> D
-
-    D -->|Yes| E --> F --> G
-    D -->|No| H
-```
-
-</details>
-````
-
----
-
-# 11. Level 3 — Inventory Detail
-
-````markdown
-<details>
-<summary><b>Inventory Check - Technical Flow</b></summary>
+Mermaid diagram:
 
 ```mermaid
 flowchart LR
-    API[Order Service]
-    DB[(Inventory DB)]
-    CHECK{Quantity Available?}
-    RESERVE[Reserve Quantity]
-    FAIL[Return Out-of-Stock]
-
-    API --> DB
-    DB --> CHECK
-
-    CHECK -->|Yes| RESERVE
-    CHECK -->|No| FAIL
+    A[High-Level Step] --> B[Another Step]
 ```
 
-</details>
-````
+அதற்கு கீழே native HTML `<details>` / `<summary>`:
 
----
-
-# 12. Best Documentation Structure
-
-Recommended structure:
-
-```text
-# System Name
-
-## High-Level Flow
-Main Mermaid
-
-## Detailed Flows
-
+```html
 <details>
-Process A
-    Detailed Mermaid
-</details>
+<summary><b>▶ View detailed flow</b></summary>
 
-<details>
-Process B
-    Detailed Mermaid
-</details>
+<!-- detailed content here -->
 
-<details>
-Process C
-    Detailed Mermaid
 </details>
 ```
 
-இது GitHub documentation-க்கு clean-ஆவும் scalable-ஆவும் இருக்கும்.
+`<summary>` line-ஐ GitHub-ல் click செய்தால் content open/close ஆகும்.
 
 ---
 
-# 13. Example — Complete Order Workflow
+# 3. Reusable Pattern
 
-````markdown
-# Order Workflow
+கீழே உள்ள pattern-ஐ copy செய்து உங்கள் documentation-ல் பயன்படுத்தலாம்.
 
+```markdown
 ## Main Flow
 
 ```mermaid
 flowchart TD
-    START([Start])
-    ORDER[Order Received]
-    PAYMENT{Payment Status}
-    PROCESS[Process Order]
-    WAIT[Wait for Payment]
-    CANCEL[Cancel Order]
-    END([End])
-
-    START --> ORDER
-    ORDER --> PAYMENT
-
-    PAYMENT -->|Paid| PROCESS
-    PAYMENT -->|Pending| WAIT
-    PAYMENT -->|Failed| CANCEL
-
-    PROCESS --> END
-    CANCEL --> END
-```
-
----
-
-<details>
-<summary><b>Process Order</b></summary>
-
-```mermaid
-flowchart TD
-    A[Validate Order]
-    B[Check Stock]
-    C{Available?}
-    D[Reserve Stock]
-    E[Generate Invoice]
-    F[Pack Product]
-    G[Ready for Shipping]
-    H[Notify Out of Stock]
-
-    A --> B --> C
-
-    C -->|Yes| D --> E --> F --> G
-    C -->|No| H
-```
-
-</details>
-
----
-
-<details>
-<summary><b>Wait for Payment</b></summary>
-
-```mermaid
-flowchart TD
-    A[Payment Pending]
-    B[Send Reminder]
-    C{Payment Received?}
-    D[Continue Processing]
-    E{Timeout Reached?}
-    F[Cancel Order]
-
-    A --> B --> C
-
-    C -->|Yes| D
-    C -->|No| E
-
-    E -->|No| B
-    E -->|Yes| F
-```
-
-</details>
-
----
-
-<details>
-<summary><b>Cancel Order</b></summary>
-
-```mermaid
-flowchart TD
-    A[Cancel Transaction]
-    B[Release Reserved Stock]
-    C[Write Audit Log]
-    D[Notify Customer]
-    E[Close Order]
-
-    A --> B --> C --> D --> E
-```
-
-</details>
-````
-
----
-
-# 14. Native Mermaid Expand/Collapse ஏன் இல்லை?
-
-Mermaid primarily:
-
-```text
-Text
-  ↓
-Diagram Definition
-  ↓
-Static SVG Rendering
-```
-
-என்ற model-ல் வேலை செய்கிறது.
-
-அதனால் diagram topology runtime-ல்:
-
-```text
-Click
- ↓
-Add Nodes
- ↓
-Recalculate Layout
- ↓
-Expand Branch
-```
-
-என்று automatically handle செய்யாது.
-
-அதை செய்ய custom JavaScript application logic தேவைப்படும்.
-
----
-
-# 15. Custom HTML பயன்படுத்தினால் என்ன செய்யலாம்?
-
-Markdown restriction இல்லாமல் custom website / app use செய்தால்:
-
-```text
-Node Click
-    ↓
-JavaScript Event
-    ↓
-Show Hidden Container
-    ↓
-Render Child Mermaid
-```
-
-இதனால்:
-
-- modal
-- side panel
-- popup
-- accordion
-- expand/collapse
-- dynamic child graph
-
-போன்ற UI build செய்யலாம்.
-
-ஆனால் இது pure `.md` solution இல்லை.
-
----
-
-# 16. Markdown vs HTML Comparison
-
-| Feature | Markdown + Mermaid | Custom HTML + Mermaid |
-|---|---|---|
-| Basic diagram | Yes | Yes |
-| Node click link | Yes / platform dependent | Yes |
-| Anchor navigation | Yes | Yes |
-| `<details>` expand | Yes | Yes |
-| Node click → true inline expansion | No | Yes, custom JS |
-| Modal | No | Yes |
-| Side panel | No | Yes |
-| Dynamic graph update | No | Yes |
-| Best for GitHub docs | Yes | Possible |
-| Coding required | Low | Medium / High |
-
----
-
-# 17. Recommended Approach for `.md`
-
-If final output must remain a Markdown file:
-
-## Use this combination
-
-```text
-Main Mermaid Flow
-        +
-<details>
-        +
-Detailed Mermaid
-```
-
-Optional:
-
-```text
-click node
-    ↓
-jump to detailed section
-```
-
-இது readability + maintainability இரண்டுக்கும் நல்ல approach.
-
----
-
-# 18. Reusable Template
-
-இந்த template-ஐ எந்த project-க்கும் reuse செய்யலாம்.
-
-````markdown
-# Project Flow
-
-## Main Flow
-
-```mermaid
-flowchart TD
-
     START([Start])
     STEP1[Main Step 1]
     STEP2[Main Step 2]
     STEP3[Main Step 3]
     END([End])
 
-    START --> STEP1
-    STEP1 --> STEP2
-    STEP2 --> STEP3
-    STEP3 --> END
+    START --> STEP1 --> STEP2 --> STEP3 --> END
 ```
+
+<details>
+<summary><b>▶ Main Step 1 — Details</b></summary>
+
+```mermaid
+flowchart TD
+    A1[Sub Step 1] --> A2[Sub Step 2] --> A3[Sub Step 3]
+```
+
+</details>
+
+<details>
+<summary><b>▶ Main Step 2 — Details</b></summary>
+
+```mermaid
+flowchart TD
+    B1[Input] --> B2{Valid?}
+    B2 -->|Yes| B3[Continue]
+    B2 -->|No| B4[Fix Error]
+    B4 --> B1
+```
+
+</details>
+```
+
+> மேலே code sample மட்டும். இந்த file-ன் Section 1-ல் actual live expandable version உள்ளது.
 
 ---
 
+# 4. Nested Drill-down
+
+ஒரு detail section-க்குள் இன்னொரு detail section-ஐ nested-ஆ வைக்கலாம்.
+
 <details>
-<summary><b>Main Step 1 - Detailed Flow</b></summary>
+<summary><b>▶ Order Processing</b></summary>
+
+```mermaid
+flowchart LR
+    A[Validate] --> B[Inventory] --> C[Invoice]
+```
+
+<details>
+<summary><b>▶ Inventory — Technical Detail</b></summary>
 
 ```mermaid
 flowchart TD
-    A1[Sub Step 1]
-    A2[Sub Step 2]
-    A3[Sub Step 3]
+    I1[Read Product] --> I2[Read Current Stock]
+    I2 --> I3{Enough Quantity?}
+    I3 -->|Yes| I4[Reserve Quantity]
+    I3 -->|No| I5[Return Out of Stock]
+```
 
-    A1 --> A2 --> A3
+</details>
+
+</details>
+
+---
+
+# 5. Power BI Example
+
+```mermaid
+flowchart LR
+    BQ[(BigQuery)] --> PQ[Power Query]
+    PQ --> MODEL[Semantic Model]
+    MODEL --> REPORT[Power BI Report]
+    REPORT --> SERVICE[Power BI Service]
+```
+
+<details>
+<summary><b>▶ Power Query Transformation — Click to expand</b></summary>
+
+```mermaid
+flowchart TD
+    A[Connect BigQuery]
+    B[Filter Rows]
+    C[Change Data Types]
+    D[Merge Queries]
+    E[Business Transformations]
+    F[Load to Model]
+
+    A --> B --> C --> D --> E --> F
+```
+
+</details>
+
+<details>
+<summary><b>▶ Semantic Model — Click to expand</b></summary>
+
+```mermaid
+flowchart TD
+    A[Load Tables]
+    B[Create Relationships]
+    C[Create DAX Measures]
+    D[Validate Totals]
+    E[Ready for Report]
+
+    A --> B --> C --> D --> E
 ```
 
 </details>
 
 ---
 
-<details>
-<summary><b>Main Step 2 - Detailed Flow</b></summary>
+# 6. Node-ஐயே click செய்தால் same graph expand ஆகுமா?
 
-```mermaid
-flowchart TD
-    B1[Sub Step 1]
-    B2{Decision?}
-    B3[Success]
-    B4[Failure]
+இல்லை — GitHub Markdown-ல் native Mermaid flowchart பயன்படுத்தும்போது:
 
-    B1 --> B2
-    B2 -->|Yes| B3
-    B2 -->|No| B4
-```
+- `Process Order` box click → அதே graph-க்குள் child nodes dynamically appear ஆகாது.
+- Mermaid graph runtime-ல் topology change செய்து auto-layout செய்ய GitHub Markdown custom JavaScript allow செய்யாது.
+- `click` directive சில Mermaid environments-ல் URL/callback navigation-க்கு பயன்படும்; ஆனால் அது GitHub `.md`-ல் true inline expand/collapse ஆகாது.
 
-</details>
+அதனால் `.md` மட்டும் பயன்படுத்த வேண்டுமெனில் `<details>` pattern தான் reliable solution.
 
 ---
 
-<details>
-<summary><b>Main Step 3 - Detailed Flow</b></summary>
+# 7. Exact UI Difference
 
-```mermaid
-flowchart TD
-    C1[Input]
-    C2[Process]
-    C3[Output]
-
-    C1 --> C2 --> C3
-```
-
-</details>
-````
-
----
-
-# 19. Nested `<details>` கூட செய்யலாம்
-
-Markdown renderer support இருந்தால்:
-
-````markdown
-<details>
-<summary><b>Process Order</b></summary>
-
-```mermaid
-flowchart TD
-    A[Validate]
-    B[Inventory]
-    C[Invoice]
-
-    A --> B --> C
-```
-
-<details>
-<summary><b>Inventory Details</b></summary>
-
-```mermaid
-flowchart TD
-    I1[Read Product]
-    I2[Check Quantity]
-    I3{Enough Stock?}
-
-    I1 --> I2 --> I3
-```
-
-</details>
-
-</details>
-````
-
-இதனால்:
+நீங்கள் originally நினைத்தது:
 
 ```text
-Process Order
-   └── Inventory Details
+[Process Order]   <-- click
+      ↓
+[Validate]
+      ↓
+[Inventory]
+      ↓
+[Invoice]
 ```
 
-என்று hierarchical expand/collapse documentation உருவாக்கலாம்.
+இந்த exact behavior-க்கு custom HTML + JavaScript / custom Mermaid viewer தேவை.
 
-> Nested `<details>` rendering platform-ஐ பொறுத்து vary ஆகலாம்.
-
----
-
-# 20. Final Recommendation
-
-உங்கள் requirement:
-
-> Main flowchart simple-ஆ இருக்க வேண்டும்.  
-> ஒரு process-க்கு detailed flow தேவையான போது மட்டும் expand செய்து பார்க்க வேண்டும்.
-
-அதற்கு Markdown-ல் best pattern:
+GitHub `.md`-ல் கிடைக்கக்கூடிய behavior:
 
 ```text
-High-Level Mermaid
-       ↓
-Expandable <details>
-       ↓
-Detailed Mermaid
-       ↓
-Optional Nested Details
-```
+Main Mermaid Flow
 
-### Best use cases
-
-- GitHub README
-- Project architecture docs
-- Technical design documents
-- Workflow documentation
-- Power BI process documentation
-- ETL documentation
-- Software development lifecycle documentation
-- SOP documents
-
----
-
-# Quick Cheat Sheet
-
-### Main flow
-
-````markdown
-```mermaid
-flowchart TD
-    A --> B --> C
-```
-````
-
-### Expandable detailed flow
-
-````markdown
-<details>
-<summary><b>View Details</b></summary>
-
-```mermaid
-flowchart TD
-    A1 --> A2 --> A3
-```
-
-</details>
-````
-
-### Clickable node
-
-```text
-click NODE "#section-id" "View Details"
-```
-
-### Anchor
-
-```html
-<a id="section-id"></a>
+▶ Process Order — Click to expand
+    └── Detailed Mermaid Flow
 ```
 
 ---
 
-# Final Concept
+# 8. Recommended Project Documentation Pattern
 
 ```text
-Mermaid
-   =
-Diagram
-
-Markdown <details>
-   =
-Expand / Collapse
-
-Mermaid click
-   =
-Navigation
-
-Custom JavaScript
-   =
-True Interactive Drill-down
+High-Level Architecture
+        ↓
+Main Mermaid Diagram
+        ↓
+Expandable Business Flows
+        ↓
+Expandable Technical Flows
+        ↓
+Nested Detailed Flows
 ```
 
-Pure Markdown documentation-க்கு:
+இந்த structure பெரிய project documentation-க்கும் clean-ஆ maintain செய்யலாம்.
 
-> **Mermaid + `<details>` is the most practical expandable flowchart pattern.**
+---
+
+# 9. Final Rule
+
+**GitHub `.md` + Mermaid:**
+
+- Diagram = Mermaid
+- Expand / Collapse = `<details>`
+- Clickable heading = `<summary>`
+- Nested drill-down = nested `<details>`
+- True node-click inline expansion = custom web UI தேவை
+
+இந்த file-ன் Section 1 மற்றும் Section 4-ல் இருக்கும் arrows (`▶`) click செய்து actual expand/collapse behavior-ஐ test செய்யலாம்.
